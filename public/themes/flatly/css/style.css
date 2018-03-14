@@ -164,9 +164,7 @@ img {
 ====================*/
 
 #mu-header {
-  background-color: #fff;
-  border-bottom: 1px solid #ddd;
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   right: 0;
@@ -193,7 +191,7 @@ img {
 
 .mu-main-navbar .mu-main-nav li a {
   color: #333;
-  font-weight: bold;
+  font-weight: 500;
   height: 33px;
   padding-bottom: 8px;
   padding-left: 2px;
@@ -252,6 +250,9 @@ img {
   background-color: transparent;
 }
 
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+  margin-left: 0;
+}
 
 /*scrol to top*/
 
@@ -283,154 +284,33 @@ img {
 }
 
 /*==================
-	SLIDER SECTION
+	WHO WE ARE
 ====================*/
 
-#mu-slider {
+#mu-who-we-are {
+  background-attachment: fixed;
+  background-image: url("../img/top-background.png");
+  background-size: cover;
   display: inline;
   float: left;
   width: 100%;
   position: relative;
 }
 
-.mu-slider-area {
+.mu-who-we-are-body {
   display: inline;
   float: left;
   width: 100%;
+  margin-top: 200px;
 }
 
-.mu-top-slider {
-  display: inline;
-  float: left;
-  width: 100%;
+.mu-who-we-are-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  color: #333333;
+  line-height: normal;
 }
-
-.mu-top-slider-single {
-  display: inline;
-  float: left;
-  position: relative;
-  width: 100%;
-}
-
-.mu-top-slider .mu-top-slider-single:after {
-  background-color: rgba(0, 0, 0, 0.6);
-  bottom: 0;
-  content: "";
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 9;
-}
-
-.mu-top-slider .mu-top-slider-single img {
-  width: 100%;
-}
-
-.mu-top-slider .mu-top-slider-single .mu-top-slider-content {
-  position: absolute;
-  left: 15%;
-  top: 30%;
-  right: 15%;
-  text-align: center;
-  z-index: 99;
-}
-
-.mu-top-slider .mu-top-slider-single .mu-top-slider-content .mu-slider-small-title {
-  font-family: "Tangerine", cursive;
-  font-size: 100px;
-  font-weight: 400;
-  line-height: 40px;
-}
-
-.mu-top-slider .mu-top-slider-single .mu-top-slider-content .mu-slider-title {
-  color: #fff;
-  font-size: 70px;
-  line-height: 90px;
-}
-
-.mu-top-slider .mu-top-slider-single .mu-top-slider-content p {
-  color: #fff;
-  font-size: 20px;
-  margin-bottom: 30px;
-  margin-top: 10px;
-  padding: 0 30px;
-}
-
-.mu-top-slider .slick-prev::before {
-  content: "\f177";
-  font-family: fontAwesome;
-}
-
-.mu-top-slider .slick-next::before {
-  content: "\f178";
-  font-family: fontAwesome;
-}
-
-.mu-top-slider .slick-prev,
-.mu-top-slider .slick-next {
-  background-color: transparent;
-  border: 2px solid #888;
-  height: 60px;
-  top: 50%;
-  width: 70px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.mu-top-slider .slick-prev::before,
-.mu-top-slider .slick-next::before {
-  color: #888;
-}
-
-.mu-top-slider .slick-prev:hover,
-.mu-top-slider .slick-prev:focus,
-.mu-top-slider .slick-next:hover,
-.mu-top-slider .slick-next:focus {
-  color: #fff;
-}
-
-.mu-top-slider .slick-prev:hover::before,
-.mu-top-slider .slick-prev:focus::before,
-.mu-top-slider .slick-next:hover::before,
-.mu-top-slider .slick-next:focus::before {
-  color: #fff;
-}
-
-.mu-top-slider .slick-prev {
-  left: 20px;
-}
-
-.mu-top-slider .slick-next {
-  right: 20px;
-}
-
-.mu-top-slider .slick-dots {
-  bottom: 20px;
-}
-
-.mu-top-slider .slick-dots li button {
-  border-radius: 50%;
-}
-
-.mu-top-slider .slick-dots li button::before {
-  color: transparent;
-  background: transparent;
-  border-radius: 50%;
-  -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.mu-top-slider .slick-dots li.slick-active button::before {
-  color: transparent;
-  border-radius: 50%;
-  opacity: 1;
-}
-
 
 /*==================
 	ABOUT US SECTION
@@ -1500,22 +1380,6 @@ RESERVATION SECTION
     padding-right: 10px;
   }
 
-  .mu-top-slider .mu-top-slider-single .mu-top-slider-content {
-    position: absolute;
-    left: 5%;
-    top: 15%;
-    right: 5%;
-  }
-
-  .mu-top-slider .mu-top-slider-single .mu-top-slider-content .mu-slider-small-title {
-    font-size: 80px;
-  }
-
-  .mu-top-slider .mu-top-slider-single .mu-top-slider-content .mu-slider-title {
-    font-size: 55px;
-    line-height: 70px;
-  }
-
   .mu-reservation-content {
     padding: 0;
   }
@@ -1620,11 +1484,6 @@ RESERVATION SECTION
     background-color: #fff;
   }
 
-  #mu-slider .mu-slider-area .mu-top-slider .mu-top-slider-single .mu-top-slider-content .mu-slider-title {
-    font-size: 50px;
-    line-height: 75px;
-  }
-
  .mu-top-slider .mu-top-slider-single .mu-top-slider-content {
     top: 18%;
   }
@@ -1652,28 +1511,6 @@ RESERVATION SECTION
     padding: 3px 0;
     width: 30px;
   }
-
-  .mu-top-slider .slick-dots {
-    display: none !important;
-  }
-
-  .mu-top-slider .mu-top-slider-single .mu-top-slider-content .mu-slider-small-title {
-    font-size: 45px;
-    line-height: 35px;
-  }
-
-  .mu-top-slider .mu-top-slider-single .mu-top-slider-content p {
-    font-size: 14px;
-    margin-bottom: 0;
-    margin-top: 0px;
-    padding: 0 5px;
-  }
-
-  #mu-slider .mu-slider-area .mu-top-slider .mu-top-slider-single .mu-top-slider-content .mu-slider-title {
-    font-size: 30px;
-    line-height: 50px;
-  }
-
 }
 
 
@@ -1734,16 +1571,6 @@ RESERVATION SECTION
 }
 
 @media (max-width: 360px) {
-
-  #mu-slider .mu-slider-area .mu-top-slider .mu-top-slider-single .mu-top-slider-content .mu-slider-title {
-    font-size: 22px;
-    line-height: 30px;
-  }
-
-  .mu-top-slider .mu-top-slider-single .mu-top-slider-content .mu-slider-small-title {
-    font-size: 30px;
-    line-height: 25px;
-  }
 
   #mu-restaurant-menu .mu-restaurant-menu-area .mu-restaurant-menu-content .mu-restaurant-menu li {
     margin-bottom: 12px;

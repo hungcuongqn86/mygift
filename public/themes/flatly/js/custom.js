@@ -23,22 +23,6 @@
 **/
 
 jQuery(function($){
-
-  
-  /* ----------------------------------------------------------- */
-  /*  1. TOP SLIDER (SLICK SLIDER)
-  /* ----------------------------------------------------------- */    
-
-    jQuery('.mu-top-slider').slick({
-      dots: true,
-      infinite: true,
-      arrows: false,
-      speed: 500,     
-      autoplay: true,
-      fade: true,
-      cssEase: 'linear'
-    });
-
   /* ----------------------------------------------------------- */
   /*  2. PORTFOLIO POPUP VIEW ( IMAGE LIGHTBOX )
   /* ----------------------------------------------------------- */ 

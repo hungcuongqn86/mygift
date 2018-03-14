@@ -31,7 +31,9 @@
     <!-- Google Fonts -->
 
     <!-- Poppins for body  -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:500" rel="stylesheet" type="text/css">
+    <!-- Montserrat for body  -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet" type="text/css">
     <!-- Prata for body  -->
     <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
     <!-- Tangerine for small title -->
@@ -73,7 +75,6 @@
                     <li><a href="#mu-reservation">How we do </a></li>
                     <li><a href="#mu-gallery">Why us</a></li>
                     <li><a href="#mu-chef">Solution</a></li>
-                    <li><a href="#mu-contact">Contact</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
@@ -83,57 +84,19 @@
 
 
 <!-- Start slider  -->
-<section id="mu-slider">
-    <div class="mu-slider-area">
-
-        <!-- Top slider -->
-        <div class="mu-top-slider">
-
-            <!-- Top slider single slide -->
-            <div class="mu-top-slider-single">
-                <img src="{{ Theme::url('img/slider/1.jpeg') }}" alt="img">
-                <!-- Top slider content -->
-                <div class="mu-top-slider-content">
-                    <span class="mu-slider-small-title">Welcome</span>
-                    <h2 class="mu-slider-title">To The OsteriaX</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatem accusamus non quidem,
-                        deleniti optio.</p>
-                    <a href="#mu-reservation" class="mu-readmore-btn mu-reservation-btn">BOOK A TABLE</a>
+<section id="mu-who-we-are">
+    <div class="container">
+        <div class="row mu-who-we-are-body">
+            <div class="col-md-6">
+                <div class="mu-who-we-are-left">
+                    <h1 class="mu-who-we-are-title">Hello, we’re LeadsGen - generate leads for you </h1>
                 </div>
-                <!-- / Top slider content -->
             </div>
-            <!-- / Top slider single slide -->
-
-            <!-- Top slider single slide -->
-            <div class="mu-top-slider-single">
-                <img src="{{ Theme::url('img/slider/2.jpeg') }}" alt="img">
-                <!-- Top slider content -->
-                <div class="mu-top-slider-content">
-                    <span class="mu-slider-small-title">The Elegant</span>
-                    <h2 class="mu-slider-title">Italian Restaurant</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatem accusamus non quidem,
-                        deleniti optio.</p>
-                    <a href="#mu-reservation" class="mu-readmore-btn mu-reservation-btn">BOOK A TABLE</a>
+            <div class="col-md-6">
+                <div class="mu-who-we-are-right">
+                    <img src="http://localhost/themes/flatly/img/base.png" alt="img">
                 </div>
-                <!-- / Top slider content -->
             </div>
-            <!-- / Top slider single slide -->
-
-            <!-- Top slider single slide -->
-            <div class="mu-top-slider-single">
-                <img src="{{ Theme::url('img/slider/3.jpeg') }}" alt="img">
-                <!-- Top slider content -->
-                <div class="mu-top-slider-content">
-                    <span class="mu-slider-small-title">Delicious</span>
-                    <h2 class="mu-slider-title">Spicy Masalas</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatem accusamus non quidem,
-                        deleniti optio.</p>
-                    <a href="#mu-reservation" class="mu-readmore-btn mu-reservation-btn">BOOK A TABLE</a>
-                </div>
-                <!-- / Top slider content -->
-            </div>
-            <!-- / Top slider single slide -->
-
         </div>
     </div>
 </section>
