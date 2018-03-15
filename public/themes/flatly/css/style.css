@@ -290,18 +290,28 @@ img {
 #mu-who-we-are {
   background-attachment: fixed;
   background-image: url("../img/top-background.png");
-  background-size: cover;
   display: inline;
+  padding-top: 160px;
   float: left;
   width: 100%;
   position: relative;
 }
 
 .mu-who-we-are-body {
-  display: inline;
+  display: inline-flex;
   float: left;
   width: 100%;
-  margin-top: 200px;
+  margin-bottom: 105px;
+}
+
+.mu-who-we-are-left, .mu-who-we-are-right {
+  position: relative;
+  margin: auto;
+}
+
+.img-holder {
+  position: absolute;
+  left: 0;
 }
 
 .mu-who-we-are-title {

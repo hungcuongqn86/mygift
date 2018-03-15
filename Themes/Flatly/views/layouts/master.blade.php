@@ -87,16 +87,23 @@
 <section id="mu-who-we-are">
     <div class="container">
         <div class="row mu-who-we-are-body">
-            <div class="col-md-6">
-                <div class="mu-who-we-are-left">
-                    <h1 class="mu-who-we-are-title">Hello, we’re LeadsGen - generate leads for you </h1>
-                </div>
+            <div class="col-md-6 mu-who-we-are-left">
+                <h1 class="mu-who-we-are-title">Hello, we’re LeadsGen - generate leads for you </h1>
             </div>
-            <div class="col-md-6">
-                <div class="mu-who-we-are-right">
-                    <img src="http://localhost/themes/flatly/img/base.png" alt="img">
-                </div>
+            <div class="col-md-6 mu-who-we-are-right">
+                <img src="http://localhost/themes/flatly/img/base.png" alt="img">
             </div>
+        </div>
+    </div>
+    <div class="row mu-who-we-are-body">
+        <div class="col-md-5 mu-who-we-are-left">
+            <img src="http://localhost/themes/flatly/img/base2.png" alt="img">
+            <img class="img-holder" src="http://localhost/themes/flatly/img/img-holder.png" alt="img">
+        </div>
+        <div class="col-md-7 mu-who-we-are-right">
+            <p>- Since 2009</p>
+            <p>Established from an expert group since 2009, LeadsGen Ltd,. was founded in 2013. Our mission is to help our clients reaching the best of ecommerce and online marketing by providing Leads solution. We are focusing on SEA and emerging market with dedicated team in Indonesia, Malaysia, Vietnam and the next would be Thailand. </p>
+            <p>We know our client's need is leads generating and conversion, thus our team are working hard for highly converted campaigns, collecting leads and help their businesses run smoothly.</p>
         </div>
     </div>
 </section>
