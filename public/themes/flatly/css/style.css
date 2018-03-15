@@ -27,7 +27,7 @@
 */
 
 body {
-  background-color: #ffffff;
+  background-color: #fafafc;
   font-family: "Poppins", serif;
   color: #333333;
   font-size: 14px;
@@ -63,7 +63,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", serif;
 }
 
 h2 {
@@ -378,21 +378,19 @@ img {
   float: left;
   width: 100%;
   margin-bottom: 20px;
-  text-align: center;
 }
 
 .mu-title .mu-subtitle {
-  font-size: 50px;
-  font-family: "Tangerine", cursive;
-  line-height: 30px;
+  color: #ffc715;
 }
 
 .mu-title h2 {
   color: #000;
-  font-size: 35px;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: normal;
   margin-bottom: 5px;
 }
-
 
 /*==================
  COUNTER SECTION
@@ -1321,63 +1319,10 @@ RESERVATION SECTION
 ====================*/
 
 #mu-footer {
-  background-color: #444;
-  display: inline;
-  float: left;
-  padding: 50px 0;
-  width: 100%;
-}
-
-.mu-footer-area {
-  display: inline;
-  float: left;
-  width: 100%;
-  text-align: center;
-}
-
-.mu-footer-social {
-  display: inline;
-  float: left;
-  width: 100%;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.mu-footer-social a {
-  background-color: #555;
-  border-radius: 50%;
-  color: #fff;
-  display: inline-block;
-  font-size: 20px;
-  height: 45px;
-  line-height: 47px;
-  margin: 5px;
-  text-align: center;
-  width: 45px;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.mu-footer-copyright {
   display: inline;
   float: left;
   width: 100%;
 }
-
-.mu-footer-copyright p {
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  letter-spacing: 0.5px;
-  color: #fff;
-}
-
-.mu-footer-copyright p a {
-  color: #fff;
-}
-
 
 /*==================
  RESPONSIVE DESIGN
@@ -1628,10 +1573,6 @@ RESERVATION SECTION
     padding-top: 27%;
   }
 
-  #mu-footer .mu-footer-area .mu-footer-social a {
-    font-size: 18px;
-  }
-
   .mu-menu-item-nav li {
     text-align: center;
   }
@@ -1652,22 +1593,8 @@ RESERVATION SECTION
     display: inline-block;
   }
 
-  #mu-map {
-    height: 250px;
-  }
-
   .mu-contact-form .mu-send-btn {
     width: 100%;
   }
-
-}
-
-
-@media (max-width: 320px) {
-
-  #mu-gallery .mu-gallery-area .mu-gallery-content .mu-gallery-body .mu-single-gallery .mu-single-gallery-item .mu-single-gallery-info {
-    padding-top: 25.5%;
-  }
-
 
 }
