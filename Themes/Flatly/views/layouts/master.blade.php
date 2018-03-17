@@ -122,37 +122,37 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="mu-about-us-left">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam minus aliquid,
-                                    itaque illum assumenda repellendus dolorem, dolore numquam totam saepe, porro
-                                    delectus, libero enim odio quo. Explicabo ex sapiente sit eligendi, facere
-                                    voluptatum! Quia vero rerum sunt porro architecto corrupti eaque corporis eum, enim
-                                    soluta, perferendis dignissimos, repellendus, beatae laboriosam.</p>
-                                <ul>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>
-                                </ul>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque similique molestias
-                                    est quod reprehenderit, quibusdam nam qui, quam magnam.</p>
+                                <h3>We control our technology with strong team and experience</h3>
+                                <p>Since our product and solutions are working based on advanced technology platform, we
+                                    always stay ahead of new technology. Our system is usually checked and updated</p>
+                            </div>
+                            <div class="mu-about-us-left">
+                                <img src="http://localhost/themes/flatly/img/macbook.png" alt="img">
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="mu-about-us-left">
-                                <img src="{{ Theme::url('img/about-us.png') }}" alt="img">
+                                <h3>We keep in touch with you very closely</h3>
+                                <p>We work closely with you to timely update any changes made with your business. All
+                                    the changes you made with your business will be reflected in our solution.
+                                    Everything then will up to date always.</p>
                             </div>
                             <div class="mu-about-us-left">
-                                <img src="{{ Theme::url('img/about-us.png') }}" alt="img">
+                                <h3>We track the result on the stages</h3>
+                                <p>We track all activities and result of the campaign correspond with each stage of your
+                                    "shopping cart" process. We know exactly what's the problem, where does it come from
+                                    and handle it completely.</p>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="mu-about-us-right">
-                                <img src="{{ Theme::url('img/about-us.png') }}" alt="img">
+                                <h3>We connect with adnetworks, publishers and control traffic quality</h3>
+                                <p>Our traffic is variety and fit with almost verticals, including yours</p>
                             </div>
                             <div class="mu-about-us-left">
-                                <img src="{{ Theme::url('img/about-us.png') }}" alt="img">
+                                <h3>Optimize campaign based on real performance</h3>
+                                <p>All campaigns will often be optimized daily by our experienced operation team. This
+                                    quick process assure we does not let any issue go without controlling it.</p>
                             </div>
                         </div>
                     </div>
@@ -162,49 +162,42 @@
     </div>
 </section>
 
-<section id="mu-about-us">
+<section id="mu-why-us">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="mu-about-us-area">
+                <div class="mu-why-us-area">
                     <div class="mu-title">
                         <h2 class="text-center"><span class="mu-subtitle">Why</span> choose us?</h2>
                     </div>
 
                     <div class="row">
+                        <div class="col-md-4"></div>
                         <div class="col-md-4">
-                            <div class="mu-about-us-left">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam minus aliquid,
-                                    itaque illum assumenda repellendus dolorem, dolore numquam totam saepe, porro
-                                    delectus, libero enim odio quo. Explicabo ex sapiente sit eligendi, facere
-                                    voluptatum! Quia vero rerum sunt porro architecto corrupti eaque corporis eum, enim
-                                    soluta, perferendis dignissimos, repellendus, beatae laboriosam.</p>
-                                <ul>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>
-                                </ul>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque similique molestias
-                                    est quod reprehenderit, quibusdam nam qui, quam magnam.</p>
+                            <div class="mu-why-us-left">
+                                <h3>Innovative technology.</h3>
+                                <p>We stay ahead of new technology, allowing our platform compatible with all types of
+                                    adnetworks and tracking platform</p>
+                            </div>
+                            <div class="mu-why-us-left">
+                                <h3>Widely network</h3>
+                                <p>Our network is widely in terms of location and audience specification. We have
+                                    traffic from Vietnam, Indonesia, Malaysia, Thailand and Vietnam. Wherever you want
+                                    in SEA, we stay here to help.</p>
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="mu-about-us-left">
-                                <img src="{{ Theme::url('img/about-us.png') }}" alt="img">
+                            <div class="mu-why-us-right">
+                                <h3>Variety in audiences set</h3>
+                                <p>Our regular audiences comes from mobile, desktop website, mobile application... with
+                                    a wide range of age and income, allowing you to select and target to the right
+                                    people.</p>
                             </div>
-                            <div class="mu-about-us-left">
-                                <img src="{{ Theme::url('img/about-us.png') }}" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="mu-about-us-right">
-                                <img src="{{ Theme::url('img/about-us.png') }}" alt="img">
-                            </div>
-                            <div class="mu-about-us-left">
-                                <img src="{{ Theme::url('img/about-us.png') }}" alt="img">
+                            <div class="mu-why-us-right">
+                                <h3>Transparency and precisely</h3>
+                                <p>Our platform works automatically, allowing you to changes bid, setting and watching
+                                    your campaign performance any time. We show you all the campaign data we collected,
+                                    helping your campaign stick with your plan very closely.</p>
                             </div>
                         </div>
                     </div>
@@ -214,18 +207,21 @@
     </div>
 </section>
 
-<!-- Start Restaurant Menu -->
+<div id="nav-tabs">
+    <div class="container">
+        <ul class="nav nav-tabs mu-restaurant-menu">
+            <li class="active"><a href="#breakfast" data-toggle="tab">We optimizer</a></li>
+            <li><a href="#meals" data-toggle="tab">Leads solutions</a></li>
+        </ul>
+    </div>
+</div>
+
 <section id="mu-restaurant-menu">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <div class="mu-restaurant-menu-area">
                     <div class="mu-restaurant-menu-content">
-                        <ul class="nav nav-tabs mu-restaurant-menu">
-                            <li class="active"><a href="#breakfast" data-toggle="tab">We optimizer</a></li>
-                            <li><a href="#meals" data-toggle="tab">Leads solutions</a></li>
-                        </ul>
-
                         <!-- Tab panes -->
                         <div class="tab-content">
                             <div class="tab-pane fade in active" id="breakfast">
@@ -233,46 +229,54 @@
                                     <div class="row">
                                         <div class="col-md-4">
                                             <div class="mu-about-us-left">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
-                                                    minus aliquid,
-                                                    itaque illum assumenda repellendus dolorem, dolore numquam totam
-                                                    saepe, porro
-                                                    delectus, libero enim odio quo. Explicabo ex sapiente sit eligendi,
-                                                    facere
-                                                    voluptatum! Quia vero rerum sunt porro architecto corrupti eaque
-                                                    corporis eum, enim
-                                                    soluta, perferendis dignissimos, repellendus, beatae laboriosam.</p>
-                                                <ul>
-                                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                        Quia.
-                                                    </li>
-                                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                                        Quia.
-                                                    </li>
-                                                </ul>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
-                                                    similique molestias
-                                                    est quod reprehenderit, quibusdam nam qui, quam magnam.</p>
+                                                <h3>What kind of data can we show up?</h3>
+                                                <p>Our team go to the deepest level of website performance analysis. We
+                                                    show you all the action metrics on the website that important to
+                                                    you. You will then know everything about your website, and how your
+                                                    business going on this. There are just some of the statistics we can
+                                                    show you:</p>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="mu-about-us-left">
-                                                <img src="{{ Theme::url('img/about-us.png') }}" alt="img">
+                                                <h4>Traffic sources</h4>
+                                                <ul>
+                                                    <li>Where visitors comes from</li>
+                                                </ul>
                                             </div>
                                             <div class="mu-about-us-left">
-                                                <img src="{{ Theme::url('img/about-us.png') }}" alt="img">
+                                                <h4>Audience analysis</h4>
+                                                <ul>
+                                                    <li>Gender, Ages, Interest...</li>
+                                                    <li>Geographic</li>
+                                                    <li>Audience engagement (New vs returning, time on site...)</li>
+                                                </ul>
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="mu-about-us-right">
-                                                <img src="{{ Theme::url('img/about-us.png') }}" alt="img">
+                                                <h4>Behavior</h4>
+                                                <ul>
+                                                    <li>What visitor are doing on your website</li>
+                                                </ul>
                                             </div>
                                             <div class="mu-about-us-left">
-                                                <img src="{{ Theme::url('img/about-us.png') }}" alt="img">
+                                                <h3>Ecommerce analysis</h3>
+                                                <ul>
+                                                    <li>How many transactions has been made</li>
+                                                    <li>Where the transaction came from</li>
+                                                    <li>Which product is the best sold?</li>
+                                                    <li>Analyze the best place to sell each product</li>
+                                                    <li>How much revenue you get from all transaction</li>
+                                                    <li>Which channel is the most effective and bring you the highest
+                                                        revenue
+                                                    </li>
+                                                    <li>Where visitor have been looking for information before they made
+                                                        a purchase
+                                                    </li>
+                                                    <li>Which is the most effective conversion path</li>
+                                                    <li>Your margin and ROI</li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
@@ -329,23 +333,14 @@
                                 <div class="col-md-6">
                                     <div class="mu-contact-left">
                                         <div class="mu-contact-widget">
-                                            <h3>Office Address</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia temporibus
-                                                corporis ea non consequatur porro corrupti hic voluptatibus assumenda,
-                                                doloribus.</p>
-                                            <address>
-                                                <p><i class="fa fa-phone"></i> (850) 457 6688</p>
-                                                <p><i class="fa fa-envelope-o"></i>contact@markups.io</p>
-                                                <p><i class="fa fa-map-marker"></i>368 St. Panama City, Florida, USA</p>
-                                            </address>
-                                        </div>
-                                        <div class="mu-contact-widget">
-                                            <h3>Open Hours</h3>
-                                            <address>
-                                                <p><span>Monday - Friday</span> 9.00 am to 12 pm</p>
-                                                <p><span>Saturday</span> 9.00 am to 10 pm</p>
-                                                <p><span>Sunday</span> 10.00 am to 12 pm</p>
-                                            </address>
+                                            <h3>Ready to get started ?</h3>
+                                            <p>Get in touch, or email to contact@leadsgen.com.</p>
+                                            <ul>
+                                                <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                                                <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                                                <li><i class="ion-social-instagram" aria-hidden="true"></i></li>
+                                            </ul>
+                                            <p><i class="fa fa-copyright" aria-hidden="true"></i> LeadsGen.com</p>
                                         </div>
                                     </div>
                                 </div>
@@ -355,28 +350,42 @@
                                         <!-- Email message div -->
                                         <div id="form-messages"></div>
                                         <!-- Start contact form -->
-                                        <form id="ajax-contact" method="post" action="mailer.php" class="mu-contact-form">
+                                        <form id="ajax-contact" method="post" action="mailer.php"
+                                              class="mu-contact-form">
                                             <div class="form-group">
-                                                <label for="name">Your Name</label>
+                                                <label for="name">Your name <span>*</span></label>
                                                 <input type="text" class="form-control" id="name" name="name"
-                                                       placeholder="Name" required>
+                                                       placeholder="Your name" required>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="email">Your email address <span>*</span></label>
+                                                        <input type="email" class="form-control" id="email" name="email"
+                                                               placeholder="Your email address" required>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="phone">Mobile phone</label>
+                                                        <input type="text" class="form-control" id="phone" name="phone"
+                                                               placeholder="Mobile phone">
+                                                    </div>
+                                                </div>
                                             </div>
                                             <div class="form-group">
-                                                <label for="email">Email address</label>
-                                                <input type="email" class="form-control" id="email" name="email"
-                                                       placeholder="Email" required>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="subject">Subject</label>
+                                                <label for="subject">In a few words, tell us what your enquiry is about
+                                                    <span>*</span></label>
                                                 <input type="text" class="form-control" id="subject" name="subject"
-                                                       placeholder="Subject" required>
+                                                       placeholder="..." required>
                                             </div>
                                             <div class="form-group">
-                                                <label for="message">Message</label>
+                                                <label for="message">Provide a detailed description
+                                                    <span>*</span></label>
                                                 <textarea class="form-control" id="message" name="message" cols="30"
-                                                          rows="10" placeholder="Type Your Message" required></textarea>
+                                                          rows="5" placeholder="..." required></textarea>
                                             </div>
-                                            <button type="submit" class="mu-send-btn">Send Message</button>
+                                            <button type="submit" class="mu-send-btn">Send</button>
                                         </form>
                                     </div>
                                 </div>
