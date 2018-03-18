@@ -46,6 +46,7 @@ ul {
 }
 
 a {
+    cursor: pointer;
     text-decoration: none;
     color: #333333;
 }
@@ -285,10 +286,12 @@ img {
 #mu-who-we-are {
     background-attachment: fixed;
     background-image: url("../img/top-background.png");
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     display: inline;
-    padding-top: 160px;
+    padding-top: 90px;
+    padding-bottom: 90px;
     float: left;
     width: 100%;
     position: relative;
@@ -298,12 +301,43 @@ img {
     display: inline-flex;
     float: left;
     width: 100%;
-    margin-bottom: 105px;
+    margin-top: 90px;
+    margin-bottom: 150px;
+}
+
+.mu-who-we-are-body .quotes {
+    font-size: 64px;
+    color: #eef1f7;
+    position: absolute;
+    right: 15px;
+    top: 30px;
 }
 
 .mu-who-we-are-left, .mu-who-we-are-right {
     position: relative;
     margin: auto;
+}
+
+.mu-who-we-are-right p {
+    font-family: "SourceSansPro", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+}
+
+.mu-who-we-are-right .since {
+    font-family: "SourceSansPro", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    text-align: left;
+    color: #6f6f6f;
 }
 
 .img-holder {
@@ -319,31 +353,14 @@ img {
     line-height: normal;
 }
 
-/*==================
-	WHY CHOOSE US
-====================*/
-
-#mu-why-us {
-    background-attachment: fixed;
-    background-image: url("../img/i-mac.png");
-    background-repeat: no-repeat;
-    display: inline;
-    float: left;
-    width: 100%;
-    position: relative;
-}
-
-.mu-why-us-content {
-    display: inline;
-    float: left;
-    margin-top: 20px;
-    padding: 0;
-    width: 100%;
-    min-height: 260px;
-}
-
-.mu-why-us-margin {
-    margin: 0 0 0 38px;
+.contact-us {
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
 }
 
 /*==================
@@ -351,10 +368,15 @@ img {
 ====================*/
 
 #mu-about-us {
+    background-attachment: fixed;
+    background-image: url("../img/top-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
     display: inline;
     float: left;
     width: 100%;
-    padding: 100px 0;
+    padding: 0;
 }
 
 .mu-about-us-area, .mu-why-us-area {
@@ -421,6 +443,34 @@ img {
     font-weight: bold;
     line-height: normal;
     margin-bottom: 5px;
+}
+
+/*==================
+	WHY CHOOSE US
+====================*/
+
+#mu-why-us {
+    background-image: url("../img/i-mac.png");
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    display: inline;
+    float: left;
+    width: 100%;
+    position: relative;
+    padding: 100px 0;
+}
+
+.mu-why-us-content {
+    display: inline;
+    float: left;
+    margin-top: 20px;
+    padding: 0;
+    width: 100%;
+    min-height: 260px;
+}
+
+.mu-why-us-margin {
+    margin: 0 0 0 38px;
 }
 
 /*==================

@@ -37,6 +37,7 @@
     <!-- Prata for body  -->
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/a4741c4d86/UntitledProject/style.css">
 </head>
 <body>
 
@@ -89,19 +90,29 @@
             </div>
         </div>
     </div>
-    <div class="row mu-who-we-are-body">
-        <div class="col-md-5 mu-who-we-are-left">
-            <img src="http://localhost/themes/flatly/img/base2.png" alt="img">
-            <img class="img-holder" src="http://localhost/themes/flatly/img/img-holder.png" alt="img">
-        </div>
-        <div class="col-md-7 mu-who-we-are-right">
-            <p>- Since 2009</p>
-            <p>Established from an expert group since 2009, LeadsGen Ltd,. was founded in 2013. Our mission is to help
-                our clients reaching the best of ecommerce and online marketing by providing Leads solution. We are
-                focusing on SEA and emerging market with dedicated team in Indonesia, Malaysia, Vietnam and the next
-                would be Thailand. </p>
-            <p>We know our client's need is leads generating and conversion, thus our team are working hard for highly
-                converted campaigns, collecting leads and help their businesses run smoothly.</p>
+    <img class="img-holder" src="http://localhost/themes/flatly/img/base2.png" alt="img">
+    <img class="img-holder" src="http://localhost/themes/flatly/img/img-holder.png" alt="img">
+    <div class="container">
+        <div class="row mu-who-we-are-body">
+            <div class="col-md-5">
+                <div class="mu-who-we-are-body">
+                    <div class="quotes">
+                        <span class="icon-quotes-left"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7 mu-who-we-are-right">
+                <p class="since">- Since 2009</p>
+                <p>Established from an expert group since 2009, LeadsGen Ltd,. was founded in 2013. Our mission is to
+                    help
+                    our clients reaching the best of ecommerce and online marketing by providing Leads solution. We are
+                    focusing on SEA and emerging market with dedicated team in Indonesia, Malaysia, Vietnam and the next
+                    would be Thailand. </p>
+                <p>We know our client's need is leads generating and conversion, thus our team are working hard for
+                    highly
+                    converted campaigns, collecting leads and help their businesses run smoothly.</p>
+                <p class="text-right"><a class="contact-us">Contact us <span class="icon-arrow-right2"></span></a></p>
+            </div>
         </div>
     </div>
 </section>
@@ -213,7 +224,10 @@
                             <div class="mu-why-us-content">
                                 <div class="mu-why-us-margin">
                                     <div class="mu-why-us-oval">
-                                        <img src="http://localhost/themes/flatly/img/link-1672.png" alt="img">
+                                        <img src="http://localhost/themes/flatly/img/processor-cpu-2116-b-1-b-8-fbbb-1504-45-ac-9-ee-7-f-65-a-6-ff-1-b-8-f-1.png"
+                                             srcset="http://localhost/themes/flatly/img/processor-cpu-2116-b-1-b-8-fbbb-1504-45-ac-9-ee-7-f-65-a-6-ff-1-b-8-f-1@2x.png 2x,
+                                                        http://localhost/themes/flatly/img/processor-cpu-2116-b-1-b-8-fbbb-1504-45-ac-9-ee-7-f-65-a-6-ff-1-b-8-f-1@3x.png 3x"
+                                             alt="img">
                                     </div>
                                     <h3>Innovative technology.</h3>
                                     <p>We stay ahead of new technology, allowing our platform compatible with all
@@ -224,7 +238,10 @@
                             <div class="mu-why-us-content">
                                 <div class="mu-why-us-margin">
                                     <div class="mu-why-us-oval">
-                                        <img src="http://localhost/themes/flatly/img/link-1672.png" alt="img">
+                                        <img src="http://localhost/themes/flatly/img/radar-signal-931-c-3-a-17278-a-10-f-4-bd-0-a-199-c-0961475-b-99-d.png"
+                                             srcset="http://localhost/themes/flatly/img/radar-signal-931-c-3-a-17278-a-10-f-4-bd-0-a-199-c-0961475-b-99-d@2x.png 2x,
+                                                        http://localhost/themes/flatly/img/radar-signal-931-c-3-a-17278-a-10-f-4-bd-0-a-199-c-0961475-b-99-d@3x.png 3x"
+                                             alt="img">
                                     </div>
                                     <h3>Widely network</h3>
                                     <p>Our network is widely in terms of location and audience specification. We
@@ -239,7 +256,10 @@
                             <div class="mu-why-us-content">
                                 <div class="mu-why-us-margin">
                                     <div class="mu-why-us-oval">
-                                        <img src="http://localhost/themes/flatly/img/link-1672.png" alt="img">
+                                        <img src="http://localhost/themes/flatly/img/avatar-3016-786-da-4-fe-9361-44-a-2-9-e-46-1-fe-7-ae-7-d-292-a.png"
+                                             srcset="http://localhost/themes/flatly/img/avatar-3016-786-da-4-fe-9361-44-a-2-9-e-46-1-fe-7-ae-7-d-292-a@2x.png 2x,
+                                                        http://localhost/themes/flatly/img/avatar-3016-786-da-4-fe-9361-44-a-2-9-e-46-1-fe-7-ae-7-d-292-a@3x.png 3x"
+                                             alt="img">
                                     </div>
                                     <h3>Variety in audiences set</h3>
                                     <p>Our regular audiences comes from mobile, desktop website, mobile
@@ -252,7 +272,10 @@
                             <div class="mu-why-us-content">
                                 <div class="mu-why-us-margin">
                                     <div class="mu-why-us-oval">
-                                        <img src="http://localhost/themes/flatly/img/link-1672.png" alt="img">
+                                        <img src="http://localhost/themes/flatly/img/shield-security-2062-6-afa-7973-b-602-412-a-b-27-a-b-1-cb-6-d-0-b-2548.png"
+                                             srcset="http://localhost/themes/flatly/img/shield-security-2062-6-afa-7973-b-602-412-a-b-27-a-b-1-cb-6-d-0-b-2548@2x.png 2x,
+                                                        http://localhost/themes/flatly/img/shield-security-2062-6-afa-7973-b-602-412-a-b-27-a-b-1-cb-6-d-0-b-2548@3x.png 3x"
+                                             alt="img">
                                     </div>
                                     <h3>Transparency and precisely</h3>
                                     <p>Our platform works automatically, allowing you to changes bid, setting and
