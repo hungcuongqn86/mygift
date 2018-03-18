@@ -297,8 +297,14 @@
     <div id="nav-tabs">
         <div class="container">
             <ul class="nav nav-tabs">
-                <li class="col-md-6 active"><a href="#breakfast" data-toggle="tab">We optimizer</a></li>
-                <li class="col-md-6" ><a href="#meals" data-toggle="tab">Leads solutions</a></li>
+                <li class="col-md-6 active">
+                    <div class="mu-why-us-oval"><a></a></div>
+                    <a href="#breakfast" data-toggle="tab">We optimizer</a>
+                </li>
+                <li class="col-md-6">
+                    <div class="mu-why-us-oval"><a></a></div>
+                    <a href="#meals" data-toggle="tab">Leads solutions</a>
+                </li>
             </ul>
         </div>
     </div>
