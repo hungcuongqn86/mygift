@@ -585,6 +585,10 @@ img {
     line-height: 2.5;
 }
 
+#how-we-make {
+    margin-bottom: 40px;
+}
+
 .how-we-make h4 {
     font-size: 17px;
     font-weight: bold;
