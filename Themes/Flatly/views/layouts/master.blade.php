@@ -16,15 +16,8 @@
 {!! Theme::style('css/font-awesome.css') !!}
 <!-- Bootstrap -->
 {!! Theme::style('css/bootstrap.css') !!}
-<!-- Slick slider -->
-{!! Theme::style('css/slick.css') !!}
-<!-- Date Picker -->
-{!! Theme::style('css/bootstrap-datepicker.css') !!}
-<!-- Gallery Lightbox -->
-{!! Theme::style('css/magnific-popup.css') !!}
 <!-- Theme color -->
 {!! Theme::style('css/theme-color/default-theme.css') !!}
-
 <!-- Main style sheet -->
 {!! Theme::style('css/style.css') !!}
 
@@ -299,11 +292,11 @@
             <ul class="nav nav-tabs">
                 <li class="col-md-6 active">
                     <div class="mu-why-us-oval"><a></a></div>
-                    <a href="#breakfast" data-toggle="tab">We optimizer</a>
+                    <a href="#we-optimizer" data-toggle="tab">We optimizer</a>
                 </li>
                 <li class="col-md-6">
                     <div class="mu-why-us-oval"><a></a></div>
-                    <a href="#meals" data-toggle="tab">Leads solutions</a>
+                    <a href="#leads-solutions" data-toggle="tab">Leads solutions</a>
                 </li>
             </ul>
         </div>
@@ -311,94 +304,90 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="mu-restaurant-menu-area">
-                    <div class="mu-restaurant-menu-content">
-                        <!-- Tab panes -->
-                        <div class="tab-content">
-                            <div class="tab-pane fade in active" id="breakfast">
-                                <div class="mu-tab-content-area">
-                                    <div class="row">
-                                        <div class="col-md-4">
-                                            <div class="mu-about-us-left">
-                                                <h3>What kind of data can we show up?</h3>
-                                                <p>Our team go to the deepest level of website performance analysis. We
-                                                    show you all the action metrics on the website that important to
-                                                    you. You will then know everything about your website, and how your
-                                                    business going on this. There are just some of the statistics we can
-                                                    show you:</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="mu-about-us-left">
-                                                <h4>Traffic sources</h4>
-                                                <ul>
-                                                    <li>Where visitors comes from</li>
-                                                </ul>
-                                            </div>
-                                            <div class="mu-about-us-left">
-                                                <h4>Audience analysis</h4>
-                                                <ul>
-                                                    <li>Gender, Ages, Interest...</li>
-                                                    <li>Geographic</li>
-                                                    <li>Audience engagement (New vs returning, time on site...)</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <div class="mu-about-us-right">
-                                                <h4>Behavior</h4>
-                                                <ul>
-                                                    <li>What visitor are doing on your website</li>
-                                                </ul>
-                                            </div>
-                                            <div class="mu-about-us-left">
-                                                <h3>Ecommerce analysis</h3>
-                                                <ul>
-                                                    <li>How many transactions has been made</li>
-                                                    <li>Where the transaction came from</li>
-                                                    <li>Which product is the best sold?</li>
-                                                    <li>Analyze the best place to sell each product</li>
-                                                    <li>How much revenue you get from all transaction</li>
-                                                    <li>Which channel is the most effective and bring you the highest
-                                                        revenue
-                                                    </li>
-                                                    <li>Where visitor have been looking for information before they made
-                                                        a purchase
-                                                    </li>
-                                                    <li>Which is the most effective conversion path</li>
-                                                    <li>Your margin and ROI</li>
-                                                </ul>
-                                            </div>
-                                        </div>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div class="tab-pane fade in active" id="we-optimizer">
+                        <div class="mu-tab-content-area">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="mu-about-us-left">
+                                        <h3>What kind of data can we show up?</h3>
+                                        <p>Our team go to the deepest level of website performance analysis. We
+                                            show you all the action metrics on the website that important to
+                                            you. You will then know everything about your website, and how your
+                                            business going on this. There are just some of the statistics we can
+                                            show you:</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="mu-about-us-left">
+                                        <h4>Traffic sources</h4>
+                                        <ul>
+                                            <li>Where visitors comes from</li>
+                                        </ul>
+                                    </div>
+                                    <div class="mu-about-us-left">
+                                        <h4>Audience analysis</h4>
+                                        <ul>
+                                            <li>Gender, Ages, Interest...</li>
+                                            <li>Geographic</li>
+                                            <li>Audience engagement (New vs returning, time on site...)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="mu-about-us-right">
+                                        <h4>Behavior</h4>
+                                        <ul>
+                                            <li>What visitor are doing on your website</li>
+                                        </ul>
+                                    </div>
+                                    <div class="mu-about-us-left">
+                                        <h3>Ecommerce analysis</h3>
+                                        <ul>
+                                            <li>How many transactions has been made</li>
+                                            <li>Where the transaction came from</li>
+                                            <li>Which product is the best sold?</li>
+                                            <li>Analyze the best place to sell each product</li>
+                                            <li>How much revenue you get from all transaction</li>
+                                            <li>Which channel is the most effective and bring you the highest
+                                                revenue
+                                            </li>
+                                            <li>Where visitor have been looking for information before they made
+                                                a purchase
+                                            </li>
+                                            <li>Which is the most effective conversion path</li>
+                                            <li>Your margin and ROI</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
 
-                            <div class="tab-pane fade" id="meals">
-                                <div class="mu-tab-content-area">
-                                    <div class="row">
+                    <div class="tab-pane fade" id="leads-solutions">
+                        <div class="mu-tab-content-area">
+                            <div class="row">
 
-                                        <div class="col-md-6">
-                                            <div class="mu-tab-content-left">
-                                                <p>What is leads generation and why it matters?</p>
-                                                <p>Leads generation is a series of work, including advertising,
-                                                    optimizing, tracking, reporting until a leads is captured.</p>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6">
-                                            <div class="mu-tab-content-right">
-                                                <p>In comparison with native online advertising, leads generation is
-                                                    differ mainly in the result. Leads generation help you to reach the
-                                                    last stage of the cycle (conversion) while online advertising help
-                                                    you reach the first step of the cycle (clicks). It means with leads
-                                                    generation, you will be able to minimize the risk of ineffective
-                                                    campaign.</p>
-                                            </div>
-                                        </div>
-
+                                <div class="col-md-6">
+                                    <div class="mu-tab-content-left">
+                                        <p>What is leads generation and why it matters?</p>
+                                        <p>Leads generation is a series of work, including advertising,
+                                            optimizing, tracking, reporting until a leads is captured.</p>
                                     </div>
                                 </div>
+
+                                <div class="col-md-6">
+                                    <div class="mu-tab-content-right">
+                                        <p>In comparison with native online advertising, leads generation is
+                                            differ mainly in the result. Leads generation help you to reach the
+                                            last stage of the cycle (conversion) while online advertising help
+                                            you reach the first step of the cycle (clicks). It means with leads
+                                            generation, you will be able to minimize the risk of ineffective
+                                            campaign.</p>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -495,15 +484,10 @@
 {!! Theme::script('js/jquery.min.js') !!}
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 {!! Theme::script('js/bootstrap.js') !!}
-<!-- Slick slider -->
-{!! Theme::script('js/slick.js') !!}
-<!-- Gallery Lightbox -->
-{!! Theme::script('js/jquery.magnific-popup.min.js') !!}
-<!-- Date Picker -->
-{!! Theme::script('js/bootstrap-datepicker.js') !!}
+<!-- Sticky  -->
+{!! Theme::script('js/jquery.sticky.js') !!}
 <!-- Ajax contact form  -->
 {!! Theme::script('js/app.js') !!}
-
 <!-- Custom js -->
 {!! Theme::script('js/custom.js') !!}
 
