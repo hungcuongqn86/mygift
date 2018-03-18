@@ -310,7 +310,7 @@
                         <div class="mu-tab-content-area">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <div class="mu-about-us-left">
+                                    <div class="we-optimizer-left">
                                         <h3>What kind of data can we show up?</h3>
                                         <p>Our team go to the deepest level of website performance analysis. We
                                             show you all the action metrics on the website that important to
@@ -319,46 +319,75 @@
                                             show you:</p>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="mu-about-us-left">
-                                        <h4>Traffic sources</h4>
-                                        <ul>
-                                            <li>Where visitors comes from</li>
-                                        </ul>
-                                    </div>
-                                    <div class="mu-about-us-left">
-                                        <h4>Audience analysis</h4>
-                                        <ul>
-                                            <li>Gender, Ages, Interest...</li>
-                                            <li>Geographic</li>
-                                            <li>Audience engagement (New vs returning, time on site...)</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="mu-about-us-right">
-                                        <h4>Behavior</h4>
-                                        <ul>
-                                            <li>What visitor are doing on your website</li>
-                                        </ul>
-                                    </div>
-                                    <div class="mu-about-us-left">
-                                        <h3>Ecommerce analysis</h3>
-                                        <ul>
-                                            <li>How many transactions has been made</li>
-                                            <li>Where the transaction came from</li>
-                                            <li>Which product is the best sold?</li>
-                                            <li>Analyze the best place to sell each product</li>
-                                            <li>How much revenue you get from all transaction</li>
-                                            <li>Which channel is the most effective and bring you the highest
-                                                revenue
-                                            </li>
-                                            <li>Where visitor have been looking for information before they made
-                                                a purchase
-                                            </li>
-                                            <li>Which is the most effective conversion path</li>
-                                            <li>Your margin and ROI</li>
-                                        </ul>
+                                <div class="col-md-8">
+                                    <div class="row we-optimizer-sub">
+                                        <div class="col-md-6">
+                                            <div class="we-optimizer-right">
+                                                <div class="mu-why-us-oval">
+                                                    <img src="http://localhost/themes/flatly/img/statistic-2692-4-d-8-b-07-c-6-aa-3-e-4772-8-c-2-b-9-f-3-faa-4191-e-5.png"
+                                                         srcset="http://localhost/themes/flatly/img/statistic-2692-4-d-8-b-07-c-6-aa-3-e-4772-8-c-2-b-9-f-3-faa-4191-e-5@2x.png 2x,
+                                                        http://localhost/themes/flatly/img/statistic-2692-4-d-8-b-07-c-6-aa-3-e-4772-8-c-2-b-9-f-3-faa-4191-e-5@3x.png 3x"
+                                                         alt="img">
+                                                </div>
+                                                <h4>Traffic sources</h4>
+                                                <ul>
+                                                    <li>Where visitors comes from</li>
+                                                </ul>
+                                            </div>
+                                            <div class="we-optimizer-right">
+                                                <div class="mu-why-us-oval">
+                                                    <img src="http://localhost/themes/flatly/img/profile-3091-b-2591-e-91-2-e-00-4469-acbf-0-ccf-64-a-8-dac-8.png"
+                                                         srcset="http://localhost/themes/flatly/img/profile-3091-b-2591-e-91-2-e-00-4469-acbf-0-ccf-64-a-8-dac-8@2x.png 2x,
+                                                        http://localhost/themes/flatly/img/profile-3091-b-2591-e-91-2-e-00-4469-acbf-0-ccf-64-a-8-dac-8@3x.png 3x"
+                                                         alt="img">
+                                                </div>
+                                                <h4>Audience analysis</h4>
+                                                <ul>
+                                                    <li>Gender, Ages, Interest...</li>
+                                                    <li>Geographic</li>
+                                                    <li>Audience engagement (New vs returning, time on site...)</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="we-optimizer-right">
+                                                <div class="mu-why-us-oval">
+                                                    <img src="http://localhost/themes/flatly/img/camera-phone-5384-208581-b-2-44-ec-48-a-8-97-c-2-5-f-62-a-9786-a-4-e.png"
+                                                         srcset="http://localhost/themes/flatly/img/camera-phone-5384-208581-b-2-44-ec-48-a-8-97-c-2-5-f-62-a-9786-a-4-e@2x.png 2x,
+                                                        http://localhost/themes/flatly/img/camera-phone-5384-208581-b-2-44-ec-48-a-8-97-c-2-5-f-62-a-9786-a-4-e@3x.png 3x"
+                                                         alt="img">
+                                                </div>
+                                                <h4>Behavior</h4>
+                                                <ul>
+                                                    <li>What visitor are doing on your website</li>
+                                                </ul>
+                                            </div>
+                                            <div class="we-optimizer-right">
+                                                <div class="mu-why-us-oval">
+                                                    <img src="http://localhost/themes/flatly/img/store-sale-2548-28377100-8-dda-4108-b-45-e-bcfc-63-a-2-b-371.png"
+                                                         srcset="http://localhost/themes/flatly/img/store-sale-2548-28377100-8-dda-4108-b-45-e-bcfc-63-a-2-b-371@2x.png 2x,
+                                                        http://localhost/themes/flatly/img/store-sale-2548-28377100-8-dda-4108-b-45-e-bcfc-63-a-2-b-371@3x.png 3x"
+                                                         alt="img">
+                                                </div>
+                                                <h4>Ecommerce analysis</h4>
+                                                <ul>
+                                                    <li>How many transactions has been made</li>
+                                                    <li>Where the transaction came from</li>
+                                                    <li>Which product is the best sold?</li>
+                                                    {{--<li>Analyze the best place to sell each product</li>
+                                                    <li>How much revenue you get from all transaction</li>
+                                                    <li>Which channel is the most effective and bring you the highest
+                                                        revenue
+                                                    </li>
+                                                    <li>Where visitor have been looking for information before they made
+                                                        a purchase
+                                                    </li>
+                                                    <li>Which is the most effective conversion path</li>
+                                                    <li>Your margin and ROI</li>--}}
+                                                </ul>
+                                                <p class="and-more"><a>And more <span class="icon-arrow-right2"></span></a></p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
