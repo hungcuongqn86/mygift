@@ -286,6 +286,7 @@ img {
     background-attachment: fixed;
     background-image: url("../img/top-background.png");
     background-repeat: no-repeat;
+    background-position: center;
     display: inline;
     padding-top: 160px;
     float: left;
@@ -332,6 +333,19 @@ img {
     position: relative;
 }
 
+.mu-why-us-content {
+    display: inline;
+    float: left;
+    margin-top: 20px;
+    padding: 0;
+    width: 100%;
+    min-height: 260px;
+}
+
+.mu-why-us-margin {
+    margin: 0 0 0 38px;
+}
+
 /*==================
 	ABOUT US SECTION
 ====================*/
@@ -343,44 +357,51 @@ img {
     padding: 100px 0;
 }
 
-.mu-about-us-area {
+.mu-about-us-area, .mu-why-us-area {
     display: inline;
     float: left;
     width: 100%;
 }
 
-.mu-about-us-right {
-    display: inline;
-    float: left;
-    margin-top: 20px;
-    padding-top: 30px;
-    padding-left: 15px;
-    width: 100%;
-}
-
-.mu-about-us-right ul {
-    margin-bottom: 20px;
-    padding-left: 25px;
-}
-
-.mu-about-us-right ul li {
-    line-height: 24px;
-    margin-bottom: 10px;
-}
-
-.mu-about-us-right ul li:before {
-    content: "\f0da";
-    font-family: fontAwesome;
-    margin-right: 10px;
-}
-
-.mu-about-us-left {
+.mu-about-us-content {
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 6px 8px 0 rgba(164, 164, 164, 0.21);
     display: inline;
     float: left;
     margin-top: 20px;
-    padding-top: 30px;
-    padding-right: 15px;
+    padding: 0;
     width: 100%;
+    min-height: 334px;
+}
+
+.mu-about-us-content h3, .mu-why-us-content h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.mu-about-us-content p, .mu-why-us-content p {
+    font-family: "SourceSansPro", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: 0.4px;
+    color: #6b7c93;
+}
+
+.mu-about-us-margin {
+    margin: 24px;
+}
+
+.mu-about-us-oval, .mu-why-us-oval {
+    width: 65px;
+    height: 65px;
+    background-color: #b9f4bc;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 65px;
 }
 
 .mu-title {
@@ -400,87 +421,6 @@ img {
     font-weight: bold;
     line-height: normal;
     margin-bottom: 5px;
-}
-
-/*==================
- COUNTER SECTION
-====================*/
-
-#mu-counter {
-    background-attachment: fixed;
-    background-image: url("../img/counter-bg.jpeg");
-    background-size: cover;
-    display: inline;
-    float: left;
-    width: 100%;
-}
-
-.mu-counter-overlay {
-    background-color: rgba(0, 0, 0, 0.8);
-    display: inline;
-    padding: 100px 0;
-    float: left;
-    width: 100%;
-}
-
-.mu-counter-area {
-    display: inline;
-    float: left;
-    width: 100%;
-}
-
-.mu-counter-nav {
-    display: inline-block;
-    width: 100%;
-}
-
-.mu-counter-nav li {
-    display: inline-block;
-}
-
-.mu-counter-nav li:last-child {
-    border-right: none;
-}
-
-.mu-counter-nav li .mu-single-counter {
-    color: #fff;
-    display: inline;
-    float: left;
-    padding: 25px 0;
-    text-align: center;
-    width: 100%;
-}
-
-.mu-counter-nav li .mu-single-counter span {
-    font-family: "Tangerine", cursive;
-    font-size: 40px;
-}
-
-.mu-counter-nav li .mu-single-counter h3 {
-    font-size: 50px;
-    font-weight: bold;
-    line-height: 40px;
-    margin-bottom: 15px;
-    margin-top: 10px;
-}
-
-.mu-counter-nav li .mu-single-counter h3 span {
-    font-family: "Open Sans", sans-serif;
-    font-size: 35px;
-    font-weight: bold;
-    line-height: 40px;
-}
-
-.mu-counter-nav li .mu-single-counter h3 sup {
-    font-weight: normal;
-    display: inline-block;
-    font-size: 35px;
-}
-
-.mu-counter-nav li .mu-single-counter p {
-    font-size: 18px;
-    letter-spacing: 1.5px;
-    margin-bottom: 0;
 }
 
 /*==================

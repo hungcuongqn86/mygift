@@ -35,11 +35,7 @@
     <!-- Montserrat for body  -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet" type="text/css">
     <!-- Prata for body  -->
-    <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
-    <!-- Tangerine for small title -->
-    <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
-    <!-- Open Sans for title -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
@@ -121,38 +117,79 @@
 
                     <div class="row">
                         <div class="col-md-4">
-                            <div class="mu-about-us-left">
-                                <h3>We control our technology with strong team and experience</h3>
-                                <p>Since our product and solutions are working based on advanced technology platform, we
-                                    always stay ahead of new technology. Our system is usually checked and updated</p>
-                            </div>
-                            <div class="mu-about-us-left">
-                                <img src="http://localhost/themes/flatly/img/macbook.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="mu-about-us-left">
-                                <h3>We keep in touch with you very closely</h3>
-                                <p>We work closely with you to timely update any changes made with your business. All
-                                    the changes you made with your business will be reflected in our solution.
-                                    Everything then will up to date always.</p>
-                            </div>
-                            <div class="mu-about-us-left">
-                                <h3>We track the result on the stages</h3>
-                                <p>We track all activities and result of the campaign correspond with each stage of your
-                                    "shopping cart" process. We know exactly what's the problem, where does it come from
-                                    and handle it completely.</p>
+                            <div class="mu-about-us-content">
+                                <div class="mu-about-us-margin">
+                                    <div class="mu-about-us-head">
+                                        <div class="mu-about-us-oval">
+                                            <img src="http://localhost/themes/flatly/img/conference.png" alt="img">
+                                        </div>
+                                    </div>
+                                    <h3>We control our technology with strong team and experience</h3>
+                                    <p>Since our product and solutions are working based on advanced technology
+                                        platform, we
+                                        always stay ahead of new technology. Our system is usually checked and
+                                        updated</p>
+                                </div>
+                                <img style="margin-top: 55px;" src="http://localhost/themes/flatly/img/macbook.png"
+                                     alt="img">
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="mu-about-us-right">
-                                <h3>We connect with adnetworks, publishers and control traffic quality</h3>
-                                <p>Our traffic is variety and fit with almost verticals, including yours</p>
+                            <div class="mu-about-us-content">
+                                <div class="mu-about-us-margin">
+                                    <div class="mu-about-us-head">
+                                        <div class="mu-about-us-oval">
+                                            <img src="http://localhost/themes/flatly/img/debabe-841-d.png" alt="img">
+                                        </div>
+                                    </div>
+                                    <h3>We keep in touch with you very closely</h3>
+                                    <p>We work closely with you to timely update any changes made with your business.
+                                        All
+                                        the changes you made with your business will be reflected in our solution.
+                                        Everything then will up to date always.</p>
+                                </div>
                             </div>
-                            <div class="mu-about-us-left">
-                                <h3>Optimize campaign based on real performance</h3>
-                                <p>All campaigns will often be optimized daily by our experienced operation team. This
-                                    quick process assure we does not let any issue go without controlling it.</p>
+                            <div class="mu-about-us-content">
+                                <div class="mu-about-us-margin">
+                                    <div class="mu-about-us-head">
+                                        <div class="mu-about-us-oval">
+                                            <img src="http://localhost/themes/flatly/img/accept-2056.png" alt="img">
+                                        </div>
+                                    </div>
+                                    <h3>We track the result on the stages</h3>
+                                    <p>We track all activities and result of the campaign correspond with each stage of
+                                        your
+                                        "shopping cart" process. We know exactly what's the problem, where does it come
+                                        from
+                                        and handle it completely.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="mu-about-us-content">
+                                <div class="mu-about-us-margin">
+                                    <div class="mu-about-us-head">
+                                        <div class="mu-about-us-oval">
+                                            <img src="http://localhost/themes/flatly/img/link-1672.png" alt="img">
+                                        </div>
+                                    </div>
+                                    <h3>We connect with adnetworks, publishers and control traffic quality</h3>
+                                    <p>Our traffic is variety and fit with almost verticals, including yours</p>
+                                </div>
+                            </div>
+                            <div class="mu-about-us-content">
+                                <div class="mu-about-us-margin">
+                                    <div class="mu-about-us-head">
+                                        <div class="mu-about-us-oval">
+                                            <img src="http://localhost/themes/flatly/img/lightning-bolt-1701.png"
+                                                 alt="img">
+                                        </div>
+                                    </div>
+                                    <h3>Optimize campaign based on real performance</h3>
+                                    <p>All campaigns will often be optimized daily by our experienced operation team.
+                                        This
+                                        quick process assure we does not let any issue go without controlling it.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -164,40 +201,66 @@
 
 <section id="mu-why-us">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="mu-why-us-area">
-                    <div class="mu-title">
-                        <h2 class="text-center"><span class="mu-subtitle">Why</span> choose us?</h2>
+        <div class="mu-why-us-area">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-8">
+                    <div class="mu-title mu-why-us-margin">
+                        <h2><span class="mu-subtitle">Why</span> choose us?</h2>
                     </div>
-
                     <div class="row">
-                        <div class="col-md-4"></div>
-                        <div class="col-md-4">
-                            <div class="mu-why-us-left">
-                                <h3>Innovative technology.</h3>
-                                <p>We stay ahead of new technology, allowing our platform compatible with all types of
-                                    adnetworks and tracking platform</p>
+                        <div class="col-md-6">
+                            <div class="mu-why-us-content">
+                                <div class="mu-why-us-margin">
+                                    <div class="mu-why-us-oval">
+                                        <img src="http://localhost/themes/flatly/img/link-1672.png" alt="img">
+                                    </div>
+                                    <h3>Innovative technology.</h3>
+                                    <p>We stay ahead of new technology, allowing our platform compatible with all
+                                        types of
+                                        adnetworks and tracking platform</p>
+                                </div>
                             </div>
-                            <div class="mu-why-us-left">
-                                <h3>Widely network</h3>
-                                <p>Our network is widely in terms of location and audience specification. We have
-                                    traffic from Vietnam, Indonesia, Malaysia, Thailand and Vietnam. Wherever you want
-                                    in SEA, we stay here to help.</p>
+                            <div class="mu-why-us-content">
+                                <div class="mu-why-us-margin">
+                                    <div class="mu-why-us-oval">
+                                        <img src="http://localhost/themes/flatly/img/link-1672.png" alt="img">
+                                    </div>
+                                    <h3>Widely network</h3>
+                                    <p>Our network is widely in terms of location and audience specification. We
+                                        have
+                                        traffic from Vietnam, Indonesia, Malaysia, Thailand and Vietnam. Wherever
+                                        you want
+                                        in SEA, we stay here to help.</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="mu-why-us-right">
-                                <h3>Variety in audiences set</h3>
-                                <p>Our regular audiences comes from mobile, desktop website, mobile application... with
-                                    a wide range of age and income, allowing you to select and target to the right
-                                    people.</p>
+                        <div class="col-md-6">
+                            <div class="mu-why-us-content">
+                                <div class="mu-why-us-margin">
+                                    <div class="mu-why-us-oval">
+                                        <img src="http://localhost/themes/flatly/img/link-1672.png" alt="img">
+                                    </div>
+                                    <h3>Variety in audiences set</h3>
+                                    <p>Our regular audiences comes from mobile, desktop website, mobile
+                                        application... with
+                                        a wide range of age and income, allowing you to select and target to the
+                                        right
+                                        people.</p>
+                                </div>
                             </div>
-                            <div class="mu-why-us-right">
-                                <h3>Transparency and precisely</h3>
-                                <p>Our platform works automatically, allowing you to changes bid, setting and watching
-                                    your campaign performance any time. We show you all the campaign data we collected,
-                                    helping your campaign stick with your plan very closely.</p>
+                            <div class="mu-why-us-content">
+                                <div class="mu-why-us-margin">
+                                    <div class="mu-why-us-oval">
+                                        <img src="http://localhost/themes/flatly/img/link-1672.png" alt="img">
+                                    </div>
+                                    <h3>Transparency and precisely</h3>
+                                    <p>Our platform works automatically, allowing you to changes bid, setting and
+                                        watching
+                                        your campaign performance any time. We show you all the campaign data we
+                                        collected,
+                                        helping your campaign stick with your plan very closely.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
