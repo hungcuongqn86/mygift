@@ -477,45 +477,41 @@ img {
  MENU ITEM SECTION
 ====================*/
 
-#mu-restaurant-menu {
+#mu-why-us-menu {
     display: inline;
     float: left;
     width: 100%;
     padding: 100px 0;
 }
 
-.mu-restaurant-menu-area {
-    display: inline;
-    float: left;
-    width: 100%;
+#nav-tabs {
+    background-color: #ffffff;
+    box-shadow: inset 0 1px 0 0 #eef1f7, inset 0 -1px 0 0 #eef1f7;
 }
 
-.mu-restaurant-menu-content {
-    display: inline;
-    float: left;
-    margin-top: 30px;
-    width: 100%;
-}
-
-.mu-restaurant-menu {
-    display: inline-block;
+#mu-why-us-menu ul {
     width: 100%;
     text-align: center;
     border: none;
 }
 
-.mu-restaurant-menu li {
+#mu-why-us-menu ul li {
     display: inline-block;
-    float: none;
+    margin: 25px 0;
 }
 
-.mu-restaurant-menu li a {
-    font-family: "Open Sans", sans-serif;
-    font-size: 18px;
-    border-radius: 0;
-    color: #fff;
-    font-size: 18px;
-    margin: 0 15px;
+#mu-why-us-menu ul li:first-child {
+    border-right: 1px solid #ddd;
+}
+
+#mu-why-us-menu ul li a {
+    font-family: "Poppins", serif;
+    font-size: 26px;
+    font-weight: 500;
+    border: none;
+    color: #cfcfcf;
+    height: 70px;
+    line-height: 50px;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -523,83 +519,12 @@ img {
     transition: all 0.5s;
 }
 
-.mu-restaurant-menu li a:hover,
-.mu-restaurant-menu .active a,
-.mu-restaurant-menu .active a:hover,
-.mu-restaurant-menu .active a:focus {
+#mu-why-us-menu ul li a:hover,
+#mu-why-us-menu ul .active a,
+#mu-why-us-menu ul .active a:hover,
+#mu-why-us-menu ul .active a:focus {
     background-color: #FFF;
-}
-
-.mu-tab-content-area {
-    display: inline;
-    float: left;
-    width: 100%;
-    padding: 50px 0;
-}
-
-.mu-tab-content-left {
-    display: inline;
-    float: left;
-    padding-right: 15px;
-    width: 100%;
-}
-
-.mu-tab-content-right {
-    display: inline;
-    float: left;
-    padding-left: 15px;
-    width: 100%;
-}
-
-.mu-menu-item-nav li {
-    border-bottom: 1px dashed #ccc;
-    display: inline;
-    float: left;
-    margin-bottom: 20px;
-    padding-bottom: 15px;
-    width: 100%;
-}
-
-.mu-menu-item-nav li:last-child {
-    border-bottom: none;
-    margin-bottom: 0;
-}
-
-.mu-menu-item-nav li .media .media-left {
-    width: 110px;
-    height: 110px;
-}
-
-.mu-menu-item-nav li .media .media-left a,
-.mu-menu-item-nav li .media .media-left a img {
-    display: block;
-    width: 110px;
-    height: 110px;
-}
-
-.mu-menu-item-nav li .media .media-body .media-heading {
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-
-.mu-menu-item-nav li .media .media-body .media-heading a {
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-}
-
-.mu-menu-item-nav li .media .media-body .mu-menu-price {
-    font-size: 16px;
-    font-weight: bold;
-    letter-spacing: 1.5px;
-    line-height: 20px;
-}
-
-.mu-menu-item-nav li .media .media-body p {
-    margin-top: 10px;
-    font-size: 14px;
+    color: #333;
 }
 
 /*==================

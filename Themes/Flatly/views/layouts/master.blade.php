@@ -293,16 +293,15 @@
     </div>
 </section>
 
-<div id="nav-tabs">
-    <div class="container">
-        <ul class="nav nav-tabs mu-restaurant-menu">
-            <li class="active"><a href="#breakfast" data-toggle="tab">We optimizer</a></li>
-            <li><a href="#meals" data-toggle="tab">Leads solutions</a></li>
-        </ul>
+<section id="mu-why-us-menu">
+    <div id="nav-tabs">
+        <div class="container">
+            <ul class="nav nav-tabs">
+                <li class="col-md-6 active"><a href="#breakfast" data-toggle="tab">We optimizer</a></li>
+                <li class="col-md-6" ><a href="#meals" data-toggle="tab">Leads solutions</a></li>
+            </ul>
+        </div>
     </div>
-</div>
-
-<section id="mu-restaurant-menu">
     <div class="container">
         <div class="row">
             <div class="col-md-12">

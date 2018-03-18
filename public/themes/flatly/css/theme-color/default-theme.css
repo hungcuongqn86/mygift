@@ -44,7 +44,6 @@ Author URI : http://www.markups.io/
 
 .mu-readmore-btn:hover, 
 .mu-readmore-btn:focus,
-.mu-restaurant-menu li a,
 .mu-testimonial-slider .slick-dots .slick-active,
 .mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-social a:hover, 
 .mu-chef-nav .slick-list li .mu-single-chef .mu-single-chef-social a:focus,
@@ -84,16 +83,6 @@ Author URI : http://www.markups.io/
 .mu-send-btn:focus {
   background-color: #ffc715;
   border-color: #ffc715;
-}
-
-
-.mu-restaurant-menu li a:hover, 
-.mu-restaurant-menu li a:focus, 
-.mu-restaurant-menu li.active a,
-.mu-restaurant-menu li.active a:hover,
-.mu-restaurant-menu li.active a:focus {
-  color: #ffc715;
-  border-color: #ffc715 #ffc715 transparent;
 }
 
 
