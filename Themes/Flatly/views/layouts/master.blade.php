@@ -18,6 +18,8 @@
 {!! Theme::style('css/bootstrap.css') !!}
 <!-- Theme color -->
 {!! Theme::style('css/theme-color/default-theme.css') !!}
+<!-- IIcon -->
+{!! Theme::style('ionicons-2.0.1/css/ionicons.min.css') !!}
 <!-- Main style sheet -->
 {!! Theme::style('css/style.css') !!}
 
@@ -560,7 +562,6 @@
 
 <!-- Start Footer -->
 <footer id="mu-footer">
-
     <!-- Start Contact section -->
     <section id="mu-contact">
         <div class="container">
@@ -569,22 +570,20 @@
                     <div class="mu-contact-area">
                         <div class="mu-contact-content">
                             <div class="row">
-
                                 <div class="col-md-6">
                                     <div class="mu-contact-left">
-                                        <div class="mu-contact-widget">
-                                            <h3>Ready to get started ?</h3>
-                                            <p>Get in touch, or email to contact@leadsgen.com.</p>
+                                        <div class="mu-title">
+                                            <h2>Ready to <span class="mu-subtitle">get started ?</span></h2>
+                                            <p>Get in touch, or email to<span class="email"> contact@leadsgen.com.</span></p>
                                             <ul>
-                                                <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-                                                <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
-                                                <li><i class="ion-social-instagram" aria-hidden="true"></i></li>
+                                                <li class="social-link"><i class="ion-social-facebook" aria-hidden="true"></i></li>
+                                                <li class="social-link"><i class="ion-social-twitter" aria-hidden="true"></i></li>
+                                                <li class="social-link"><i class="ion-social-instagram" aria-hidden="true"></i></li>
                                             </ul>
                                             <p><i class="fa fa-copyright" aria-hidden="true"></i> LeadsGen.com</p>
                                         </div>
                                     </div>
                                 </div>
-
                                 <div class="col-md-6">
                                     <div class="mu-contact-right">
                                         <!-- Email message div -->
@@ -632,7 +631,6 @@
                                         </form>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
