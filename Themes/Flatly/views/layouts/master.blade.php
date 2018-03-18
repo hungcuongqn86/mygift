@@ -301,131 +301,158 @@
             </ul>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <!-- Tab panes -->
-                <div class="tab-content">
-                    <div class="tab-pane fade in active" id="we-optimizer">
-                        <div class="mu-tab-content-area">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="we-optimizer-left">
-                                        <h3>What kind of data can we show up?</h3>
-                                        <p>Our team go to the deepest level of website performance analysis. We
-                                            show you all the action metrics on the website that important to
-                                            you. You will then know everything about your website, and how your
-                                            business going on this. There are just some of the statistics we can
-                                            show you:</p>
-                                    </div>
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="row we-optimizer-sub">
-                                        <div class="col-md-6">
-                                            <div class="we-optimizer-right">
-                                                <div class="mu-why-us-oval">
-                                                    <img src="http://localhost/themes/flatly/img/statistic-2692-4-d-8-b-07-c-6-aa-3-e-4772-8-c-2-b-9-f-3-faa-4191-e-5.png"
-                                                         srcset="http://localhost/themes/flatly/img/statistic-2692-4-d-8-b-07-c-6-aa-3-e-4772-8-c-2-b-9-f-3-faa-4191-e-5@2x.png 2x,
+</section>
+<div class="tab-content">
+    <section class="tab-pane fade in active" id="we-optimizer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="we-optimizer-left">
+                        <h3>What kind of data can we show up?</h3>
+                        <p>Our team go to the deepest level of website performance analysis. We
+                            show you all the action metrics on the website that important to
+                            you. You will then know everything about your website, and how your
+                            business going on this. There are just some of the statistics we can
+                            show you:</p>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="row we-optimizer-sub">
+                        <div class="col-md-6">
+                            <div class="we-optimizer-right">
+                                <div class="mu-why-us-oval">
+                                    <img src="http://localhost/themes/flatly/img/statistic-2692-4-d-8-b-07-c-6-aa-3-e-4772-8-c-2-b-9-f-3-faa-4191-e-5.png"
+                                         srcset="http://localhost/themes/flatly/img/statistic-2692-4-d-8-b-07-c-6-aa-3-e-4772-8-c-2-b-9-f-3-faa-4191-e-5@2x.png 2x,
                                                         http://localhost/themes/flatly/img/statistic-2692-4-d-8-b-07-c-6-aa-3-e-4772-8-c-2-b-9-f-3-faa-4191-e-5@3x.png 3x"
-                                                         alt="img">
-                                                </div>
-                                                <h4>Traffic sources</h4>
-                                                <ul>
-                                                    <li>Where visitors comes from</li>
-                                                </ul>
-                                            </div>
-                                            <div class="we-optimizer-right">
-                                                <div class="mu-why-us-oval">
-                                                    <img src="http://localhost/themes/flatly/img/profile-3091-b-2591-e-91-2-e-00-4469-acbf-0-ccf-64-a-8-dac-8.png"
-                                                         srcset="http://localhost/themes/flatly/img/profile-3091-b-2591-e-91-2-e-00-4469-acbf-0-ccf-64-a-8-dac-8@2x.png 2x,
-                                                        http://localhost/themes/flatly/img/profile-3091-b-2591-e-91-2-e-00-4469-acbf-0-ccf-64-a-8-dac-8@3x.png 3x"
-                                                         alt="img">
-                                                </div>
-                                                <h4>Audience analysis</h4>
-                                                <ul>
-                                                    <li>Gender, Ages, Interest...</li>
-                                                    <li>Geographic</li>
-                                                    <li>Audience engagement (New vs returning, time on site...)</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <div class="we-optimizer-right">
-                                                <div class="mu-why-us-oval">
-                                                    <img src="http://localhost/themes/flatly/img/camera-phone-5384-208581-b-2-44-ec-48-a-8-97-c-2-5-f-62-a-9786-a-4-e.png"
-                                                         srcset="http://localhost/themes/flatly/img/camera-phone-5384-208581-b-2-44-ec-48-a-8-97-c-2-5-f-62-a-9786-a-4-e@2x.png 2x,
-                                                        http://localhost/themes/flatly/img/camera-phone-5384-208581-b-2-44-ec-48-a-8-97-c-2-5-f-62-a-9786-a-4-e@3x.png 3x"
-                                                         alt="img">
-                                                </div>
-                                                <h4>Behavior</h4>
-                                                <ul>
-                                                    <li>What visitor are doing on your website</li>
-                                                </ul>
-                                            </div>
-                                            <div class="we-optimizer-right">
-                                                <div class="mu-why-us-oval">
-                                                    <img src="http://localhost/themes/flatly/img/store-sale-2548-28377100-8-dda-4108-b-45-e-bcfc-63-a-2-b-371.png"
-                                                         srcset="http://localhost/themes/flatly/img/store-sale-2548-28377100-8-dda-4108-b-45-e-bcfc-63-a-2-b-371@2x.png 2x,
-                                                        http://localhost/themes/flatly/img/store-sale-2548-28377100-8-dda-4108-b-45-e-bcfc-63-a-2-b-371@3x.png 3x"
-                                                         alt="img">
-                                                </div>
-                                                <h4>Ecommerce analysis</h4>
-                                                <ul>
-                                                    <li>How many transactions has been made</li>
-                                                    <li>Where the transaction came from</li>
-                                                    <li>Which product is the best sold?</li>
-                                                    {{--<li>Analyze the best place to sell each product</li>
-                                                    <li>How much revenue you get from all transaction</li>
-                                                    <li>Which channel is the most effective and bring you the highest
-                                                        revenue
-                                                    </li>
-                                                    <li>Where visitor have been looking for information before they made
-                                                        a purchase
-                                                    </li>
-                                                    <li>Which is the most effective conversion path</li>
-                                                    <li>Your margin and ROI</li>--}}
-                                                </ul>
-                                                <p class="and-more"><a>And more <span class="icon-arrow-right2"></span></a></p>
-                                            </div>
-                                        </div>
-                                    </div>
+                                         alt="img">
                                 </div>
+                                <h4>Traffic sources</h4>
+                                <ul>
+                                    <li>Where visitors comes from</li>
+                                </ul>
+                            </div>
+                            <div class="we-optimizer-right">
+                                <div class="mu-why-us-oval">
+                                    <img src="http://localhost/themes/flatly/img/profile-3091-b-2591-e-91-2-e-00-4469-acbf-0-ccf-64-a-8-dac-8.png"
+                                         srcset="http://localhost/themes/flatly/img/profile-3091-b-2591-e-91-2-e-00-4469-acbf-0-ccf-64-a-8-dac-8@2x.png 2x,
+                                                        http://localhost/themes/flatly/img/profile-3091-b-2591-e-91-2-e-00-4469-acbf-0-ccf-64-a-8-dac-8@3x.png 3x"
+                                         alt="img">
+                                </div>
+                                <h4>Audience analysis</h4>
+                                <ul>
+                                    <li>Gender, Ages, Interest...</li>
+                                    <li>Geographic</li>
+                                    <li>Audience engagement (New vs returning, time on site...)</li>
+                                </ul>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="tab-pane fade" id="leads-solutions">
-                        <div class="mu-tab-content-area">
-                            <div class="row">
-
-                                <div class="col-md-6">
-                                    <div class="mu-tab-content-left">
-                                        <p>What is leads generation and why it matters?</p>
-                                        <p>Leads generation is a series of work, including advertising,
-                                            optimizing, tracking, reporting until a leads is captured.</p>
-                                    </div>
+                        <div class="col-md-6">
+                            <div class="we-optimizer-right">
+                                <div class="mu-why-us-oval">
+                                    <img src="http://localhost/themes/flatly/img/camera-phone-5384-208581-b-2-44-ec-48-a-8-97-c-2-5-f-62-a-9786-a-4-e.png"
+                                         srcset="http://localhost/themes/flatly/img/camera-phone-5384-208581-b-2-44-ec-48-a-8-97-c-2-5-f-62-a-9786-a-4-e@2x.png 2x,
+                                                        http://localhost/themes/flatly/img/camera-phone-5384-208581-b-2-44-ec-48-a-8-97-c-2-5-f-62-a-9786-a-4-e@3x.png 3x"
+                                         alt="img">
                                 </div>
-
-                                <div class="col-md-6">
-                                    <div class="mu-tab-content-right">
-                                        <p>In comparison with native online advertising, leads generation is
-                                            differ mainly in the result. Leads generation help you to reach the
-                                            last stage of the cycle (conversion) while online advertising help
-                                            you reach the first step of the cycle (clicks). It means with leads
-                                            generation, you will be able to minimize the risk of ineffective
-                                            campaign.</p>
-                                    </div>
+                                <h4>Behavior</h4>
+                                <ul>
+                                    <li>What visitor are doing on your website</li>
+                                </ul>
+                            </div>
+                            <div class="we-optimizer-right">
+                                <div class="mu-why-us-oval">
+                                    <img src="http://localhost/themes/flatly/img/store-sale-2548-28377100-8-dda-4108-b-45-e-bcfc-63-a-2-b-371.png"
+                                         srcset="http://localhost/themes/flatly/img/store-sale-2548-28377100-8-dda-4108-b-45-e-bcfc-63-a-2-b-371@2x.png 2x,
+                                                        http://localhost/themes/flatly/img/store-sale-2548-28377100-8-dda-4108-b-45-e-bcfc-63-a-2-b-371@3x.png 3x"
+                                         alt="img">
                                 </div>
-
+                                <h4>Ecommerce analysis</h4>
+                                <ul>
+                                    <li>How many transactions has been made</li>
+                                    <li>Where the transaction came from</li>
+                                    <li>Which product is the best sold?</li>
+                                    {{--<li>Analyze the best place to sell each product</li>
+                                    <li>How much revenue you get from all transaction</li>
+                                    <li>Which channel is the most effective and bring you the highest
+                                        revenue
+                                    </li>
+                                    <li>Where visitor have been looking for information before they made
+                                        a purchase
+                                    </li>
+                                    <li>Which is the most effective conversion path</li>
+                                    <li>Your margin and ROI</li>--}}
+                                </ul>
+                                <p class="and-more"><a>And more <span class="icon-arrow-right2"></span></a>
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<!-- End Restaurant Menu -->
+        <hr style="box-shadow: inset 0 1px 0 0 #eef1f7, inset 0 -1px 0 0 #eef1f7;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="how-we-make-header">
+                        <h3>How we make it?</h3>
+                        <p>We use Google Analytics and other analysis software (if needed - Such as Adobe
+                            catalyst) to investigate your website. Below are our working process:</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="how-we-make">
+                        <h4>You can collect the data by yourself as our team does. <span class="sub">But why us?</span>
+                        </h4>
+                        <ul>
+                            <li>Our expertise and experience assuring the data is precise.</li>
+                            <li>Our experience with our large customer database make us strong in</li>
+                            <li>Implementation process. Whatever your website model, we can make it done.</li>
+                            <li>Statistic is important, but analysis is a lots more: Each number has its own meaning.
+                            </li>
+                            <li>We compile the report with full of numbers to a friendly and easy reading report.</li>
+                            <li>You will completely understand what the numbers are telling you.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <img src="http://localhost/themes/flatly/img/sd1.png"
+                         alt="img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tab-pane fade" id="leads-solutions">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="mu-tab-content-left">
+                        <p>What is leads generation and why it matters?</p>
+                        <p>Leads generation is a series of work, including advertising,
+                            optimizing, tracking, reporting until a leads is captured.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="mu-tab-content-right">
+                        <p>In comparison with native online advertising, leads generation is
+                            differ mainly in the result. Leads generation help you to reach the
+                            last stage of the cycle (conversion) while online advertising help
+                            you reach the first step of the cycle (clicks). It means with leads
+                            generation, you will be able to minimize the risk of ineffective
+                            campaign.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</div>
+
 
 <!-- Start Footer -->
 <footer id="mu-footer">
@@ -470,20 +497,23 @@
                                                 <div class="col-md-6">
                                                     <div class="form-group">
                                                         <label for="email">Your email address <span>*</span></label>
-                                                        <input type="email" class="form-control" id="email" name="email"
+                                                        <input type="email" class="form-control" id="email"
+                                                               name="email"
                                                                placeholder="Your email address" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="form-group">
                                                         <label for="phone">Mobile phone</label>
-                                                        <input type="text" class="form-control" id="phone" name="phone"
+                                                        <input type="text" class="form-control" id="phone"
+                                                               name="phone"
                                                                placeholder="Mobile phone">
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <label for="subject">In a few words, tell us what your enquiry is about
+                                                <label for="subject">In a few words, tell us what your enquiry is
+                                                    about
                                                     <span>*</span></label>
                                                 <input type="text" class="form-control" id="subject" name="subject"
                                                        placeholder="..." required>

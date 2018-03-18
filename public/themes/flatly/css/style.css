@@ -478,7 +478,6 @@ img {
 ====================*/
 
 #mu-why-us-menu {
-    background-color: #fff;
     display: inline;
     float: left;
     width: 100%;
@@ -578,11 +577,23 @@ img {
     margin: 80px 30px;
 }
 
-.we-optimizer-right ul {
+.we-optimizer-right ul, .how-we-make ul {
     font-family: "SourceSansPro", sans-serif;
     list-style: disc;
     margin-left: 30px;
     color: #6b7c93;
+    line-height: 2.5;
+}
+
+.how-we-make h4 {
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1.7px;
+    text-transform: uppercase;
+}
+
+.how-we-make h4 .sub {
+    color: #b76ac4;
 }
 
 .and-more {
@@ -595,6 +606,26 @@ img {
     line-height: normal;
     letter-spacing: 0.2px;
     text-decoration: underline;
+}
+
+.how-we-make-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.how-we-make-header h3 {
+    margin-top: 80px;
+    font-family: "Poppins", serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #cfcfcf;
+}
+
+.how-we-make-header p {
+    margin-top: 24px;
+    font-family: "SourceSansPro", sans-serif;
+    font-size: 14px;
+    color: #6b7c93;
 }
 
 /*==================
