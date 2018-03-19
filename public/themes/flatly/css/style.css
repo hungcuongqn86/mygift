@@ -318,6 +318,15 @@ img {
     margin: auto;
 }
 
+.mu-who-we-are-bg {
+    position: relative;
+}
+
+.mu-who-we-are-right-ins {
+    position: absolute;
+    top: 0;
+}
+
 .mu-who-we-are-right p {
     font-family: "SourceSansPro", sans-serif;
     font-size: 16px;

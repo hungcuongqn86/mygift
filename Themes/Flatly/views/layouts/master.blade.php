@@ -56,7 +56,7 @@
                 </button>
                 <!-- LOGO -->
                 <!--  Image based logo  -->
-                <a class="navbar-brand" href="#"><img src="{{ Theme::url('img/logo.png') }}" alt="Logo img"></a>
+                <a class="navbar-brand" href="#"><img src="{{ Theme::url('img/logo.png') }}" alt="Logo img"><span>LeadsGen</span></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
@@ -80,11 +80,11 @@
                 <h1 class="mu-who-we-are-title">Hello, we’re LeadsGen - generate leads for you </h1>
             </div>
             <div class="col-md-6 mu-who-we-are-right">
-                <img class="img-holder-right" src="http://localhost/themes/flatly/img/base.png" alt="img">
-                <img class="img-holder-right" src="http://localhost/themes/flatly/img/img-holder-right.png"
-                     srcset="http://localhost/themes/flatly/img/img-holder-right@2x.png 2x,
+                <img class="mu-who-we-are-bg" src="http://localhost/themes/flatly/img/base.png" alt="img">
+                <div class="mu-who-we-are-right-ins"><img class="mu-who-we-are-bg" src="http://localhost/themes/flatly/img/img-holder-right.png"
+                                                          srcset="http://localhost/themes/flatly/img/img-holder-right@2x.png 2x,
                                                         http://localhost/themes/flatly/img/img-holder-right@3x.png 3x"
-                     alt="img">
+                                                          alt="img"></div>
             </div>
         </div>
     </div>
