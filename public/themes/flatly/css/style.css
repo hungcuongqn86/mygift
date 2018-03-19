@@ -212,14 +212,13 @@ img {
 }
 
 .mu-main-navbar .navbar-header .navbar-brand {
-    color: #333;
+    font-family: 'Roboto Slab', serif;
+    font-size: 26px;
+    font-weight: bold;
     display: inline-block;
-    font-weight: 700;
-    font-size: 35px;
     padding: 0;
-    margin-top: 16px;
+    margin-top: 12px;
     height: 34px;
-    width: 180px;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -227,7 +226,20 @@ img {
     transition: all 0.5s;
 }
 
+.slogan {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    color: #cfcfcf!important;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    padding-left: 15px;
+}
+
 .mu-main-navbar .navbar-header .navbar-brand img {
+    display: inline;
     margin-top: -10px;
 }
 

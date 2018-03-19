@@ -32,6 +32,8 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet" type="text/css">
     <!-- Prata for body  -->
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <!-- Roboto for Logo  -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet">
 </head>
 <body>
 
@@ -56,7 +58,9 @@
                 </button>
                 <!-- LOGO -->
                 <!--  Image based logo  -->
-                <a class="navbar-brand" href="#"><img src="{{ Theme::url('img/logo.png') }}" alt="Logo img"><span>LeadsGen</span></a>
+                <a class="navbar-brand" href="#"><img src="{{ Theme::url('img/logo.png') }}" alt="Logo img">
+                    <span style="margin: 0 15px;">LeadsGen</span><span
+                            style="font-size: 16px;;color: #cfcfcf">|</span><span class="slogan">Generate Leads for you</span></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
@@ -81,7 +85,8 @@
             </div>
             <div class="col-md-6 mu-who-we-are-right">
                 <img class="mu-who-we-are-bg" src="http://localhost/themes/flatly/img/base.png" alt="img">
-                <div class="mu-who-we-are-right-ins"><img class="mu-who-we-are-bg" src="http://localhost/themes/flatly/img/img-holder-right.png"
+                <div class="mu-who-we-are-right-ins"><img class="mu-who-we-are-bg"
+                                                          src="http://localhost/themes/flatly/img/img-holder-right.png"
                                                           srcset="http://localhost/themes/flatly/img/img-holder-right@2x.png 2x,
                                                         http://localhost/themes/flatly/img/img-holder-right@3x.png 3x"
                                                           alt="img"></div>
@@ -577,11 +582,15 @@
                                     <div class="mu-contact-left">
                                         <div class="mu-title">
                                             <h2>Ready to <span class="mu-subtitle">get started ?</span></h2>
-                                            <p>Get in touch, or email to<span class="email"> contact@leadsgen.com.</span></p>
+                                            <p>Get in touch, or email to<span
+                                                        class="email"> contact@leadsgen.com.</span></p>
                                             <ul>
-                                                <li class="social-link"><i class="ion-social-facebook" aria-hidden="true"></i></li>
-                                                <li class="social-link"><i class="ion-social-twitter" aria-hidden="true"></i></li>
-                                                <li class="social-link"><i class="ion-social-instagram" aria-hidden="true"></i></li>
+                                                <li class="social-link"><i class="ion-social-facebook"
+                                                                           aria-hidden="true"></i></li>
+                                                <li class="social-link"><i class="ion-social-twitter"
+                                                                           aria-hidden="true"></i></li>
+                                                <li class="social-link"><i class="ion-social-instagram"
+                                                                           aria-hidden="true"></i></li>
                                             </ul>
                                             <p><i class="fa fa-copyright" aria-hidden="true"></i> LeadsGen.com</p>
                                         </div>
