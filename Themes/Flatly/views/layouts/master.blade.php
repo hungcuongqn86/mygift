@@ -20,19 +20,18 @@
 {!! Theme::style('css/theme-color/default-theme.css') !!}
 <!-- IIcon -->
 {!! Theme::style('ionicons-2.0.1/css/ionicons.min.css') !!}
+<!-- Icomoon -->
+{!! Theme::style('icomoon/style.css') !!}
 <!-- Main style sheet -->
 {!! Theme::style('css/style.css') !!}
 
 <!-- Google Fonts -->
-
     <!-- Poppins for body  -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:500" rel="stylesheet" type="text/css">
     <!-- Montserrat for body  -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet" type="text/css">
     <!-- Prata for body  -->
     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-
-    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/a4741c4d86/UntitledProject/style.css">
 </head>
 <body>
 
@@ -81,7 +80,11 @@
                 <h1 class="mu-who-we-are-title">Hello, we’re LeadsGen - generate leads for you </h1>
             </div>
             <div class="col-md-6 mu-who-we-are-right">
-                <img src="http://localhost/themes/flatly/img/base.png" alt="img">
+                <img class="img-holder-right" src="http://localhost/themes/flatly/img/base.png" alt="img">
+                <img class="img-holder-right" src="http://localhost/themes/flatly/img/img-holder-right.png"
+                     srcset="http://localhost/themes/flatly/img/img-holder-right@2x.png 2x,
+                                                        http://localhost/themes/flatly/img/img-holder-right@3x.png 3x"
+                     alt="img">
             </div>
         </div>
     </div>

@@ -345,6 +345,11 @@ img {
     left: 0;
 }
 
+.img-holder-right {
+    position: absolute;
+    right: 0;
+}
+
 .mu-who-we-are-title {
     font-family: "Montserrat", sans-serif;
     font-size: 48px;
