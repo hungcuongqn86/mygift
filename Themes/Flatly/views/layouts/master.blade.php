@@ -623,15 +623,17 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 col-xs-12">
+                    <div class="col-md-6 col-xs-12 col-left">
                         <div class="row">
                             <div class="col-md-12 col-xs-12">
-                                <h4>Web-base conversion</h4>
-                                <p>Just add our conversion tag onto your converted page and then our system will do the
-                                    rest. It
-                                    shows you how many conversion have been made, where it came from and how much
-                                    revenue you
-                                    get from it.</p>
+                                <div class="content left">
+                                    <h4>Web-base conversion</h4>
+                                    <p>Just add our conversion tag onto your converted page and then our system will do the
+                                        rest. It
+                                        shows you how many conversion have been made, where it came from and how much
+                                        revenue you
+                                        get from it.</p>
+                                </div>
                             </div>
                         </div>
                         <div class="row">
@@ -645,10 +647,12 @@
                     <div class="col-md-6 col-xs-12">
                         <div class="row">
                             <div class="col-md-12 col-xs-12">
-                                <h4>Mobile application base conversion</h4>
-                                <p>With Mobile Application and games, we can connect with almost mobile tracking tool to
-                                    get the
-                                    installation data and show up for you on the reports.</p>
+                                <div class="content right">
+                                    <h4>Mobile application base conversion</h4>
+                                    <p>With Mobile Application and games, we can connect with almost mobile tracking tool to
+                                        get the
+                                        installation data and show up for you on the reports.</p>
+                                </div>
                             </div>
                         </div>
                         <div class="row">

@@ -655,10 +655,46 @@ img {
     font-size: 18px;
 }
 
-.how-we-collecting-leads-left .content {
+.how-we-collecting-leads-left .content, .how-we-track-leads .content p {
     font-family: "SourceSansPro", sans-serif;
     font-size: 14px;
     color: #6b7c93;
+}
+
+.how-we-track-leads .col-left {
+    box-shadow: 5px 0 0px -4px #eef1f7;
+}
+
+.how-we-track-leads .content {
+    padding: 40px 24px 36px 120px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 8px 0 rgba(164, 164, 164, 0.21);
+    margin-top: 0;
+    margin-bottom: 80px;
+    min-height: 220px;
+}
+
+.how-we-track-leads .left {
+    background-image: url("../img/display-2077-c-794-f-862-82-f-2-43-a-1-8-bf-6-7-efbad-6574-b-0.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-right: 32px;
+}
+
+.how-we-track-leads .right {
+    background-image: url("../img/email-4903-3602807-c-1-d-39-4-e-10-b-9-a-8-141-d-1517-cb-21.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-left: 32px;
+}
+
+.how-we-track-leads .content h4 {
+    font-family: "Poppins", serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #b76ac4;
+    text-transform: uppercase;
 }
 
 /*==================
