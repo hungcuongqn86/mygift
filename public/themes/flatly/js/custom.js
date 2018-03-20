@@ -126,6 +126,6 @@ jQuery(function ($) {
     });
 
     // sticky
-    $("#nav-tabs").sticky({topSpacing: 0, zIndex: 999});
+    $("#mu-why-us-menu").stick_in_parent();
 });
 
