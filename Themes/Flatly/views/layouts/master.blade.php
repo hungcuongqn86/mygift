@@ -461,93 +461,83 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="mu-why-us-content">
-                            <div class="mu-why-us-margin">
-                                <div class="mu-why-us-oval">
-                                    <img src="http://localhost/themes/flatly/img/idea-3125-08322-e-54-d-278-4453-a-0-e-4-8-fc-62-f-4-b-501-e.png"
-                                         srcset="http://localhost/themes/flatly/img/idea-3125-08322-e-54-d-278-4453-a-0-e-4-8-fc-62-f-4-b-501-e@2x.png 2x,
+                            <div class="mu-why-us-oval">
+                                <img src="http://localhost/themes/flatly/img/idea-3125-08322-e-54-d-278-4453-a-0-e-4-8-fc-62-f-4-b-501-e.png"
+                                     srcset="http://localhost/themes/flatly/img/idea-3125-08322-e-54-d-278-4453-a-0-e-4-8-fc-62-f-4-b-501-e@2x.png 2x,
                                                         http://localhost/themes/flatly/img/idea-3125-08322-e-54-d-278-4453-a-0-e-4-8-fc-62-f-4-b-501-e@3x.png 3x"
-                                         alt="img">
-                                </div>
-                                <h3>Understand how visitor behaviour leads to sales and conversions</h3>
-                                <p>Your site is dynamic, and your conversion goals should be too. With Our solution you
-                                    can track sales, downloads, video plays, conversions, site engagement or define your
-                                    own metrics. You can also tailor your reporting based on what you want to achieve
-                                    and identify what visitor actions are most likely to help you meet your business
-                                    objectives.</p>
+                                     alt="img">
                             </div>
+                            <h3>Understand how visitor behaviour leads to sales and conversions</h3>
+                            <p>Your site is dynamic, and your conversion goals should be too. With Our solution you
+                                can track sales, downloads, video plays, conversions, site engagement or define your
+                                own metrics. You can also tailor your reporting based on what you want to achieve
+                                and identify what visitor actions are most likely to help you meet your business
+                                objectives.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="mu-why-us-content">
-                            <div class="mu-why-us-margin">
-                                <div class="mu-why-us-oval">
-                                    <img src="http://localhost/themes/flatly/img/statistics-2050-a-8-d-68351-72-f-6-407-c-9-e-67-0187-e-3389397.png"
-                                         srcset="http://localhost/themes/flatly/img/statistics-2050-a-8-d-68351-72-f-6-407-c-9-e-67-0187-e-3389397@2x.png 2x,
+                            <div class="mu-why-us-oval">
+                                <img src="http://localhost/themes/flatly/img/statistics-2050-a-8-d-68351-72-f-6-407-c-9-e-67-0187-e-3389397.png"
+                                     srcset="http://localhost/themes/flatly/img/statistics-2050-a-8-d-68351-72-f-6-407-c-9-e-67-0187-e-3389397@2x.png 2x,
                                                         http://localhost/themes/flatly/img/statistics-2050-a-8-d-68351-72-f-6-407-c-9-e-67-0187-e-3389397@3x.png 3x"
-                                         alt="img">
-                                </div>
-                                <h3>Improve your online sales with E-commerce Reporting</h3>
-                                <p>Identify your best-selling products and most valuable promotions. For complex
-                                    transactions or simple one-click purchases, E-commerce Reporting helps you
-                                    understand why customers purchase and the types of purchases that they make. You can
-                                    trace transactions to campaigns and keywords, understand shoppers' on-site behaviour
-                                    and adjust your shopping basket to increase sales and win customer loyalty.</p>
+                                     alt="img">
                             </div>
+                            <h3>Improve your online sales with E-commerce Reporting</h3>
+                            <p>Identify your best-selling products and most valuable promotions. For complex
+                                transactions or simple one-click purchases, E-commerce Reporting helps you
+                                understand why customers purchase and the types of purchases that they make. You can
+                                trace transactions to campaigns and keywords, understand shoppers' on-site behaviour
+                                and adjust your shopping basket to increase sales and win customer loyalty.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="mu-why-us-content">
-                            <div class="mu-why-us-margin">
-                                <div class="mu-why-us-oval">
-                                    <img src="http://localhost/themes/flatly/img/layers-1687-367-f-10-c-0-4-e-39-42-b-3-9-e-55-c-9-f-9205-c-6175.png"
-                                         srcset="http://localhost/themes/flatly/img/layers-1687-367-f-10-c-0-4-e-39-42-b-3-9-e-55-c-9-f-9205-c-6175@2x.png 2x,
+                            <div class="mu-why-us-oval">
+                                <img src="http://localhost/themes/flatly/img/layers-1687-367-f-10-c-0-4-e-39-42-b-3-9-e-55-c-9-f-9205-c-6175.png"
+                                     srcset="http://localhost/themes/flatly/img/layers-1687-367-f-10-c-0-4-e-39-42-b-3-9-e-55-c-9-f-9205-c-6175@2x.png 2x,
                                                         http://localhost/themes/flatly/img/layers-1687-367-f-10-c-0-4-e-39-42-b-3-9-e-55-c-9-f-9205-c-6175@3x.png 3x"
-                                         alt="img">
-                                </div>
-                                <h3>See the complete picture of campaign performance with Multi-Channel Funnels</h3>
-                                <p>Don't limit your campaign measurement to the last click before a sale. With
-                                    Multi-Channel Funnels, you'll see the impact of all your digital marketing
-                                    activities, including search, display, social, affiliates, email and more. Learn
-                                    which channels introduce visitors to your products and which win sales, so that you
-                                    can better balance your marketing programmes.</p>
+                                     alt="img">
                             </div>
+                            <h3>See the complete picture of campaign performance with Multi-Channel Funnels</h3>
+                            <p>Don't limit your campaign measurement to the last click before a sale. With
+                                Multi-Channel Funnels, you'll see the impact of all your digital marketing
+                                activities, including search, display, social, affiliates, email and more. Learn
+                                which channels introduce visitors to your products and which win sales, so that you
+                                can better balance your marketing programmes.</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="mu-why-us-content">
-                            <div class="mu-why-us-margin">
-                                <div class="mu-why-us-oval">
-                                    <img src="http://localhost/themes/flatly/img/visible-1646-575-f-69-ae-f-2-dd-43-c-2-b-00-f-9-b-65-c-116-deef.png"
-                                         srcset="http://localhost/themes/flatly/img/visible-1646-575-f-69-ae-f-2-dd-43-c-2-b-00-f-9-b-65-c-116-deef@2x.png 2x,
+                            <div class="mu-why-us-oval">
+                                <img src="http://localhost/themes/flatly/img/visible-1646-575-f-69-ae-f-2-dd-43-c-2-b-00-f-9-b-65-c-116-deef.png"
+                                     srcset="http://localhost/themes/flatly/img/visible-1646-575-f-69-ae-f-2-dd-43-c-2-b-00-f-9-b-65-c-116-deef@2x.png 2x,
                                                         http://localhost/themes/flatly/img/visible-1646-575-f-69-ae-f-2-dd-43-c-2-b-00-f-9-b-65-c-116-deef@3x.png 3x"
-                                         alt="img">
-                                </div>
-                                <h3>Follow the different paths that visitors take on your site</h3>
-                                <p>See why visitors love your site... or why they don't. Using Google Analytics Flow
-                                    Visualisation and Goal Funnels, you can follow your visitors' conversion paths and
-                                    see where they enter, where they get stuck and where they leave. Discover strengths
-                                    and weaknesses in your site navigation, and learn which areas of your website and
-                                    your marketing programme need adjustment.</p>
+                                     alt="img">
                             </div>
+                            <h3>Follow the different paths that visitors take on your site</h3>
+                            <p>See why visitors love your site... or why they don't. Using Google Analytics Flow
+                                Visualisation and Goal Funnels, you can follow your visitors' conversion paths and
+                                see where they enter, where they get stuck and where they leave. Discover strengths
+                                and weaknesses in your site navigation, and learn which areas of your website and
+                                your marketing programme need adjustment.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="mu-why-us-content">
-                            <div class="mu-why-us-margin">
-                                <div class="mu-why-us-oval">
-                                    <img src="http://localhost/themes/flatly/img/business-report-2684-4-fa-7-fcfd-0-c-83-47-d-5-88-ca-8291-e-198-b-6-ed.png"
-                                         srcset="http://localhost/themes/flatly/img/business-report-2684-4-fa-7-fcfd-0-c-83-47-d-5-88-ca-8291-e-198-b-6-ed@2x.png 2x,
+                            <div class="mu-why-us-oval">
+                                <img src="http://localhost/themes/flatly/img/business-report-2684-4-fa-7-fcfd-0-c-83-47-d-5-88-ca-8291-e-198-b-6-ed.png"
+                                     srcset="http://localhost/themes/flatly/img/business-report-2684-4-fa-7-fcfd-0-c-83-47-d-5-88-ca-8291-e-198-b-6-ed@2x.png 2x,
                                                         http://localhost/themes/flatly/img/business-report-2684-4-fa-7-fcfd-0-c-83-47-d-5-88-ca-8291-e-198-b-6-ed@3x.png 3x"
-                                         alt="img">
-                                </div>
-                                <h3>Make better marketing decisions with Attribution Modelling</h3>
-                                <p>With Attribution Modelling, you can rapidly build and customise marketing attribution
-                                    models. Give credit to all of the digital marketing interactions that affected sales
-                                    or conversions. Gauge the impact of different channels, referral sources, campaigns
-                                    and keywords - so that you can improve your future marketing activities.</p>
+                                     alt="img">
                             </div>
+                            <h3>Make better marketing decisions with Attribution Modelling</h3>
+                            <p>With Attribution Modelling, you can rapidly build and customise marketing attribution
+                                models. Give credit to all of the digital marketing interactions that affected sales
+                                or conversions. Gauge the impact of different channels, referral sources, campaigns
+                                and keywords - so that you can improve your future marketing activities.</p>
                         </div>
                     </div>
                 </div>
@@ -583,81 +573,78 @@
     </section>
 </div>
 
-
 <!-- Start Footer -->
 <footer id="mu-footer">
     <!-- Start Contact section -->
-    <section id="mu-contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="mu-contact-area">
-                        <div class="mu-contact-content">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="mu-contact-left">
-                                        <div class="mu-title">
-                                            <h2>Ready to <span class="mu-subtitle">get started ?</span></h2>
-                                            <p>Get in touch, or email to<span
-                                                        class="email"> contact@leadsgen.com.</span></p>
-                                            <ul>
-                                                <li class="social-link"><i class="ion-social-facebook"
-                                                                           aria-hidden="true"></i></li>
-                                                <li class="social-link"><i class="ion-social-twitter"
-                                                                           aria-hidden="true"></i></li>
-                                                <li class="social-link"><i class="ion-social-instagram"
-                                                                           aria-hidden="true"></i></li>
-                                            </ul>
-                                            <p><i class="fa fa-copyright" aria-hidden="true"></i> LeadsGen.com</p>
-                                        </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="mu-contact-area">
+                    <div class="mu-contact-content">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mu-contact-left">
+                                    <div class="mu-title">
+                                        <h2>Ready to <span class="mu-subtitle">get started ?</span></h2>
+                                        <p>Get in touch, or email to<span
+                                                    class="email"> contact@leadsgen.com.</span></p>
+                                        <ul style="margin: 15px 0;">
+                                            <li class="social-link"><i class="ion-social-facebook"
+                                                                       aria-hidden="true"></i></li>
+                                            <li class="social-link"><i class="ion-social-twitter"
+                                                                       aria-hidden="true"></i></li>
+                                            <li class="social-link"><i class="ion-social-instagram"
+                                                                       aria-hidden="true"></i></li>
+                                        </ul>
+                                        <p style="font-size: 14px; color: #9ba9bb;"><i class="fa fa-copyright" aria-hidden="true"></i> LeadsGen.com</p>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="mu-contact-right">
-                                        <!-- Email message div -->
-                                        <div id="form-messages"></div>
-                                        <!-- Start contact form -->
-                                        <form id="ajax-contact" method="post" action="mailer.php"
-                                              class="mu-contact-form">
-                                            <div class="form-group">
-                                                <label for="name">Your name <span>*</span></label>
-                                                <input type="text" class="form-control" id="name" name="name"
-                                                       placeholder="Your name" required>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <label for="email">Your email address <span>*</span></label>
-                                                        <input type="email" class="form-control" id="email"
-                                                               name="email"
-                                                               placeholder="Your email address" required>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <label for="phone">Mobile phone</label>
-                                                        <input type="text" class="form-control" id="phone"
-                                                               name="phone"
-                                                               placeholder="Mobile phone">
-                                                    </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mu-contact-right">
+                                    <!-- Email message div -->
+                                    <div id="form-messages"></div>
+                                    <!-- Start contact form -->
+                                    <form id="ajax-contact" method="post" action="mailer.php"
+                                          class="mu-contact-form">
+                                        <div class="form-group">
+                                            <label for="name">Your name <span>*</span></label>
+                                            <input type="text" class="form-control" id="name" name="name"
+                                                   placeholder="Your name" required>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="email">Your email address <span>*</span></label>
+                                                    <input type="email" class="form-control" id="email"
+                                                           name="email"
+                                                           placeholder="Your email address" required>
                                                 </div>
                                             </div>
-                                            <div class="form-group">
-                                                <label for="subject">In a few words, tell us what your enquiry is
-                                                    about
-                                                    <span>*</span></label>
-                                                <input type="text" class="form-control" id="subject" name="subject"
-                                                       placeholder="..." required>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="phone">Mobile phone</label>
+                                                    <input type="text" class="form-control" id="phone"
+                                                           name="phone"
+                                                           placeholder="Mobile phone">
+                                                </div>
                                             </div>
-                                            <div class="form-group">
-                                                <label for="message">Provide a detailed description
-                                                    <span>*</span></label>
-                                                <textarea class="form-control" id="message" name="message" cols="30"
-                                                          rows="5" placeholder="..." required></textarea>
-                                            </div>
-                                            <button type="submit" class="mu-send-btn">Send</button>
-                                        </form>
-                                    </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="subject">In a few words, tell us what your enquiry is
+                                                about
+                                                <span>*</span></label>
+                                            <input type="text" class="form-control" id="subject" name="subject"
+                                                   placeholder="..." required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="message">Provide a detailed description
+                                                <span>*</span></label>
+                                            <textarea class="form-control" id="message" name="message" cols="30"
+                                                      rows="5" placeholder="..." required></textarea>
+                                        </div>
+                                        <button type="submit" class="mu-send-btn">Send</button>
+                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -665,7 +652,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 </footer>
 <!-- End Footer -->
 
