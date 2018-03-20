@@ -229,7 +229,7 @@ img {
 .slogan {
     font-family: "Poppins", serif;
     font-size: 16px;
-    color: #cfcfcf!important;
+    color: #cfcfcf !important;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -261,6 +261,49 @@ img {
 
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
     margin-left: 0;
+}
+
+.out-menu {
+    width: 45px;
+    display: inline-block;
+    height: 33px;
+    position: relative;
+    float: right;
+    margin: 0px 30px;
+}
+
+.out-menu span {
+    font-size: 16px;;
+    color: #fa9918;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+}
+
+.out-menu select {
+    width: 100%;
+    border: none;
+    background: #fafafc url('https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_keyboard_arrow_down_48px-128.png') no-repeat;
+    background-size: 16px;
+    background-position: right 10px center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-size: 14px;
+    position: absolute;
+    bottom: -4px;
+    outline: none;
+    margin-left: 15px;
+}
+
+.social-top {
+    position: absolute;
+    position: absolute;
+    right: -60px;
+    bottom: -4px;
+}
+
+.out-menu .social-top ul li {
+    display: inline;
 }
 
 /*scrol to top*/

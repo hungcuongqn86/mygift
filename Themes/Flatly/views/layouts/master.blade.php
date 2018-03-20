@@ -60,9 +60,25 @@
                 <!--  Image based logo  -->
                 <a class="navbar-brand" href="#"><img src="{{ Theme::url('img/logo.png') }}" alt="Logo img">
                     <span style="margin: 0 15px;">LeadsGen</span><span
-                            style="font-size: 16px;;color: #cfcfcf">|</span><span class="slogan">Generate Leads for you</span></a>
+                            style="font-size: 16px;;color: #cfcfcf">|</span><span
+                            class="slogan">Generate Leads for you</span></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
+                <div class="out-menu">
+                    <span>|</span>
+                    <select name="" id="sllang">
+                        <option value="EN">EN</option>
+                        <option value="VN">VN</option>
+                    </select>
+                    <div class="social-top">
+                        <ul>
+                            <li class="social-link" style="margin-right: 15px"><a><i class="ion-social-facebook"
+                                                                                     aria-hidden="true"></i></a></li>
+                            <li class="social-link"><a><i class="ion-social-twitter"
+                                                          aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
                 <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
                     <li><a href="#">Home</a></li>
                     <li><a href="#mu-about-us">Who we are</a></li>
