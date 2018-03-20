@@ -735,15 +735,33 @@ img {
 ====================*/
 
 #mu-footer {
-    background-attachment: fixed;
     background-image: url("../img/top-background.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     display: inline;
     float: left;
     width: 100%;
     margin-bottom: 150px;
+}
+
+.brand {
+    padding: 20px;
+    background-color: #fafafc;
+}
+
+.brand ul {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.brand ul li {
+    display: inline-block;
+    max-width: 160px;
+    margin: 20px;
+    font-size: 28px;
+    color: #9ba9bb;
 }
 
 /*==================

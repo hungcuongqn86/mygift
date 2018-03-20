@@ -578,6 +578,25 @@
     <!-- Start Contact section -->
     <div class="container">
         <div class="row">
+            <div class="col-md-12 brand">
+                <ul>
+                    <li>
+                        <img style="max-height: 20px;" src="http://localhost/themes/flatly/img/brand/kickstarter.png"
+                             alt="img"></li>
+                    <li><i class="ion-social-twitter" aria-hidden="true"></i></li>
+                    <li><img style="max-height: 28px;" src="http://localhost/themes/flatly/img/brand/instacart.png"
+                             alt="img"></li>
+                    <li><i class="ion-social-pinterest" aria-hidden="true"></i></li>
+                    <li><img style="max-height: 28px;" src="http://localhost/themes/flatly/img/brand/lya.png"
+                             alt="img"></li>
+                    <li><img style="max-height: 30px;" src="http://localhost/themes/flatly/img/brand/shopify.png"
+                             alt="img"></li>
+                    <li><img style="max-height: 30px;" src="http://localhost/themes/flatly/img/brand/opentable.png"
+                             alt="img"></li>
+                    <li><img style="max-height: 30px;" src="http://localhost/themes/flatly/img/brand/slack.png"
+                             alt="img"></li>
+                </ul>
+            </div>
             <div class="col-md-12">
                 <div class="mu-contact-area">
                     <div class="mu-contact-content">
@@ -588,7 +607,7 @@
                                         <h2>Ready to <span class="mu-subtitle">get started ?</span></h2>
                                         <p>Get in touch, or email to<span
                                                     class="email"> contact@leadsgen.com.</span></p>
-                                        <ul style="margin: 15px 0;">
+                                        <ul style="margin: 24px 0;">
                                             <li class="social-link"><i class="ion-social-facebook"
                                                                        aria-hidden="true"></i></li>
                                             <li class="social-link"><i class="ion-social-twitter"
@@ -596,7 +615,9 @@
                                             <li class="social-link"><i class="ion-social-instagram"
                                                                        aria-hidden="true"></i></li>
                                         </ul>
-                                        <p style="font-size: 14px; color: #9ba9bb;"><i class="fa fa-copyright" aria-hidden="true"></i> LeadsGen.com</p>
+                                        <p style="font-size: 14px; color: #9ba9bb;"><i class="fa fa-copyright"
+                                                                                       aria-hidden="true"></i>
+                                            LeadsGen.com</p>
                                     </div>
                                 </div>
                             </div>
