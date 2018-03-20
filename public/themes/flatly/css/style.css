@@ -607,6 +607,42 @@ img {
 }
 
 /*==================
+ Leads Solutions
+====================*/
+.mu-leads-solutions-left {
+    font-family: "Poppins", serif;
+    text-align: right;
+    margin: 80px 0;
+}
+
+.mu-leads-solutions-left h3, .how-we-collecting-leads-left h3, .how-we-track-leads h3 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #cfcfcf;
+    line-height: normal;
+}
+
+.mu-leads-solutions-left p , .how-we-collecting-leads-left p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #b76ac4;
+    margin-top: 24px;
+}
+
+.mu-leads-solutions-right {
+    margin: 100px 0;
+    font-family: "SourceSansPro", sans-serif;
+    font-size: 14px;
+    text-align: left;
+    color: #6b7c93;
+}
+
+.how-we-collecting-leads, .how-we-track-leads {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+/*==================
  CONTACT SECTION
 ====================*/
 .mu-contact-area {

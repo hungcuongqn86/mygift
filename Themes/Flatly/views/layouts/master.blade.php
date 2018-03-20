@@ -431,15 +431,18 @@
                 <div class="row">
                     <div class="col-md-5">
                         <div class="how-we-make">
-                            <h4>You can collect the data by yourself as our team does. <span class="sub">But why us?</span>
+                            <h4>You can collect the data by yourself as our team does. <span
+                                        class="sub">But why us?</span>
                             </h4>
                             <ul>
                                 <li>Our expertise and experience assuring the data is precise.</li>
                                 <li>Our experience with our large customer database make us strong in</li>
                                 <li>Implementation process. Whatever your website model, we can make it done.</li>
-                                <li>Statistic is important, but analysis is a lots more: Each number has its own meaning.
+                                <li>Statistic is important, but analysis is a lots more: Each number has its own
+                                    meaning.
                                 </li>
-                                <li>We compile the report with full of numbers to a friendly and easy reading report.</li>
+                                <li>We compile the report with full of numbers to a friendly and easy reading report.
+                                </li>
                                 <li>You will completely understand what the numbers are telling you.</li>
                             </ul>
                         </div>
@@ -549,26 +552,96 @@
         <section class="tab-pane fade" id="leads-solutions">
             <div class="container">
                 <div class="row">
-
-                    <div class="col-md-6">
-                        <div class="mu-tab-content-left">
-                            <p>What is leads generation and why it matters?</p>
-                            <p>Leads generation is a series of work, including advertising,
-                                optimizing, tracking, reporting until a leads is captured.</p>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5 col-xs-12 mu-leads-solutions-left">
+                        <h3>What is leads generation <br> and why it matters?</h3>
+                        <p>Leads generation is a series of work, including advertising,
+                            optimizing, tracking, reporting until a leads is captured.</p>
+                    </div>
+                    <div class="col-md-5 col-xs-12 mu-leads-solutions-right">
+                        <p style="margin: 15px;">In comparison with native online advertising, leads generation
+                            is
+                            differ mainly in the result. Leads generation help you to reach the
+                            last stage of the cycle (conversion) while online advertising help
+                            you reach the first step of the cycle (clicks). It means with leads
+                            generation, you will be able to minimize the risk of ineffective
+                            campaign.</p>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12"><img class="mu-who-we-are-bg"
+                                                src="http://localhost/themes/flatly/img/expland.png"
+                                                srcset="http://localhost/themes/flatly/img/expland@2x.png 2x,
+                                                        http://localhost/themes/flatly/img/expland@3x.png 3x"
+                                                alt="img"></div>
+                </div>
+            </div>
+            <div class="container how-we-collecting-leads">
+                <div class="row">
+                    <div class="col-md-5 how-we-collecting-leads-left">
+                        <h3>How we collecting leads?</h3>
+                        <p>Leads generation is a series of work, including advertising, optimizing, tracking, reporting
+                            until a leads is captured.</p>
+                        <div class="row">
+                            <div class="col-md-6">
+                                People visit your landing page then finish a conversion here.
+                            </div>
+                            <div class="col-md-6">
+                                We put your product, services onto our networks
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                LeadsGen platform captures the conversion and you pay for conversions you get. We go
+                                with you through the last step of selling process.
+                            </div>
+                            <div class="col-md-6">
+                                We build our own inventory, connect publishers and other adnetworks to build up multiple
+                                audiences network.
+                            </div>
                         </div>
                     </div>
-
-                    <div class="col-md-6">
-                        <div class="mu-tab-content-right">
-                            <p>In comparison with native online advertising, leads generation is
-                                differ mainly in the result. Leads generation help you to reach the
-                                last stage of the cycle (conversion) while online advertising help
-                                you reach the first step of the cycle (clicks). It means with leads
-                                generation, you will be able to minimize the risk of ineffective
-                                campaign.</p>
-                        </div>
+                    <div class="col-md-7">
+                        <img class="mu-who-we-are-bg"
+                             src="http://localhost/themes/flatly/img/flow1.png"
+                             alt="img">
                     </div>
+                </div>
+            </div>
 
+            <div class="container how-we-track-leads">
+                <div class="row">
+                    <div class="col-md-12 col-xs-12 text-center">
+                        <h3>How we track leads?</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <h4>Web-base conversion</h4>
+                        <p>Just add our conversion tag onto your converted page and then our system will do the rest. It
+                            shows you how many conversion have been made, where it came from and how much revenue you
+                            get from it.</p>
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <h4>Mobile application base conversion</h4>
+                        <p>With Mobile Application and games, we can connect with almost mobile tracking tool to get the
+                            installation data and show up for you on the reports.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <img class="mu-who-we-are-bg"
+                             src="http://localhost/themes/flatly/img/flow2.png"
+                             alt="img">
+                    </div>
+                    <div class="col-md-6 col-xs-12">
+                        <img class="mu-who-we-are-bg"
+                             src="http://localhost/themes/flatly/img/flow3.png"
+                             alt="img">
+                    </div>
                 </div>
             </div>
         </section>
