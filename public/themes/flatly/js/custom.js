@@ -142,6 +142,12 @@ jQuery(function ($) {
         var top_bar = document.getElementById("mu-why-us-menu");
         $(top_bar).parent().css('position', 'unset');
         $(top_bar).parent().css('z-index', -1);
+    }).on('sticky_kit:bottom', function (e) {
+        console.log(111);
+    }).on('sticky_kit:unbottom', function (e) {
+        var top_bar = document.getElementById("mu-why-us-menu");
+        $(top_bar).parent().parent().css('position', 'unset');
+        $(top_bar).parent().parent().css('z-index', -1);
     });
 });
 
