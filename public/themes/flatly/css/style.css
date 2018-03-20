@@ -493,9 +493,6 @@ img {
 
 #mu-why-us-menu ul.nav-tabs li .mu-why-us-oval {
     background-color: #fafafc;
-    background-image: url("../img/luxury-3119-735-cd-163-c-36-b-4-df-9-86-eb-5-cb-937-c-327-a-9.png");
-    background-repeat: no-repeat;
-    background-position: center;
     display: inline-block;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -506,6 +503,27 @@ img {
 
 #mu-why-us-menu ul.nav-tabs li.active .mu-why-us-oval {
     background-color: #b9f4bc;
+}
+
+#mu-why-us-menu ul.nav-tabs li .oval-optimizer {
+    background-image: url("../img/optimizer1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#mu-why-us-menu ul.nav-tabs li.active .oval-optimizer {
+    background-image: url("../img/optimizer.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#mu-why-us-menu ul.nav-tabs li .oval-solutions {
+    background-image: url("../img/luxury-3119-735-cd-163-c-36-b-4-df-9-86-eb-5-cb-937-c-327-a-9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#mu-why-us-menu ul.nav-tabs li.active .oval-solutions {
     background-image: url("../img/luxury-ac-3119-735-cd-163-c-36-b-4-df-9-86-eb-5-cb-937-c-327-a-9.png");
     background-repeat: no-repeat;
     background-position: center;

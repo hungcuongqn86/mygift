@@ -320,11 +320,11 @@
             <div class="container">
                 <ul class="nav nav-tabs">
                     <li class="col-md-6 active">
-                        <div class="mu-why-us-oval"><a></a></div>
+                        <div class="mu-why-us-oval oval-optimizer"><a></a></div>
                         <a href="#we-optimizer" data-toggle="tab">We optimizer</a>
                     </li>
                     <li class="col-md-6">
-                        <div class="mu-why-us-oval"><a></a></div>
+                        <div class="mu-why-us-oval oval-solutions"><a></a></div>
                         <a id="solutions-flag" href="#leads-solutions" data-toggle="tab">Leads solutions</a>
                     </li>
                 </ul>
