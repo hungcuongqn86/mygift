@@ -54,6 +54,18 @@ jQuery(function ($) {
         e.preventDefault();
     });
 
+    // Bind click handler to menu items
+    // so we can get a fancy scroll animation
+    $('#link-to-contact').click(function (e) {
+        var href = $(this).attr("href"),
+            offsetTop = href === "#" ? 0 : $(href).offset().top - topMenuHeight + 32;
+        jQuery('html, body').stop().animate({
+            scrollTop: offsetTop
+        }, 1500);
+        jQuery('.navbar-collapse').removeClass('in');
+        e.preventDefault();
+    });
+
     // Bind to scroll
     jQuery(window).scroll(function () {
         // Get container scroll position
@@ -126,6 +138,10 @@ jQuery(function ($) {
     });
 
     // sticky
-    $("#mu-why-us-menu").stick_in_parent();
+    $("#mu-why-us-menu").stick_in_parent().on("sticky_kit:unstick", function (e) {
+        var top_bar = document.getElementById("mu-why-us-menu");
+        $(top_bar).parent().css('position', 'relative');
+        $(top_bar).parent().css('z-index', -1);
+    });
 });
 

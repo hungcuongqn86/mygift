@@ -81,11 +81,11 @@
                 </div>
                 <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#mu-about-us">Who we are</a></li>
-                    <li><a href="#mu-restaurant-menu">What we do</a></li>
-                    <li><a href="#mu-reservation">How we do </a></li>
-                    <li><a href="#mu-gallery">Why us</a></li>
-                    <li><a href="#mu-chef">Solution</a></li>
+                    <li><a href="#mu-who-we-are">Who we are</a></li>
+                    <li><a href="#mu-what-we-do">What we do</a></li>
+                    <li><a href="#mu-about-us">How we do </a></li>
+                    <li><a href="#mu-why-us">Why us</a></li>
+                    <li><a href="#mu-why-us-menu">Solution</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
@@ -111,6 +111,8 @@
     </div>
     <img class="img-holder" src="http://localhost/themes/flatly/img/base2.png" alt="img">
     <img class="img-holder" src="http://localhost/themes/flatly/img/img-holder.png" alt="img">
+</section>
+<section id="mu-what-we-do">
     <div class="container">
         <div class="row mu-who-we-are-body">
             <div class="col-md-5">
@@ -130,7 +132,7 @@
                 <p>We know our client's need is leads generating and conversion, thus our team are working hard for
                     highly
                     converted campaigns, collecting leads and help their businesses run smoothly.</p>
-                <p class="text-right"><a class="contact-us">Contact us <span class="icon-arrow-right2"></span></a></p>
+                <p class="text-right"><a id="link-to-contact" href="#mu-contact-area" class="contact-us">Contact us <span class="icon-arrow-right2"></span></a></p>
             </div>
         </div>
     </div>
@@ -694,7 +696,7 @@
                 </ul>
             </div>
             <div class="col-md-12">
-                <div class="mu-contact-area">
+                <div id="mu-contact-area" class="mu-contact-area">
                     <div class="mu-contact-content">
                         <div class="row">
                             <div class="col-md-6">

@@ -256,6 +256,18 @@ img {
     position: relative;
 }
 
+#mu-what-we-do {
+    background-attachment: fixed;
+    background-image: url("../img/top-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: inline;
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
 .mu-who-we-are-body {
     display: inline-flex;
     float: left;
@@ -637,7 +649,7 @@ img {
     color: #6b7c93;
 }
 
-.how-we-collecting-leads, .how-we-track-leads {
+.how-we-collecting-leads {
     margin-top: 80px;
     margin-bottom: 40px;
 }
@@ -655,10 +667,18 @@ img {
     font-size: 18px;
 }
 
+.how-we-track-leads {
+    margin-bottom: 40px;
+}
+
 .how-we-collecting-leads-left .content, .how-we-track-leads .content p {
     font-family: "SourceSansPro", sans-serif;
     font-size: 14px;
     color: #6b7c93;
+}
+
+.how-we-track-leads h3 {
+    margin-bottom: 40px;
 }
 
 .how-we-track-leads .col-left {
