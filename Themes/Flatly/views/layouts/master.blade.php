@@ -59,12 +59,12 @@
                 <!-- LOGO -->
                 <!--  Image based logo  -->
                 <a class="navbar-brand" href="#"><img src="{{ Theme::url('img/logo.png') }}" alt="Logo img">
-                    <span style="margin: 0 15px;">LeadsGen</span><span
+                    <span style="margin: 0 15px;">LeadsGen</span><span class="hidden-xs"
                             style="font-size: 16px;;color: #cfcfcf">|</span><span
-                            class="slogan">Generate Leads for you</span></a>
+                            class="slogan hidden-xs">Generate Leads for you</span></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
-                <div class="out-menu">
+                <div class="out-menu hidden-xs">
                     <span>|</span>
                     <select name="" id="sllang">
                         <option value="EN">EN</option>
@@ -96,10 +96,10 @@
 <section id="mu-who-we-are">
     <div class="container">
         <div class="row mu-who-we-are-body">
-            <div class="col-md-6 mu-who-we-are-left">
+            <div class="col-md-6 col-xs-12 mu-who-we-are-left">
                 <h1 class="mu-who-we-are-title">Hello, we’re LeadsGen - generate leads for you </h1>
             </div>
-            <div class="col-md-6 mu-who-we-are-right">
+            <div class="col-md-6 col-xs-12 mu-who-we-are-right">
                 <img class="mu-who-we-are-bg" src="http://localhost/themes/flatly/img/base.png" alt="img">
                 <div class="mu-who-we-are-right-ins"><img class="mu-who-we-are-bg"
                                                           src="http://localhost/themes/flatly/img/img-holder-right.png"
