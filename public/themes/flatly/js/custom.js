@@ -140,7 +140,7 @@ jQuery(function ($) {
     // sticky
     $("#mu-why-us-menu").stick_in_parent().on("sticky_kit:unstick", function (e) {
         var top_bar = document.getElementById("mu-why-us-menu");
-        $(top_bar).parent().css('position', 'relative');
+        $(top_bar).parent().css('position', 'unset');
         $(top_bar).parent().css('z-index', -1);
     });
 });

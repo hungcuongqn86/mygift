@@ -347,6 +347,7 @@ img {
     font-stretch: normal;
     line-height: normal;
     letter-spacing: 0.2px;
+    z-index: 9999;
 }
 
 /*==================
