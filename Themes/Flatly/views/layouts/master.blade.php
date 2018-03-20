@@ -586,19 +586,23 @@
                         <p>Leads generation is a series of work, including advertising, optimizing, tracking, reporting
                             until a leads is captured.</p>
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-6 content">
+                                <span class="ion-ios-checkmark"></span>
                                 People visit your landing page then finish a conversion here.
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 content">
+                                <span class="ion-ios-checkmark"></span>
                                 We put your product, services onto our networks
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-6 content">
+                                <span class="ion-ios-checkmark"></span>
                                 LeadsGen platform captures the conversion and you pay for conversions you get. We go
                                 with you through the last step of selling process.
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 content">
+                                <span class="ion-ios-checkmark"></span>
                                 We build our own inventory, connect publishers and other adnetworks to build up multiple
                                 audiences network.
                             </div>
@@ -620,27 +624,40 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-xs-12">
-                        <h4>Web-base conversion</h4>
-                        <p>Just add our conversion tag onto your converted page and then our system will do the rest. It
-                            shows you how many conversion have been made, where it came from and how much revenue you
-                            get from it.</p>
+                        <div class="row">
+                            <div class="col-md-12 col-xs-12">
+                                <h4>Web-base conversion</h4>
+                                <p>Just add our conversion tag onto your converted page and then our system will do the
+                                    rest. It
+                                    shows you how many conversion have been made, where it came from and how much
+                                    revenue you
+                                    get from it.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-xs-12">
+                                <img class="mu-who-we-are-bg"
+                                     src="http://localhost/themes/flatly/img/flow2.png"
+                                     alt="img">
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-6 col-xs-12">
-                        <h4>Mobile application base conversion</h4>
-                        <p>With Mobile Application and games, we can connect with almost mobile tracking tool to get the
-                            installation data and show up for you on the reports.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-xs-12">
-                        <img class="mu-who-we-are-bg"
-                             src="http://localhost/themes/flatly/img/flow2.png"
-                             alt="img">
-                    </div>
-                    <div class="col-md-6 col-xs-12">
-                        <img class="mu-who-we-are-bg"
-                             src="http://localhost/themes/flatly/img/flow3.png"
-                             alt="img">
+                        <div class="row">
+                            <div class="col-md-12 col-xs-12">
+                                <h4>Mobile application base conversion</h4>
+                                <p>With Mobile Application and games, we can connect with almost mobile tracking tool to
+                                    get the
+                                    installation data and show up for you on the reports.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-xs-12">
+                                <img class="mu-who-we-are-bg"
+                                     src="http://localhost/themes/flatly/img/flow3.png"
+                                     alt="img">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

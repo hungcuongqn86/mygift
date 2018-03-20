@@ -622,7 +622,7 @@ img {
     line-height: normal;
 }
 
-.mu-leads-solutions-left p , .how-we-collecting-leads-left p{
+.mu-leads-solutions-left p, .how-we-collecting-leads-left p {
     font-size: 18px;
     font-weight: 500;
     color: #b76ac4;
@@ -640,6 +640,25 @@ img {
 .how-we-collecting-leads, .how-we-track-leads {
     margin-top: 80px;
     margin-bottom: 40px;
+}
+
+.how-we-collecting-leads-left .content {
+    position: relative;
+    padding: 24px 0 24px 40px;
+}
+
+.how-we-collecting-leads-left .content span {
+    position: absolute;
+    left: 15px;
+    top: 24px;
+    color: #b76ac4;
+    font-size: 18px;
+}
+
+.how-we-collecting-leads-left .content {
+    font-family: "SourceSansPro", sans-serif;
+    font-size: 14px;
+    color: #6b7c93;
 }
 
 /*==================
@@ -779,7 +798,7 @@ img {
     display: inline;
     float: left;
     width: 100%;
-    margin-bottom: 150px;
+    margin-bottom: 80px;
 }
 
 .brand {
