@@ -85,7 +85,7 @@
                     <li><a href="#mu-what-we-do">What we do</a></li>
                     <li><a href="#mu-about-us">How we do </a></li>
                     <li><a href="#mu-why-us">Why us</a></li>
-                    <li><a href="#mu-why-us-menu">Solution</a></li>
+                    <li><a href="#solutions-flag">Solution</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
         </div>
@@ -325,7 +325,7 @@
                     </li>
                     <li class="col-md-6">
                         <div class="mu-why-us-oval"><a></a></div>
-                        <a href="#leads-solutions" data-toggle="tab">Leads solutions</a>
+                        <a id="solutions-flag" href="#leads-solutions" data-toggle="tab">Leads solutions</a>
                     </li>
                 </ul>
             </div>
