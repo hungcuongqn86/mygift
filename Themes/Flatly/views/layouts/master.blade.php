@@ -109,20 +109,20 @@
             </div>
         </div>
     </div>
-    <img class="img-holder" src="http://localhost/themes/flatly/img/base2.png" alt="img">
-    <img class="img-holder" src="http://localhost/themes/flatly/img/img-holder.png" alt="img">
 </section>
 <section id="mu-what-we-do">
+    <img class="img-holder hidden-xs" src="http://localhost/themes/flatly/img/base2.png" alt="img">
+    <img class="img-holder hidden-xs" src="http://localhost/themes/flatly/img/img-holder.png" alt="img">
     <div class="container">
         <div class="row mu-who-we-are-body">
-            <div class="col-md-5">
+            <div class="col-md-5 hidden-xs">
                 <div class="mu-who-we-are-body">
                     <div class="quotes">
                         <span class="icon-quotes-left"></span>
                     </div>
                 </div>
             </div>
-            <div class="col-md-7 mu-who-we-are-right">
+            <div class="col-md-7 col-xs-12 mu-who-we-are-right">
                 <p class="since">- Since 2009</p>
                 <p>Established from an expert group since 2009, LeadsGen Ltd,. was founded in 2013. Our mission is to
                     help
@@ -319,11 +319,11 @@
         <div id="nav-tabs">
             <div class="container">
                 <ul class="nav nav-tabs">
-                    <li class="col-md-6 active">
+                    <li class="col-md-6 col-xs-6 active">
                         <div class="mu-why-us-oval oval-optimizer"><a></a></div>
                         <a href="#we-optimizer" data-toggle="tab">We optimizer</a>
                     </li>
-                    <li class="col-md-6">
+                    <li class="col-md-6 col-xs-6">
                         <div class="mu-why-us-oval oval-solutions"><a></a></div>
                         <a id="solutions-flag" href="#leads-solutions" data-toggle="tab">Leads solutions</a>
                     </li>

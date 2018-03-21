@@ -951,14 +951,72 @@ img {
 @media (max-width: 480px) {
     .mu-who-we-are-body {
         display: inline-block;
+        margin: 0;
     }
 
     .mu-who-we-are-left {
         text-align: center;
     }
 
+    .mu-who-we-are-title {
+        font-size: 28px;
+    }
+
     .mu-title {
         margin-bottom: 0;
+    }
+
+    .mu-title h2 {
+        font-size: 24px;
+    }
+
+    #mu-what-we-do {
+        padding-bottom: 0;
+    }
+
+    #mu-about-us {
+        padding-bottom: 32px;
+    }
+
+    .mu-why-us-margin {
+        margin: 0;
+    }
+
+    #mu-why-us {
+        background-image: none;
+    }
+
+    #mu-why-us-menu ul.nav-tabs li:first-child {
+        border-right: none;
+    }
+
+    #mu-why-us-menu ul.nav-tabs li a {
+        font-size: 18px;
+    }
+
+    .we-optimizer-left h3, .how-we-make-header h3, .how-we-make-header h3, .how-we-track-leads h3, .mu-leads-solutions-left h3, .how-we-collecting-leads-left h3, .how-we-track-leads h3 {
+        font-size: 22px;
+    }
+
+    .mu-leads-solutions-left {
+        text-align: left;
+        margin: 30px 0;
+    }
+
+    .mu-leads-solutions-right {
+        margin: 0;
+    }
+
+    .how-we-collecting-leads{
+        margin-top: 25px;
+    }
+
+    .how-we-track-leads .left {
+        margin-right: 0;
+    }
+
+    .how-we-track-leads .right {
+        margin-left: 0;
     }
 }
 
