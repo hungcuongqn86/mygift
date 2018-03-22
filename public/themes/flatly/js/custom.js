@@ -179,7 +179,7 @@ jQuery(function ($) {
     buildNodeCircle(flow2, 420, 250, 'http://localhost/themes/flatly/img/flow-svg/loading-2047-a-922-b-363-7-ef-8-4304-b-094-8-c-2-b-866-db-2-c-8.png');
     buildNodeCircle(flow2, 30, 250, 'http://localhost/themes/flatly/img/flow-svg/pay-2643-1-e-03-b-0-d-5-88-ed-4-aad-9-d-6-c-e-7-dc-14-a-9-c-1-aa.png');
     var font = {
-        family: 'SourceSansPro'
+        family: 'Source Sans Pro'
         , size: 16
         , anchor: 'middle'
     };
@@ -188,6 +188,10 @@ jQuery(function ($) {
     flow2.text("(Tracking code installed\non converted page)").fill('#6b7c93').move(350, 120).font(font).font({style: 'italic'});
     flow2.text("You pay per your\nconversions").fill('#6b7c93').move(70, 330).font(font);
     flow2.text("Conversion captured and\nsent to LeadsGen platform,\nshow on the reports").fill('#6b7c93').move(450, 330).font(font);
-
+    flow2.text("DATA ENCRYPTED").fill('#cfcfcf').move(80, -500).font({
+        family: 'Poppins',
+        size: 16,
+        weight: 'bold'
+    }).transform({rotation: 90, relative: true});
 });
 

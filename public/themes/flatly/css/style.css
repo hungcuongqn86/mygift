@@ -300,8 +300,8 @@ img {
 }
 
 .mu-who-we-are-right p {
-    font-family: "SourceSansPro", sans-serif;
-    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -310,8 +310,8 @@ img {
 }
 
 .mu-who-we-are-right .since {
-    font-family: "SourceSansPro", sans-serif;
-    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
     font-weight: 600;
     font-style: italic;
     font-stretch: normal;
@@ -392,8 +392,8 @@ img {
 }
 
 .mu-about-us-content p, .mu-why-us-content p {
-    font-family: "SourceSansPro", sans-serif;
-    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
     font-weight: normal;
     font-style: normal;
     line-height: 1.63;
@@ -455,6 +455,7 @@ img {
     padding: 0;
     width: 100%;
     min-height: 260px;
+    padding-bottom: 40px;
 }
 
 .mu-why-us-margin {
@@ -567,8 +568,8 @@ img {
 
 .we-optimizer-left p {
     margin-top: 24px;
-    font-family: "SourceSansPro", sans-serif;
-    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
     color: #6b7c93;
 }
 
@@ -585,11 +586,13 @@ img {
 }
 
 .we-optimizer-right ul, .how-we-make ul {
-    font-family: "SourceSansPro", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
     list-style: disc;
     margin-left: 30px;
     color: #6b7c93;
-    line-height: 2.5;
+    line-height: 1.63;
+    letter-spacing: 0.4px;
 }
 
 #how-we-make {
@@ -601,6 +604,8 @@ img {
     font-weight: bold;
     letter-spacing: 1.7px;
     text-transform: uppercase;
+    line-height: normal;
+    letter-spacing: 1.7px;
 }
 
 .how-we-make h4 .sub {
@@ -634,8 +639,8 @@ img {
 
 .how-we-make-header p {
     margin-top: 24px;
-    font-family: "SourceSansPro", sans-serif;
-    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 17px;
     color: #6b7c93;
 }
 
@@ -664,8 +669,8 @@ img {
 
 .mu-leads-solutions-right {
     margin: 100px 0;
-    font-family: "SourceSansPro", sans-serif;
-    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
     text-align: left;
     color: #6b7c93;
 }
@@ -693,8 +698,8 @@ img {
 }
 
 .how-we-collecting-leads-left .content, .how-we-track-leads .content p {
-    font-family: "SourceSansPro", sans-serif;
-    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 16px;
     color: #6b7c93;
 }
 
@@ -818,7 +823,7 @@ img {
 }
 
 .mu-contact-right {
-    font-family: "SourceSansPro", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-size: 16px;
     display: inline;
     float: left;

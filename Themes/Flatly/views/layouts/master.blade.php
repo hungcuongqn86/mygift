@@ -68,7 +68,7 @@
                     <span>|</span>
                     <select name="" id="sllang">
                         <option value="EN">EN</option>
-                        <option value="VN">VN</option>
+                        <option value="ZH">ZH</option>
                     </select>
                     <div class="social-top">
                         <ul>
@@ -423,13 +423,15 @@
             <hr style="box-shadow: inset 0 1px 0 0 #eef1f7, inset 0 -1px 0 0 #eef1f7;">
             <div class="container" id="how-we-make">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
                         <div class="how-we-make-header">
                             <h3>How we make it?</h3>
                             <p>We use Google Analytics and other analysis software (if needed - Such as Adobe
                                 catalyst) to investigate your website. Below are our working process:</p>
                         </div>
                     </div>
+                    <div class="col-md-2"></div>
                 </div>
                 <div class="row">
                     <div class="col-md-5">
