@@ -644,7 +644,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 col-xs-12">
-                                <div id="flow2" style="width: 555px;height: 403px;"></div>
+                                <div id="flow2"></div>
                             </div>
                         </div>
                     </div>

@@ -193,5 +193,6 @@ jQuery(function ($) {
         size: 16,
         weight: 'bold'
     }).transform({rotation: 90, relative: true});
+    flow2.viewbox({ x: 0, y: 0, width: 554, height: 403 })
 });
 
