@@ -60,7 +60,7 @@
                 <!--  Image based logo  -->
                 <a class="navbar-brand" href="#"><img src="{{ Theme::url('img/logo.png') }}" alt="Logo img">
                     <span style="margin: 0 15px;">LeadsGen</span><span class="hidden-xs"
-                            style="font-size: 16px;;color: #cfcfcf">|</span><span
+                                                                       style="font-size: 16px;;color: #cfcfcf">|</span><span
                             class="slogan hidden-xs">Generate Leads for you</span></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
@@ -132,7 +132,8 @@
                 <p>We know our client's need is leads generating and conversion, thus our team are working hard for
                     highly
                     converted campaigns, collecting leads and help their businesses run smoothly.</p>
-                <p class="text-right"><a id="link-to-contact" href="#mu-contact-area" class="contact-us">Contact us <span class="icon-arrow-right2"></span></a></p>
+                <p class="text-right"><a id="link-to-contact" href="#mu-contact-area" class="contact-us">Contact us
+                        <span class="icon-arrow-right2"></span></a></p>
             </div>
         </div>
     </div>
@@ -630,7 +631,8 @@
                             <div class="col-md-12 col-xs-12">
                                 <div class="content left">
                                     <h4>Web-base conversion</h4>
-                                    <p>Just add our conversion tag onto your converted page and then our system will do the
+                                    <p>Just add our conversion tag onto your converted page and then our system will do
+                                        the
                                         rest. It
                                         shows you how many conversion have been made, where it came from and how much
                                         revenue you
@@ -640,9 +642,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 col-xs-12">
-                                <img class="mu-who-we-are-bg"
-                                     src="http://localhost/themes/flatly/img/flow2.png"
-                                     alt="img">
+                                <div id="flow2" style="width: 555px;height: 403px;"></div>
                             </div>
                         </div>
                     </div>
@@ -651,7 +651,8 @@
                             <div class="col-md-12 col-xs-12">
                                 <div class="content right">
                                     <h4>Mobile application base conversion</h4>
-                                    <p>With Mobile Application and games, we can connect with almost mobile tracking tool to
+                                    <p>With Mobile Application and games, we can connect with almost mobile tracking
+                                        tool to
                                         get the
                                         installation data and show up for you on the reports.</p>
                                 </div>
@@ -781,6 +782,8 @@
 {!! Theme::script('js/bootstrap.js') !!}
 <!-- Sticky  -->
 {!! Theme::script('js/jquery.sticky-kit.min.js') !!}
+<!--SVG-->
+{!! Theme::script('js/svg.min.js') !!}
 <!-- Ajax contact form  -->
 {!! Theme::script('js/app.js') !!}
 <!-- Custom js -->
