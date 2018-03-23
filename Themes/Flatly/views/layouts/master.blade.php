@@ -614,9 +614,7 @@
                         </div>
                     </div>
                     <div class="col-md-7">
-                        <img class="mu-who-we-are-bg"
-                             src="http://localhost/themes/flatly/img/flow1.png"
-                             alt="img">
+                        <div id="flow1"></div>
                     </div>
                 </div>
             </div>
@@ -662,9 +660,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12 col-xs-12">
-                                <img class="mu-who-we-are-bg"
-                                     src="http://localhost/themes/flatly/img/flow3.png"
-                                     alt="img">
+                                <div id="flow3"></div>
                             </div>
                         </div>
                     </div>

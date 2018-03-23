@@ -160,7 +160,15 @@ jQuery(function ($) {
         image.size(34, 34).move(basex + 18, basey + 18);
         return image;
     }
+    // FLOW1
+    var flow1 = SVG('flow1');
+    buildNodeCircle(flow1, 30, 20, 'http://localhost/themes/flatly/img/flow-svg/data-storage-2143-7-f-70174-d-0-bff-4043-9698-391-ad-8080-c-0-a.png');
+    buildNodeCircle(flow1, 320, 20, 'http://localhost/themes/flatly/img/flow-svg/code-2039-2-d-42-baf-3-b-295-45-ca-ba-5-d-3-e-8900131-aed.png');
+    buildNodeCircle(flow1, 420, 250, 'http://localhost/themes/flatly/img/flow-svg/loading-2047-a-922-b-363-7-ef-8-4304-b-094-8-c-2-b-866-db-2-c-8.png');
+    buildNodeCircle(flow1, 30, 250, 'http://localhost/themes/flatly/img/flow-svg/pay-2643-1-e-03-b-0-d-5-88-ed-4-aad-9-d-6-c-e-7-dc-14-a-9-c-1-aa.png');
+    flow1.viewbox({x: 0, y: 0, width: 653, height: 420});
 
+    // FLOW2
     var flow2 = SVG('flow2');
     flow2.rect(390, 230).fill('#fafafc').move(65, 55).stroke({
         color: 'rgba(3, 190, 91, 0.1)',
@@ -193,6 +201,48 @@ jQuery(function ($) {
         size: 16,
         weight: 'bold'
     }).transform({rotation: 90, relative: true});
-    flow2.viewbox({ x: 0, y: 0, width: 554, height: 403 })
+    flow2.viewbox({x: 0, y: 0, width: 554, height: 403});
+
+    // FLOW3
+    var flow3 = SVG('flow3');
+    flow3.rect(390, 260).fill('#fafafc').move(80, 55).stroke({
+        color: 'rgba(3, 190, 91, 0.1)',
+        width: 4,
+        linecap: 'round',
+        linejoin: 'round'
+    }).radius(20);
+    flow3.line(80, 55, 80, 305).stroke({
+        color: '#fafafc',
+        width: 4,
+        linecap: 'round',
+        linejoin: 'round'
+    });
+    buildNodeCircle(flow3, 45, 20, 'http://localhost/themes/flatly/img/flow-svg/camera-phone-5384-208581-b-2-44-ec-48-a-8-97-c-2-5-f-62-a-9786-a-4-e.png');
+    buildNodeCircle(flow3, 335, 20, 'http://localhost/themes/flatly/img/flow-svg/puzzle-2059-e-4-d-0308-d-da-78-4-cfe-8-b-67-38-c-5-c-6-c-60-c-4-c.png');
+    buildNodeCircle(flow3, 435, 280, 'http://localhost/themes/flatly/img/flow-svg/settings-window-2030-574-af-6-ab-6-c-0-b-4-c-71-ba-16-b-5-f-97197321-a.png');
+    buildNodeCircle(flow3, 240, 280, 'http://localhost/themes/flatly/img/flow-svg/settings-window-2030-574-af-6-ab-6-c-0-b-4-c-71-ba-16-b-5-f-97197321-a.png');
+    buildNodeCircle(flow3, 45, 280, 'http://localhost/themes/flatly/img/flow-svg/sales-up-2687-a-0-bff-94-f-fd-22-4-ac-3-a-918-f-2-aabc-79-dd-97.png');
+    var font = {
+        family: 'Source Sans Pro'
+        , size: 16
+        , anchor: 'middle'
+    };
+    flow3.text("End User").fill('#6b7c93').move(80, 100).font(font);
+    flow3.text("Application").fill('#6b7c93').move(370, 100).font(font);
+    flow3.text("Tracking tool").fill('#6b7c93').move(470, 360).font(font);
+    flow3.text("LeadsGen Platform").fill('#6b7c93').move(270, 360).font(font);
+    flow3.text("Verify data and pay for\nconversion").fill('#6b7c93').move(85, 360).font(font);
+    flow3.text("SEND BACK\nONVERSION\nDATA TO").fill('#cfcfcf').move(375, 240).font({
+        family: 'Poppins',
+        size: 16,
+        weight: 'bold',
+        anchor: 'middle'
+    });
+    flow3.text("SEND CONVERSION DATA").fill('#cfcfcf').move(80, -510).font({
+        family: 'Poppins',
+        size: 16,
+        weight: 'bold'
+    }).transform({rotation: 90, relative: true});
+    flow3.viewbox({x: 0, y: 0, width: 554, height: 463})
 });
 
