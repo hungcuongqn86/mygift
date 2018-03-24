@@ -162,16 +162,112 @@ jQuery(function ($) {
     }
 
     function buildTriangle(draw, basex, basey) {
-        var arrPoint = [[basex, basey], [basex+16, basey+11], [basex, basey+22]];
+        var arrPoint = [[basex, basey], [basex + 16, basey + 11], [basex, basey + 22]];
         draw.polygon(arrPoint).fill('#6ed69a');
-        var arrPoint = [[basex+12, basey], [basex+28, basey+11], [basex+12, basey+22]];
+        var arrPoint = [[basex + 12, basey], [basex + 28, basey + 11], [basex + 12, basey + 22]];
         draw.polygon(arrPoint).fill('#13b675');
     }
 
     // FLOW1
     var flow1 = SVG('flow1');
+    flow1.rect(185, 180).fill('#fafafc').move(135, 55).stroke({
+        color: 'rgba(3, 190, 91, 0.1)',
+        width: 4,
+        linecap: 'round',
+        linejoin: 'round'
+    }).radius(20);
 
-    flow1.line(65, 375, 575, 375).stroke({
+    flow1.rect(100, 70).fill('#fafafc').move(130, 55).stroke({
+        color: '#fafafc',
+        width: 6,
+        linecap: 'round',
+        linejoin: 'round'
+    }).radius(20);
+
+    flow1.rect(70, 70).fill('#fafafc').move(65, 55).stroke({
+        color: 'rgba(3, 190, 91, 0.1)',
+        width: 4,
+        linecap: 'round',
+        linejoin: 'round'
+    }).radius(20);
+
+    flow1.rect(185, 180).fill('#fafafc').move(320, 55).stroke({
+        color: 'rgba(3, 190, 91, 0.1)',
+        width: 4,
+        linecap: 'round',
+        linejoin: 'round'
+    }).radius(20);
+
+    flow1.rect(100, 70).fill('#fafafc').move(420, 55).stroke({
+        color: '#fafafc',
+        width: 6,
+        linecap: 'round',
+        linejoin: 'round'
+    }).radius(20);
+
+    flow1.rect(70, 70).fill('#fafafc').move(505, 55).stroke({
+        color: 'rgba(3, 190, 91, 0.1)',
+        width: 4,
+        linecap: 'round',
+        linejoin: 'round'
+    }).radius(20);
+
+    flow1.rect(530, 130).fill('#fafafc').move(60, 70);
+
+    flow1.line(135, 200, 135, 70).stroke({
+        color: 'rgba(3, 190, 91, 0.1)',
+        width: 4,
+        linecap: 'round',
+        linejoin: 'round'
+    });
+
+    flow1.line(320, 200, 320, 70).stroke({
+        color: 'rgba(3, 190, 91, 0.1)',
+        width: 4,
+        linecap: 'round',
+        linejoin: 'round'
+    });
+
+    flow1.line(505, 200, 505, 70).stroke({
+        color: 'rgba(3, 190, 91, 0.1)',
+        width: 4,
+        linecap: 'round',
+        linejoin: 'round'
+    });
+
+    flow1.rect(255, 55).fill('#fafafc').move(65, 320).stroke({
+        color: 'rgba(3, 190, 91, 0.1)',
+        width: 4,
+        linecap: 'round',
+        linejoin: 'round'
+    }).radius(20);
+
+    flow1.rect(55, 55).fill('#fafafc').move(265, 320).stroke({
+        color: '#fafafc',
+        width: 4,
+        linecap: 'round',
+        linejoin: 'round'
+    }).radius(20);
+
+    flow1.rect(55, 55).fill('#fafafc').move(265, 265).stroke({
+        color: 'rgba(3, 190, 91, 0.1)',
+        width: 4,
+        linecap: 'round',
+        linejoin: 'round'
+    }).radius(20);
+
+
+    flow1.rect(150, 80).fill('#fafafc').move(150, 265);
+    flow1.rect(200, 50).fill('#fafafc').move(150, 250);
+
+    flow1.line(152, 320, 300, 320).stroke({
+        color: 'rgba(3, 190, 91, 0.1)',
+        width: 4,
+        linecap: 'round',
+        linejoin: 'round'
+    });
+
+    flow1.line(300, 375, 575, 375).stroke({
         color: 'rgba(3, 190, 91, 0.1)',
         width: 4,
         linecap: 'round',
@@ -181,10 +277,10 @@ jQuery(function ($) {
     buildTriangle(flow1, 178, 364);
     buildTriangle(flow1, 440, 364);
 
-    buildNodeCircle(flow1, 30, 20, 'http://localhost/themes/flatly/img/flow-svg/data-storage-2143-7-f-70174-d-0-bff-4043-9698-391-ad-8080-c-0-a.png');
+    buildNodeCircle(flow1, 30, 20, 'http://localhost/themes/flatly/img/flow-svg/checked-server-2150-4011066-f-cde-6-4-f-12-b-3-f-5-70-be-7-a-29-d-94-d.png');
     buildNodeCircle(flow1, 200, 20, 'http://localhost/themes/flatly/img/flow-svg/code-2039-2-d-42-baf-3-b-295-45-ca-ba-5-d-3-e-8900131-aed.png');
     buildNodeCircle(flow1, 370, 20, 'http://localhost/themes/flatly/img/lightning-bolt-1701.png');
-    buildNodeCircle(flow1, 540, 20, 'http://localhost/themes/flatly/img/flow-svg/code-2039-2-d-42-baf-3-b-295-45-ca-ba-5-d-3-e-8900131-aed.png');
+    buildNodeCircle(flow1, 540, 20, 'http://localhost/themes/flatly/img/layers-1687-367-f-10-c-0-4-e-39-42-b-3-9-e-55-c-9-f-9205-c-6175.png');
     buildNodeCircle(flow1, 285, 200, 'http://localhost/themes/flatly/img/flow-svg/data-storage-2143-7-f-70174-d-0-bff-4043-9698-391-ad-8080-c-0-a.png');
     buildNodeCircle(flow1, 30, 340, 'http://localhost/themes/flatly/img/accept-2056.png');
     buildNodeCircle(flow1, 285, 340, 'http://localhost/themes/flatly/img/flow-svg/checked-server-2150-4011066-f-cde-6-4-f-12-b-3-f-5-70-be-7-a-29-d-94-d.png');
