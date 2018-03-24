@@ -453,8 +453,7 @@
                         </div>
                     </div>
                     <div class="col-md-7">
-                        <img src="http://localhost/themes/flatly/img/sd1.png"
-                             alt="img">
+                        <div id="flow"></div>
                     </div>
                 </div>
             </div>

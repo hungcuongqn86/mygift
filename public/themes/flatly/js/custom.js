@@ -153,6 +153,21 @@ jQuery(function ($) {
     });
 
     //SVG build flow
+    var font = {
+        family: 'Source Sans Pro'
+        , size: 16
+        , anchor: 'middle'
+    };
+
+    var fontPol = {
+        family: 'Source Sans Pro'
+        , size: 16
+    };
+
+    var fontIndex = {
+        family: 'Poppins'
+        , size: 40
+    };
 
     function buildNodeCircle(draw, basex, basey, url) {
         draw.circle(70).fill('#b9f4bc').move(basex, basey);
@@ -168,13 +183,25 @@ jQuery(function ($) {
         draw.polygon(arrPoint).fill('#13b675');
     }
 
+    function buildNodePol(draw, basex, basey, width, height, textindex, content) {
+        draw.rect(width, height).fill('#ffc715').move(basex, basey).radius(3);
+        draw.rect(width - 3, height + 2).fill('#fff').move(basex + 4, basey - 1).radius(3);
+        draw.text(textindex).fill('#eef1f7').move(basex + width - 60, basey + height - 60).font(fontIndex);
+        draw.text(content).fill('#6b7c93').move(basex + 10, basey + 32).font(fontPol);
+    }
+
+    // FLOW
+    var flow = SVG('flow');
+    buildNodePol(flow, 0, 55, 240, 100, '01', 'We work with you to understand\nwhat you expect in your website');
+    buildNodePol(flow, 270, 55, 240, 100, '02', 'We implement tracking software\non your website');
+    buildNodePol(flow, 0, 182, 240, 100, '03', 'You will know how your business\ngoing and how to optomize it');
+    buildNodePol(flow, 270, 182, 240, 100, '04', 'We compile an analysis report\nfor you');
+    buildNodePol(flow, 540, 55, 105, 228, '05', '');
+    flow.text('We get the\nfull -\nprecise\ndata. And\nanalyze it').fill('#6b7c93').move(550, 120).font(fontPol);
+    flow.viewbox({x: 0, y: 0, width: 650, height: 350});
+
     // FLOW1
     var flow1 = SVG('flow1');
-    var font = {
-        family: 'Source Sans Pro'
-        , size: 16
-        , anchor: 'middle'
-    };
 
     flow1.rect(185, 180).fill('#fafafc').move(135, 55).stroke({
         color: 'rgba(3, 190, 91, 0.1)',
