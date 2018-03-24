@@ -111,9 +111,9 @@
     </div>
 </section>
 <section id="mu-what-we-do">
-    <img class="img-holder hidden-xs" src="http://localhost/themes/flatly/img/base2.png" alt="img">
-    <img class="img-holder hidden-xs" src="http://localhost/themes/flatly/img/img-holder.png" alt="img">
-    <div class="container">
+    <div class="container" style="position: relative;">
+        <img class="img-holder hidden-xs" src="http://localhost/themes/flatly/img/base2.png" alt="img">
+        <img class="img-holder hidden-xs" src="http://localhost/themes/flatly/img/img-holder.png" alt="img">
         <div class="row mu-who-we-are-body">
             <div class="col-md-5 hidden-xs">
                 <div class="mu-who-we-are-body">
@@ -401,18 +401,20 @@
                                         <li>How many transactions has been made</li>
                                         <li>Where the transaction came from</li>
                                         <li>Which product is the best sold?</li>
-                                        {{--<li>Analyze the best place to sell each product</li>
-                                        <li>How much revenue you get from all transaction</li>
-                                        <li>Which channel is the most effective and bring you the highest
+                                        <li class="and-more">Analyze the best place to sell each product</li>
+                                        <li class="and-more">How much revenue you get from all transaction</li>
+                                        <li class="and-more">Which channel is the most effective and bring you the
+                                            highest
                                             revenue
                                         </li>
-                                        <li>Where visitor have been looking for information before they made
+                                        <li class="and-more">Where visitor have been looking for information before they
+                                            made
                                             a purchase
                                         </li>
-                                        <li>Which is the most effective conversion path</li>
-                                        <li>Your margin and ROI</li>--}}
+                                        <li class="and-more">Which is the most effective conversion path</li>
+                                        <li class="and-more">Your margin and ROI</li>
                                     </ul>
-                                    <p class="and-more"><a>And more <span class="icon-arrow-right2"></span></a>
+                                    <p class="and-more-btn"><a>And more <span class="icon-arrow-right2"></span></a>
                                     </p>
                                 </div>
                             </div>

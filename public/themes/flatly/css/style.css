@@ -264,7 +264,6 @@ img {
     display: inline;
     float: left;
     width: 100%;
-    position: relative;
     padding-top: 40px;
     padding-bottom: 90px;
 }
@@ -323,7 +322,7 @@ img {
 
 .img-holder {
     position: absolute;
-    left: 0;
+    left: -90px;
 }
 
 .img-holder-right {
@@ -382,7 +381,7 @@ img {
     margin-top: 20px;
     padding: 0;
     width: 100%;
-    min-height: 334px;
+    min-height: 342px;
 }
 
 .mu-about-us-content h3, .mu-why-us-content h3 {
@@ -612,7 +611,7 @@ img {
     color: #b76ac4;
 }
 
-.and-more {
+.and-more-btn {
     margin-top: 10px;
     font-family: "Poppins", serif;
     font-size: 14px;
@@ -642,6 +641,10 @@ img {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 17px;
     color: #6b7c93;
+}
+
+.and-more {
+    display: none;
 }
 
 /*==================
@@ -1012,7 +1015,7 @@ img {
         margin: 0;
     }
 
-    .how-we-collecting-leads{
+    .how-we-collecting-leads {
         margin-top: 25px;
     }
 

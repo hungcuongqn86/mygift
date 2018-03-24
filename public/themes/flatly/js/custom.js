@@ -152,6 +152,12 @@ jQuery(function ($) {
         setZindex();
     });
 
+    //and more
+    $('.and-more-btn').click(function () {
+        $('.and-more').show();
+        $(this).hide();
+    });
+
     //SVG build flow
     var font = {
         family: 'Source Sans Pro'
