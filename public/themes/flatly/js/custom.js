@@ -170,6 +170,12 @@ jQuery(function ($) {
 
     // FLOW1
     var flow1 = SVG('flow1');
+    var font = {
+        family: 'Source Sans Pro'
+        , size: 16
+        , anchor: 'middle'
+    };
+
     flow1.rect(185, 180).fill('#fafafc').move(135, 55).stroke({
         color: 'rgba(3, 190, 91, 0.1)',
         width: 4,
@@ -242,7 +248,7 @@ jQuery(function ($) {
         linejoin: 'round'
     }).radius(20);
 
-    flow1.rect(55, 55).fill('#fafafc').move(265, 320).stroke({
+    flow1.rect(55, 30).fill('#fafafc').move(265, 320).stroke({
         color: '#fafafc',
         width: 4,
         linecap: 'round',
@@ -285,7 +291,23 @@ jQuery(function ($) {
     buildNodeCircle(flow1, 30, 340, 'http://localhost/themes/flatly/img/accept-2056.png');
     buildNodeCircle(flow1, 285, 340, 'http://localhost/themes/flatly/img/flow-svg/checked-server-2150-4011066-f-cde-6-4-f-12-b-3-f-5-70-be-7-a-29-d-94-d.png');
     buildNodeCircle(flow1, 540, 340, 'http://localhost/themes/flatly/img/flow-svg/copied-to-clipboard-4216-997-c-55-a-6-40-e-3-49-d-6-a-524-bd-1-e-2945-e-515.png');
-    flow1.viewbox({x: 0, y: 0, width: 653, height: 420});
+
+    flow1.text("LeadsGen own\ninventory").fill('#6b7c93').move(65, 95).font(font);
+    flow1.text("Partner inventory\n" + "(website)").fill('#6b7c93').move(235, 95).font(font);
+    flow1.text("Partner inventory\n" + "(adnetwork)").fill('#6b7c93').move(405, 95).font(font);
+    flow1.text("Partner inventory\n" + "(booking channel)").fill('#6b7c93').move(580, 95).font(font);
+    flow1.text("LeadsGen network").fill('#6b7c93').move(320, 270).font(font);
+    flow1.text("Leads collection").fill('#6b7c93').move(320, 410).font(font);
+    flow1.text("Client’s Landing page").fill('#6b7c93').move(70, 410).font(font);
+    flow1.text("Capture and report leads").fill('#6b7c93').move(560, 410).font(font);
+    flow1.text("CPA DISTRIBUTION").fill('#cfcfcf').move(190, 330).font({
+        family: 'Poppins',
+        size: 16,
+        weight: 'bold',
+        anchor: 'middle'
+    }).style('letter-spacing', '1px');
+
+    flow1.viewbox({x: 0, y: 0, width: 653, height: 440});
 
     // FLOW2
     var flow2 = SVG('flow2');
@@ -305,21 +327,17 @@ jQuery(function ($) {
     buildNodeCircle(flow2, 320, 20, 'http://localhost/themes/flatly/img/flow-svg/code-2039-2-d-42-baf-3-b-295-45-ca-ba-5-d-3-e-8900131-aed.png');
     buildNodeCircle(flow2, 420, 250, 'http://localhost/themes/flatly/img/flow-svg/loading-2047-a-922-b-363-7-ef-8-4304-b-094-8-c-2-b-866-db-2-c-8.png');
     buildNodeCircle(flow2, 30, 250, 'http://localhost/themes/flatly/img/flow-svg/pay-2643-1-e-03-b-0-d-5-88-ed-4-aad-9-d-6-c-e-7-dc-14-a-9-c-1-aa.png');
-    var font = {
-        family: 'Source Sans Pro'
-        , size: 16
-        , anchor: 'middle'
-    };
+
     flow2.text("LeadsGen\nnetwork").fill('#6b7c93').move(70, 100).font(font);
     flow2.text("Client websites").fill('#6b7c93').move(350, 100).font(font);
     flow2.text("(Tracking code installed\non converted page)").fill('#6b7c93').move(350, 120).font(font).font({style: 'italic'});
     flow2.text("You pay per your\nconversions").fill('#6b7c93').move(70, 330).font(font);
     flow2.text("Conversion captured and\nsent to LeadsGen platform,\nshow on the reports").fill('#6b7c93').move(450, 330).font(font);
-    flow2.text("DATA ENCRYPTED").fill('#cfcfcf').move(80, -500).font({
+    flow2.text("DATA ENCRYPTED").fill('#cfcfcf').move(80, -490).font({
         family: 'Poppins',
         size: 16,
         weight: 'bold'
-    }).transform({rotation: 90, relative: true});
+    }).style('letter-spacing', '1px').transform({rotation: 90, relative: true});
     flow2.viewbox({x: 0, y: 0, width: 554, height: 403});
 
     // FLOW3
@@ -341,11 +359,6 @@ jQuery(function ($) {
     buildNodeCircle(flow3, 435, 280, 'http://localhost/themes/flatly/img/flow-svg/settings-window-2030-574-af-6-ab-6-c-0-b-4-c-71-ba-16-b-5-f-97197321-a.png');
     buildNodeCircle(flow3, 240, 280, 'http://localhost/themes/flatly/img/flow-svg/server-2145-1-b-130038-483-f-478-e-93-d-5-3-b-144-edf-13-db.png');
     buildNodeCircle(flow3, 45, 280, 'http://localhost/themes/flatly/img/flow-svg/sales-up-2687-a-0-bff-94-f-fd-22-4-ac-3-a-918-f-2-aabc-79-dd-97.png');
-    var font = {
-        family: 'Source Sans Pro'
-        , size: 16
-        , anchor: 'middle'
-    };
     flow3.text("End User").fill('#6b7c93').move(80, 100).font(font);
     flow3.text("Application").fill('#6b7c93').move(370, 100).font(font);
     flow3.text("Tracking tool").fill('#6b7c93').move(470, 360).font(font);
@@ -356,12 +369,12 @@ jQuery(function ($) {
         size: 16,
         weight: 'bold',
         anchor: 'middle'
-    });
-    flow3.text("SEND CONVERSION DATA").fill('#cfcfcf').move(80, -510).font({
+    }).style('letter-spacing', '1px');
+    flow3.text("SEND CONVERSION DATA").fill('#cfcfcf').move(65, -505).font({
         family: 'Poppins',
         size: 16,
         weight: 'bold'
-    }).transform({rotation: 90, relative: true});
+    }).style('letter-spacing', '1px').transform({rotation: 90, relative: true});
     flow3.viewbox({x: 0, y: 0, width: 554, height: 463})
 });
 
