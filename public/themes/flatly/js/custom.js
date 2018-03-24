@@ -160,12 +160,35 @@ jQuery(function ($) {
         image.size(34, 34).move(basex + 18, basey + 18);
         return image;
     }
+
+    function buildTriangle(draw, basex, basey) {
+        var arrPoint = [[basex, basey], [basex+16, basey+11], [basex, basey+22]];
+        draw.polygon(arrPoint).fill('#6ed69a');
+        var arrPoint = [[basex+12, basey], [basex+28, basey+11], [basex+12, basey+22]];
+        draw.polygon(arrPoint).fill('#13b675');
+    }
+
     // FLOW1
     var flow1 = SVG('flow1');
+
+    flow1.line(65, 375, 575, 375).stroke({
+        color: 'rgba(3, 190, 91, 0.1)',
+        width: 4,
+        linecap: 'round',
+        linejoin: 'round'
+    });
+
+    buildTriangle(flow1, 178, 364);
+    buildTriangle(flow1, 440, 364);
+
     buildNodeCircle(flow1, 30, 20, 'http://localhost/themes/flatly/img/flow-svg/data-storage-2143-7-f-70174-d-0-bff-4043-9698-391-ad-8080-c-0-a.png');
-    buildNodeCircle(flow1, 320, 20, 'http://localhost/themes/flatly/img/flow-svg/code-2039-2-d-42-baf-3-b-295-45-ca-ba-5-d-3-e-8900131-aed.png');
-    buildNodeCircle(flow1, 420, 250, 'http://localhost/themes/flatly/img/flow-svg/loading-2047-a-922-b-363-7-ef-8-4304-b-094-8-c-2-b-866-db-2-c-8.png');
-    buildNodeCircle(flow1, 30, 250, 'http://localhost/themes/flatly/img/flow-svg/pay-2643-1-e-03-b-0-d-5-88-ed-4-aad-9-d-6-c-e-7-dc-14-a-9-c-1-aa.png');
+    buildNodeCircle(flow1, 200, 20, 'http://localhost/themes/flatly/img/flow-svg/code-2039-2-d-42-baf-3-b-295-45-ca-ba-5-d-3-e-8900131-aed.png');
+    buildNodeCircle(flow1, 370, 20, 'http://localhost/themes/flatly/img/lightning-bolt-1701.png');
+    buildNodeCircle(flow1, 540, 20, 'http://localhost/themes/flatly/img/flow-svg/code-2039-2-d-42-baf-3-b-295-45-ca-ba-5-d-3-e-8900131-aed.png');
+    buildNodeCircle(flow1, 285, 200, 'http://localhost/themes/flatly/img/flow-svg/data-storage-2143-7-f-70174-d-0-bff-4043-9698-391-ad-8080-c-0-a.png');
+    buildNodeCircle(flow1, 30, 340, 'http://localhost/themes/flatly/img/accept-2056.png');
+    buildNodeCircle(flow1, 285, 340, 'http://localhost/themes/flatly/img/flow-svg/checked-server-2150-4011066-f-cde-6-4-f-12-b-3-f-5-70-be-7-a-29-d-94-d.png');
+    buildNodeCircle(flow1, 540, 340, 'http://localhost/themes/flatly/img/flow-svg/copied-to-clipboard-4216-997-c-55-a-6-40-e-3-49-d-6-a-524-bd-1-e-2945-e-515.png');
     flow1.viewbox({x: 0, y: 0, width: 653, height: 420});
 
     // FLOW2
@@ -220,7 +243,7 @@ jQuery(function ($) {
     buildNodeCircle(flow3, 45, 20, 'http://localhost/themes/flatly/img/flow-svg/camera-phone-5384-208581-b-2-44-ec-48-a-8-97-c-2-5-f-62-a-9786-a-4-e.png');
     buildNodeCircle(flow3, 335, 20, 'http://localhost/themes/flatly/img/flow-svg/puzzle-2059-e-4-d-0308-d-da-78-4-cfe-8-b-67-38-c-5-c-6-c-60-c-4-c.png');
     buildNodeCircle(flow3, 435, 280, 'http://localhost/themes/flatly/img/flow-svg/settings-window-2030-574-af-6-ab-6-c-0-b-4-c-71-ba-16-b-5-f-97197321-a.png');
-    buildNodeCircle(flow3, 240, 280, 'http://localhost/themes/flatly/img/flow-svg/settings-window-2030-574-af-6-ab-6-c-0-b-4-c-71-ba-16-b-5-f-97197321-a.png');
+    buildNodeCircle(flow3, 240, 280, 'http://localhost/themes/flatly/img/flow-svg/server-2145-1-b-130038-483-f-478-e-93-d-5-3-b-144-edf-13-db.png');
     buildNodeCircle(flow3, 45, 280, 'http://localhost/themes/flatly/img/flow-svg/sales-up-2687-a-0-bff-94-f-fd-22-4-ac-3-a-918-f-2-aabc-79-dd-97.png');
     var font = {
         family: 'Source Sans Pro'
