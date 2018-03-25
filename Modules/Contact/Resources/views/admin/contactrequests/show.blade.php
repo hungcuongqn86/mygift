@@ -24,10 +24,10 @@
                         <dd>{{ $request->name }}</dd>
                         <dt>{{ trans('contact::contact.email') }}</dt>
                         <dd><a href="mailto:{{ $request->email }}">{{ $request->email }}</a></dd>
-                        <dt>{{ trans('contact::contact.company') }}</dt>
-                        <dd>{{ $request->company }}</dd>
                         <dt>{{ trans('contact::contact.phone') }}</dt>
                         <dd>{{ $request->phone }}</dd>
+                        <dt>{{ trans('contact::contact.subject') }}</dt>
+                        <dd>{{ $request->subject }}</dd>
                         <dt>{{ trans('contact::contact.message') }}</dt>
                         <dd>{!! nl2br($request->message) !!}</dd>
                     </dl>

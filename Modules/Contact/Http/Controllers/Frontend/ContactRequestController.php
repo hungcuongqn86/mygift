@@ -28,7 +28,8 @@ class ContactRequestController extends BasePublicController
     public function store(CreateContactRequestRequest $request)
     {
         $this->contactRequest->create($request->all());
-
-        return redirect()->back()->withSuccess('We received your request. We\'ll get back to you soon.');
+        echo 'We received your request. We\'ll get back to you soon.';
+        exit;
+        // return redirect()->back()->withSuccess('We received your request. We\'ll get back to you soon.');
     }
 }

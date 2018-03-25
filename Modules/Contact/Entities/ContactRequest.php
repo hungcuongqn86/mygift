@@ -10,7 +10,7 @@ class ContactRequest extends Model
     protected $fillable = [
         'name',
         'email',
-        'company',
+        'subject',
         'phone',
         'message',
     ];

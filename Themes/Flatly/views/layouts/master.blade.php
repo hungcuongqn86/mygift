@@ -724,46 +724,48 @@
                                     <!-- Email message div -->
                                     <div id="form-messages"></div>
                                     <!-- Start contact form -->
-                                    <form id="ajax-contact" method="post" action="mailer.php"
-                                          class="mu-contact-form">
-                                        <div class="form-group">
-                                            <label for="name">Your name <span>*</span></label>
-                                            <input type="text" class="form-control" id="name" name="name"
-                                                   placeholder="Your name" required>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="email">Your email address <span>*</span></label>
-                                                    <input type="email" class="form-control" id="email"
-                                                           name="email"
-                                                           placeholder="Your email address" required>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <label for="phone">Mobile phone</label>
-                                                    <input type="text" class="form-control" id="phone"
-                                                           name="phone"
-                                                           placeholder="Mobile phone">
-                                                </div>
+                                    {!! Form::open(['route' => 'public.contact.submit', 'method' => 'post', 'id'=>'ajax-contact', 'class' => 'mu-contact-form']) !!}
+                                    {{--<form id="ajax-contact" method="post" action="contact"
+                                          class="mu-contact-form">--}}
+                                    <div class="form-group">
+                                        <label for="name">Your name <span>*</span></label>
+                                        <input type="text" class="form-control" id="name" name="name"
+                                               placeholder="Your name" required>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="email">Your email address <span>*</span></label>
+                                                <input type="email" class="form-control" id="email"
+                                                       name="email"
+                                                       placeholder="Your email address" required>
                                             </div>
                                         </div>
-                                        <div class="form-group">
-                                            <label for="subject">In a few words, tell us what your enquiry is
-                                                about
-                                                <span>*</span></label>
-                                            <input type="text" class="form-control" id="subject" name="subject"
-                                                   placeholder="..." required>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="phone">Mobile phone</label>
+                                                <input type="text" class="form-control" id="phone"
+                                                       name="phone"
+                                                       placeholder="Mobile phone">
+                                            </div>
                                         </div>
-                                        <div class="form-group">
-                                            <label for="message">Provide a detailed description
-                                                <span>*</span></label>
-                                            <textarea class="form-control" id="message" name="message" cols="30"
-                                                      rows="5" placeholder="..." required></textarea>
-                                        </div>
-                                        <button type="submit" class="mu-send-btn">Send</button>
-                                    </form>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="subject">In a few words, tell us what your enquiry is
+                                            about
+                                            <span>*</span></label>
+                                        <input type="text" class="form-control" id="subject" name="subject"
+                                               placeholder="..." required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message">Provide a detailed description
+                                            <span>*</span></label>
+                                        <textarea class="form-control" id="message" name="message" cols="30"
+                                                  rows="5" placeholder="..." required></textarea>
+                                    </div>
+                                    <button type="submit" class="mu-send-btn">Send</button>
+                                    {{--</form>--}}
+                                    {!! Form::close() !!}
                                 </div>
                             </div>
                         </div>

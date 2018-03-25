@@ -6,6 +6,7 @@ return [
     'full-name' => 'Name',
     'email' => 'Email',
     'company' => 'Company',
+    'subject' => 'subject',
     'phone' => 'Phone',
     'message' => 'Message',
     'send' => 'Send',
