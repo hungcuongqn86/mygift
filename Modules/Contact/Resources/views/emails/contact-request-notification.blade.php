@@ -14,7 +14,7 @@
     <li><strong>{{ trans('contact::contactrequests.email.from') }}:</strong> {{ $contactRequest->name }}</li>
     <li><strong>{{ trans('contact::contact.email') }}:</strong> {{ $contactRequest->email }}</li>
     <li><strong>{{ trans('contact::contact.phone') }}:</strong> {{ $contactRequest->phone }}</li>
-    <li><strong>{{ trans('contact::contact.company') }}:</strong> {{ $contactRequest->company }}</li>
+    <li><strong>{{ trans('contact::contact.subject') }}:</strong> {{ $contactRequest->subject }}</li>
 </ul>
 <strong>{{ trans('contact::contact.message') }}:</strong>
 {{ $contactRequest->message }}
