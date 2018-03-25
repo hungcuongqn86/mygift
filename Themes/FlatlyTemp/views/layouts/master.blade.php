@@ -100,11 +100,11 @@
                 <h1 class="mu-who-we-are-title">Hello, we’re LeadsGen - generate leads for you </h1>
             </div>
             <div class="col-md-6 col-xs-12 mu-who-we-are-right">
-                <img class="mu-who-we-are-bg" src="http://localhost/themes/flatly/img/base.png" alt="img">
+                <img class="mu-who-we-are-bg" src="../themes/flatly/img/base.png" alt="img">
                 <div class="mu-who-we-are-right-ins"><img class="mu-who-we-are-bg"
-                                                          src="http://localhost/themes/flatly/img/img-holder-right.png"
-                                                          srcset="http://localhost/themes/flatly/img/img-holder-right@2x.png 2x,
-                                                        http://localhost/themes/flatly/img/img-holder-right@3x.png 3x"
+                                                          src="../themes/flatly/img/img-holder-right.png"
+                                                          srcset="../themes/flatly/img/img-holder-right@2x.png 2x,
+                                                        ../themes/flatly/img/img-holder-right@3x.png 3x"
                                                           alt="img"></div>
             </div>
         </div>
@@ -112,8 +112,8 @@
 </section>
 <section id="mu-what-we-do">
     <div class="container" style="position: relative;">
-        <img class="img-holder hidden-xs" src="http://localhost/themes/flatly/img/base2.png" alt="img">
-        <img class="img-holder hidden-xs" src="http://localhost/themes/flatly/img/img-holder.png" alt="img">
+        <img class="img-holder hidden-xs" src="../themes/flatly/img/base2.png" alt="img">
+        <img class="img-holder hidden-xs" src="../themes/flatly/img/img-holder.png" alt="img">
         <div class="row mu-who-we-are-body">
             <div class="col-md-5 hidden-xs">
                 <div class="mu-who-we-are-body">
@@ -154,7 +154,7 @@
                                 <div class="mu-about-us-margin">
                                     <div class="mu-about-us-head">
                                         <div class="mu-about-us-oval">
-                                            <img src="http://localhost/themes/flatly/img/conference.png" alt="img">
+                                            <img src="../themes/flatly/img/conference.png" alt="img">
                                         </div>
                                     </div>
                                     <h3>We control our technology with strong team and experience</h3>
@@ -163,7 +163,7 @@
                                         always stay ahead of new technology. Our system is usually checked and
                                         updated</p>
                                 </div>
-                                <img style="margin-top: 55px;" src="http://localhost/themes/flatly/img/macbook.png"
+                                <img style="margin-top: 55px;" src="../themes/flatly/img/macbook.png"
                                      alt="img">
                             </div>
                         </div>
@@ -172,7 +172,7 @@
                                 <div class="mu-about-us-margin">
                                     <div class="mu-about-us-head">
                                         <div class="mu-about-us-oval">
-                                            <img src="http://localhost/themes/flatly/img/debabe-841-d.png" alt="img">
+                                            <img src="../themes/flatly/img/debabe-841-d.png" alt="img">
                                         </div>
                                     </div>
                                     <h3>We keep in touch with you very closely</h3>
@@ -186,7 +186,7 @@
                                 <div class="mu-about-us-margin">
                                     <div class="mu-about-us-head">
                                         <div class="mu-about-us-oval">
-                                            <img src="http://localhost/themes/flatly/img/accept-2056.png" alt="img">
+                                            <img src="../themes/flatly/img/accept-2056.png" alt="img">
                                         </div>
                                     </div>
                                     <h3>We track the result on the stages</h3>
@@ -203,7 +203,7 @@
                                 <div class="mu-about-us-margin">
                                     <div class="mu-about-us-head">
                                         <div class="mu-about-us-oval">
-                                            <img src="http://localhost/themes/flatly/img/link-1672.png" alt="img">
+                                            <img src="../themes/flatly/img/link-1672.png" alt="img">
                                         </div>
                                     </div>
                                     <h3>We connect with adnetworks, publishers and control traffic quality</h3>
@@ -214,7 +214,7 @@
                                 <div class="mu-about-us-margin">
                                     <div class="mu-about-us-head">
                                         <div class="mu-about-us-oval">
-                                            <img src="http://localhost/themes/flatly/img/lightning-bolt-1701.png"
+                                            <img src="../themes/flatly/img/lightning-bolt-1701.png"
                                                  alt="img">
                                         </div>
                                     </div>
@@ -246,9 +246,9 @@
                             <div class="mu-why-us-content">
                                 <div class="mu-why-us-margin">
                                     <div class="mu-why-us-oval">
-                                        <img src="http://localhost/themes/flatly/img/processor-cpu-2116-b-1-b-8-fbbb-1504-45-ac-9-ee-7-f-65-a-6-ff-1-b-8-f-1.png"
-                                             srcset="http://localhost/themes/flatly/img/processor-cpu-2116-b-1-b-8-fbbb-1504-45-ac-9-ee-7-f-65-a-6-ff-1-b-8-f-1@2x.png 2x,
-                                                        http://localhost/themes/flatly/img/processor-cpu-2116-b-1-b-8-fbbb-1504-45-ac-9-ee-7-f-65-a-6-ff-1-b-8-f-1@3x.png 3x"
+                                        <img src="../themes/flatly/img/processor-cpu-2116-b-1-b-8-fbbb-1504-45-ac-9-ee-7-f-65-a-6-ff-1-b-8-f-1.png"
+                                             srcset="../themes/flatly/img/processor-cpu-2116-b-1-b-8-fbbb-1504-45-ac-9-ee-7-f-65-a-6-ff-1-b-8-f-1@2x.png 2x,
+                                                        ../themes/flatly/img/processor-cpu-2116-b-1-b-8-fbbb-1504-45-ac-9-ee-7-f-65-a-6-ff-1-b-8-f-1@3x.png 3x"
                                              alt="img">
                                     </div>
                                     <h3>Innovative technology.</h3>
@@ -260,9 +260,9 @@
                             <div class="mu-why-us-content">
                                 <div class="mu-why-us-margin">
                                     <div class="mu-why-us-oval">
-                                        <img src="http://localhost/themes/flatly/img/radar-signal-931-c-3-a-17278-a-10-f-4-bd-0-a-199-c-0961475-b-99-d.png"
-                                             srcset="http://localhost/themes/flatly/img/radar-signal-931-c-3-a-17278-a-10-f-4-bd-0-a-199-c-0961475-b-99-d@2x.png 2x,
-                                                        http://localhost/themes/flatly/img/radar-signal-931-c-3-a-17278-a-10-f-4-bd-0-a-199-c-0961475-b-99-d@3x.png 3x"
+                                        <img src="../themes/flatly/img/radar-signal-931-c-3-a-17278-a-10-f-4-bd-0-a-199-c-0961475-b-99-d.png"
+                                             srcset="../themes/flatly/img/radar-signal-931-c-3-a-17278-a-10-f-4-bd-0-a-199-c-0961475-b-99-d@2x.png 2x,
+                                                        ../themes/flatly/img/radar-signal-931-c-3-a-17278-a-10-f-4-bd-0-a-199-c-0961475-b-99-d@3x.png 3x"
                                              alt="img">
                                     </div>
                                     <h3>Widely network</h3>
@@ -278,9 +278,9 @@
                             <div class="mu-why-us-content">
                                 <div class="mu-why-us-margin">
                                     <div class="mu-why-us-oval">
-                                        <img src="http://localhost/themes/flatly/img/avatar-3016-786-da-4-fe-9361-44-a-2-9-e-46-1-fe-7-ae-7-d-292-a.png"
-                                             srcset="http://localhost/themes/flatly/img/avatar-3016-786-da-4-fe-9361-44-a-2-9-e-46-1-fe-7-ae-7-d-292-a@2x.png 2x,
-                                                        http://localhost/themes/flatly/img/avatar-3016-786-da-4-fe-9361-44-a-2-9-e-46-1-fe-7-ae-7-d-292-a@3x.png 3x"
+                                        <img src="../themes/flatly/img/avatar-3016-786-da-4-fe-9361-44-a-2-9-e-46-1-fe-7-ae-7-d-292-a.png"
+                                             srcset="../themes/flatly/img/avatar-3016-786-da-4-fe-9361-44-a-2-9-e-46-1-fe-7-ae-7-d-292-a@2x.png 2x,
+                                                        ../themes/flatly/img/avatar-3016-786-da-4-fe-9361-44-a-2-9-e-46-1-fe-7-ae-7-d-292-a@3x.png 3x"
                                              alt="img">
                                     </div>
                                     <h3>Variety in audiences set</h3>
@@ -294,9 +294,9 @@
                             <div class="mu-why-us-content">
                                 <div class="mu-why-us-margin">
                                     <div class="mu-why-us-oval">
-                                        <img src="http://localhost/themes/flatly/img/shield-security-2062-6-afa-7973-b-602-412-a-b-27-a-b-1-cb-6-d-0-b-2548.png"
-                                             srcset="http://localhost/themes/flatly/img/shield-security-2062-6-afa-7973-b-602-412-a-b-27-a-b-1-cb-6-d-0-b-2548@2x.png 2x,
-                                                        http://localhost/themes/flatly/img/shield-security-2062-6-afa-7973-b-602-412-a-b-27-a-b-1-cb-6-d-0-b-2548@3x.png 3x"
+                                        <img src="../themes/flatly/img/shield-security-2062-6-afa-7973-b-602-412-a-b-27-a-b-1-cb-6-d-0-b-2548.png"
+                                             srcset="../themes/flatly/img/shield-security-2062-6-afa-7973-b-602-412-a-b-27-a-b-1-cb-6-d-0-b-2548@2x.png 2x,
+                                                        ../themes/flatly/img/shield-security-2062-6-afa-7973-b-602-412-a-b-27-a-b-1-cb-6-d-0-b-2548@3x.png 3x"
                                              alt="img">
                                     </div>
                                     <h3>Transparency and precisely</h3>
@@ -351,9 +351,9 @@
                             <div class="col-md-6">
                                 <div class="we-optimizer-right">
                                     <div class="mu-why-us-oval">
-                                        <img src="http://localhost/themes/flatly/img/statistic-2692-4-d-8-b-07-c-6-aa-3-e-4772-8-c-2-b-9-f-3-faa-4191-e-5.png"
-                                             srcset="http://localhost/themes/flatly/img/statistic-2692-4-d-8-b-07-c-6-aa-3-e-4772-8-c-2-b-9-f-3-faa-4191-e-5@2x.png 2x,
-                                                        http://localhost/themes/flatly/img/statistic-2692-4-d-8-b-07-c-6-aa-3-e-4772-8-c-2-b-9-f-3-faa-4191-e-5@3x.png 3x"
+                                        <img src="../themes/flatly/img/statistic-2692-4-d-8-b-07-c-6-aa-3-e-4772-8-c-2-b-9-f-3-faa-4191-e-5.png"
+                                             srcset="../themes/flatly/img/statistic-2692-4-d-8-b-07-c-6-aa-3-e-4772-8-c-2-b-9-f-3-faa-4191-e-5@2x.png 2x,
+                                                        ../themes/flatly/img/statistic-2692-4-d-8-b-07-c-6-aa-3-e-4772-8-c-2-b-9-f-3-faa-4191-e-5@3x.png 3x"
                                              alt="img">
                                     </div>
                                     <h4>Traffic sources</h4>
@@ -363,9 +363,9 @@
                                 </div>
                                 <div class="we-optimizer-right">
                                     <div class="mu-why-us-oval">
-                                        <img src="http://localhost/themes/flatly/img/profile-3091-b-2591-e-91-2-e-00-4469-acbf-0-ccf-64-a-8-dac-8.png"
-                                             srcset="http://localhost/themes/flatly/img/profile-3091-b-2591-e-91-2-e-00-4469-acbf-0-ccf-64-a-8-dac-8@2x.png 2x,
-                                                        http://localhost/themes/flatly/img/profile-3091-b-2591-e-91-2-e-00-4469-acbf-0-ccf-64-a-8-dac-8@3x.png 3x"
+                                        <img src="../themes/flatly/img/profile-3091-b-2591-e-91-2-e-00-4469-acbf-0-ccf-64-a-8-dac-8.png"
+                                             srcset="../themes/flatly/img/profile-3091-b-2591-e-91-2-e-00-4469-acbf-0-ccf-64-a-8-dac-8@2x.png 2x,
+                                                        ../themes/flatly/img/profile-3091-b-2591-e-91-2-e-00-4469-acbf-0-ccf-64-a-8-dac-8@3x.png 3x"
                                              alt="img">
                                     </div>
                                     <h4>Audience analysis</h4>
@@ -379,9 +379,9 @@
                             <div class="col-md-6">
                                 <div class="we-optimizer-right">
                                     <div class="mu-why-us-oval">
-                                        <img src="http://localhost/themes/flatly/img/camera-phone-5384-208581-b-2-44-ec-48-a-8-97-c-2-5-f-62-a-9786-a-4-e.png"
-                                             srcset="http://localhost/themes/flatly/img/camera-phone-5384-208581-b-2-44-ec-48-a-8-97-c-2-5-f-62-a-9786-a-4-e@2x.png 2x,
-                                                        http://localhost/themes/flatly/img/camera-phone-5384-208581-b-2-44-ec-48-a-8-97-c-2-5-f-62-a-9786-a-4-e@3x.png 3x"
+                                        <img src="../themes/flatly/img/camera-phone-5384-208581-b-2-44-ec-48-a-8-97-c-2-5-f-62-a-9786-a-4-e.png"
+                                             srcset="../themes/flatly/img/camera-phone-5384-208581-b-2-44-ec-48-a-8-97-c-2-5-f-62-a-9786-a-4-e@2x.png 2x,
+                                                        ../themes/flatly/img/camera-phone-5384-208581-b-2-44-ec-48-a-8-97-c-2-5-f-62-a-9786-a-4-e@3x.png 3x"
                                              alt="img">
                                     </div>
                                     <h4>Behavior</h4>
@@ -391,9 +391,9 @@
                                 </div>
                                 <div class="we-optimizer-right">
                                     <div class="mu-why-us-oval">
-                                        <img src="http://localhost/themes/flatly/img/store-sale-2548-28377100-8-dda-4108-b-45-e-bcfc-63-a-2-b-371.png"
-                                             srcset="http://localhost/themes/flatly/img/store-sale-2548-28377100-8-dda-4108-b-45-e-bcfc-63-a-2-b-371@2x.png 2x,
-                                                        http://localhost/themes/flatly/img/store-sale-2548-28377100-8-dda-4108-b-45-e-bcfc-63-a-2-b-371@3x.png 3x"
+                                        <img src="../themes/flatly/img/store-sale-2548-28377100-8-dda-4108-b-45-e-bcfc-63-a-2-b-371.png"
+                                             srcset="../themes/flatly/img/store-sale-2548-28377100-8-dda-4108-b-45-e-bcfc-63-a-2-b-371@2x.png 2x,
+                                                        ../themes/flatly/img/store-sale-2548-28377100-8-dda-4108-b-45-e-bcfc-63-a-2-b-371@3x.png 3x"
                                              alt="img">
                                     </div>
                                     <h4>Ecommerce analysis</h4>
@@ -472,9 +472,9 @@
                         <div class="col-md-4">
                             <div class="mu-why-us-content">
                                 <div class="mu-why-us-oval">
-                                    <img src="http://localhost/themes/flatly/img/idea-3125-08322-e-54-d-278-4453-a-0-e-4-8-fc-62-f-4-b-501-e.png"
-                                         srcset="http://localhost/themes/flatly/img/idea-3125-08322-e-54-d-278-4453-a-0-e-4-8-fc-62-f-4-b-501-e@2x.png 2x,
-                                                        http://localhost/themes/flatly/img/idea-3125-08322-e-54-d-278-4453-a-0-e-4-8-fc-62-f-4-b-501-e@3x.png 3x"
+                                    <img src="../themes/flatly/img/idea-3125-08322-e-54-d-278-4453-a-0-e-4-8-fc-62-f-4-b-501-e.png"
+                                         srcset="../themes/flatly/img/idea-3125-08322-e-54-d-278-4453-a-0-e-4-8-fc-62-f-4-b-501-e@2x.png 2x,
+                                                        ../themes/flatly/img/idea-3125-08322-e-54-d-278-4453-a-0-e-4-8-fc-62-f-4-b-501-e@3x.png 3x"
                                          alt="img">
                                 </div>
                                 <h3>Understand how visitor behaviour leads to sales and conversions</h3>
@@ -488,9 +488,9 @@
                         <div class="col-md-4">
                             <div class="mu-why-us-content">
                                 <div class="mu-why-us-oval">
-                                    <img src="http://localhost/themes/flatly/img/statistics-2050-a-8-d-68351-72-f-6-407-c-9-e-67-0187-e-3389397.png"
-                                         srcset="http://localhost/themes/flatly/img/statistics-2050-a-8-d-68351-72-f-6-407-c-9-e-67-0187-e-3389397@2x.png 2x,
-                                                        http://localhost/themes/flatly/img/statistics-2050-a-8-d-68351-72-f-6-407-c-9-e-67-0187-e-3389397@3x.png 3x"
+                                    <img src="../themes/flatly/img/statistics-2050-a-8-d-68351-72-f-6-407-c-9-e-67-0187-e-3389397.png"
+                                         srcset="../themes/flatly/img/statistics-2050-a-8-d-68351-72-f-6-407-c-9-e-67-0187-e-3389397@2x.png 2x,
+                                                        ../themes/flatly/img/statistics-2050-a-8-d-68351-72-f-6-407-c-9-e-67-0187-e-3389397@3x.png 3x"
                                          alt="img">
                                 </div>
                                 <h3>Improve your online sales with E-commerce Reporting</h3>
@@ -504,9 +504,9 @@
                         <div class="col-md-4">
                             <div class="mu-why-us-content">
                                 <div class="mu-why-us-oval">
-                                    <img src="http://localhost/themes/flatly/img/layers-1687-367-f-10-c-0-4-e-39-42-b-3-9-e-55-c-9-f-9205-c-6175.png"
-                                         srcset="http://localhost/themes/flatly/img/layers-1687-367-f-10-c-0-4-e-39-42-b-3-9-e-55-c-9-f-9205-c-6175@2x.png 2x,
-                                                        http://localhost/themes/flatly/img/layers-1687-367-f-10-c-0-4-e-39-42-b-3-9-e-55-c-9-f-9205-c-6175@3x.png 3x"
+                                    <img src="../themes/flatly/img/layers-1687-367-f-10-c-0-4-e-39-42-b-3-9-e-55-c-9-f-9205-c-6175.png"
+                                         srcset="../themes/flatly/img/layers-1687-367-f-10-c-0-4-e-39-42-b-3-9-e-55-c-9-f-9205-c-6175@2x.png 2x,
+                                                        ../themes/flatly/img/layers-1687-367-f-10-c-0-4-e-39-42-b-3-9-e-55-c-9-f-9205-c-6175@3x.png 3x"
                                          alt="img">
                                 </div>
                                 <h3>See the complete picture of campaign performance with Multi-Channel Funnels</h3>
@@ -522,9 +522,9 @@
                         <div class="col-md-4">
                             <div class="mu-why-us-content">
                                 <div class="mu-why-us-oval">
-                                    <img src="http://localhost/themes/flatly/img/visible-1646-575-f-69-ae-f-2-dd-43-c-2-b-00-f-9-b-65-c-116-deef.png"
-                                         srcset="http://localhost/themes/flatly/img/visible-1646-575-f-69-ae-f-2-dd-43-c-2-b-00-f-9-b-65-c-116-deef@2x.png 2x,
-                                                        http://localhost/themes/flatly/img/visible-1646-575-f-69-ae-f-2-dd-43-c-2-b-00-f-9-b-65-c-116-deef@3x.png 3x"
+                                    <img src="../themes/flatly/img/visible-1646-575-f-69-ae-f-2-dd-43-c-2-b-00-f-9-b-65-c-116-deef.png"
+                                         srcset="../themes/flatly/img/visible-1646-575-f-69-ae-f-2-dd-43-c-2-b-00-f-9-b-65-c-116-deef@2x.png 2x,
+                                                        ../themes/flatly/img/visible-1646-575-f-69-ae-f-2-dd-43-c-2-b-00-f-9-b-65-c-116-deef@3x.png 3x"
                                          alt="img">
                                 </div>
                                 <h3>Follow the different paths that visitors take on your site</h3>
@@ -538,9 +538,9 @@
                         <div class="col-md-4">
                             <div class="mu-why-us-content">
                                 <div class="mu-why-us-oval">
-                                    <img src="http://localhost/themes/flatly/img/business-report-2684-4-fa-7-fcfd-0-c-83-47-d-5-88-ca-8291-e-198-b-6-ed.png"
-                                         srcset="http://localhost/themes/flatly/img/business-report-2684-4-fa-7-fcfd-0-c-83-47-d-5-88-ca-8291-e-198-b-6-ed@2x.png 2x,
-                                                        http://localhost/themes/flatly/img/business-report-2684-4-fa-7-fcfd-0-c-83-47-d-5-88-ca-8291-e-198-b-6-ed@3x.png 3x"
+                                    <img src="../themes/flatly/img/business-report-2684-4-fa-7-fcfd-0-c-83-47-d-5-88-ca-8291-e-198-b-6-ed.png"
+                                         srcset="../themes/flatly/img/business-report-2684-4-fa-7-fcfd-0-c-83-47-d-5-88-ca-8291-e-198-b-6-ed@2x.png 2x,
+                                                        ../themes/flatly/img/business-report-2684-4-fa-7-fcfd-0-c-83-47-d-5-88-ca-8291-e-198-b-6-ed@3x.png 3x"
                                          alt="img">
                                 </div>
                                 <h3>Make better marketing decisions with Attribution Modelling</h3>
@@ -579,9 +579,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12"><img class="mu-who-we-are-bg"
-                                                src="http://localhost/themes/flatly/img/expland.png"
-                                                srcset="http://localhost/themes/flatly/img/expland@2x.png 2x,
-                                                        http://localhost/themes/flatly/img/expland@3x.png 3x"
+                                                src="../themes/flatly/img/expland.png"
+                                                srcset="../themes/flatly/img/expland@2x.png 2x,
+                                                        ../themes/flatly/img/expland@3x.png 3x"
                                                 alt="img"></div>
                 </div>
             </div>
