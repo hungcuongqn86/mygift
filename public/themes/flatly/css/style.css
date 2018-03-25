@@ -75,6 +75,11 @@ img {
     z-index: 999;
 }
 
+.stick-active {
+    position: fixed !important;
+    background-color: #fafafc;
+}
+
 /*==================
  NAVBAR SECTION
 ====================*/

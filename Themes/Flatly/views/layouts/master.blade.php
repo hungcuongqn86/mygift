@@ -781,6 +781,8 @@
 {!! Theme::script('js/bootstrap.js') !!}
 <!-- Sticky  -->
 {!! Theme::script('js/jquery.sticky-kit.min.js') !!}
+
+{!! Theme::script('js/jquery.easeScroll.js') !!}
 <!--SVG-->
 {!! Theme::script('js/svg.min.js') !!}
 <!-- Ajax contact form  -->

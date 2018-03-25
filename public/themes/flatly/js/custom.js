@@ -1,31 +1,20 @@
-/**
- * Template Name: OsteriaX
- * Version: 1
- * Template Scripts
- * Author: MarkUps
- * Author URI: http://www.markups.io/
-
- Custom JS
-
-
- 1. TOP SLIDER (SLICK SLIDER)
- 2. PORTFOLIO POPUP VIEW ( IMAGE LIGHTBOX )
- 3. DATEPICKER
- 4. SHEF SLIDER ( SLICK SLIDER )
- 5. TESTIMONIAL SLIDER ( SLICK SLIDER )
- 6. GOOGLE MAP
- 7. MENU SMOOTH SCROLLING
- 8. HOVER DROPDOWN MENU
- 9. SCROLL TOP BUTTON
- 10. BUTTON SMOOTH SCROLL ( VIEW RESERVATION FORM )
-
-
- **/
-
 jQuery(function ($) {
     /* ----------------------------------------------------------- */
     /*  MENU SMOOTH SCROLLING
     /* ----------------------------------------------------------- */
+
+    $("html").easeScroll({
+        frameRate: 60,
+        animationTime: 1000,
+        stepSize: 120,
+        pulseAlgorithm: !0,
+        pulseScale: 8,
+        pulseNormalize: 1,
+        accelerationDelta: 20,
+        accelerationMax: 1,
+        keyboardSupport: !0,
+        arrowScroll: 50
+    });
 
     //MENU SCROLLING WITH ACTIVE ITEM SELECTED
     // Cache selectors
@@ -68,6 +57,13 @@ jQuery(function ($) {
 
     // Bind to scroll
     jQuery(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll > topMenuHeight) {
+            $('#mu-header').addClass('stick-active');
+        } else {
+            $('#mu-header').removeClass('stick-active');
+        }
+
         // Get container scroll position
         var fromTop = $(this).scrollTop() + topMenuHeight;
 
@@ -87,7 +83,7 @@ jQuery(function ($) {
                 .parent().removeClass("active")
                 .end().filter("[href=\\#" + id + "]").parent().addClass("active");
         }
-    })
+    });
 
     /* ----------------------------------------------------------- */
     /*  8. HOVER DROPDOWN MENU
