@@ -185,6 +185,21 @@ jQuery(function ($) {
         draw.polygon(arrPoint).fill('#13b675');
     }
 
+    function buildMiniTriangle(draw, basex, basey, type) {
+        if (type) {
+            var arrPoint = [[basex + 4, basey + 4], [basex + 10, basey], [basex + 10, basey + 8]];
+            draw.polygon(arrPoint).fill('#6ed69a');
+
+            var arrPoint = [[basex, basey + 4], [basex + 6, basey], [basex + 6, basey + 8]];
+            draw.polygon(arrPoint).fill('#13b675');
+        } else {
+            var arrPoint = [[basex, basey], [basex + 6, basey + 4], [basex, basey + 8]];
+            draw.polygon(arrPoint).fill('#6ed69a');
+            var arrPoint = [[basex + 4, basey], [basex + 10, basey + 4], [basex + 4, basey + 8]];
+            draw.polygon(arrPoint).fill('#13b675');
+        }
+    }
+
     function buildNodePol(draw, basex, basey, width, height, textindex, content) {
         draw.rect(width, height).fill('#ffc715').move(basex, basey).radius(3);
         draw.rect(width - 3, height + 2).fill('#fff').move(basex + 4, basey - 1).radius(3);
@@ -195,9 +210,37 @@ jQuery(function ($) {
     // FLOW
     var flow = SVG('flow');
     buildNodePol(flow, 0, 55, 240, 100, '01', 'We work with you to understand\nwhat you expect in your website');
+    flow.line(242, 110, 270, 110).stroke({
+        color: '#e0f3eb',
+        width: 1,
+        linecap: 'round',
+        linejoin: 'round'
+    });
+    buildMiniTriangle(flow, 252, 106, 0);
     buildNodePol(flow, 270, 55, 240, 100, '02', 'We implement tracking software\non your website');
+    flow.line(512, 110, 542, 110).stroke({
+        color: '#e0f3eb',
+        width: 1,
+        linecap: 'round',
+        linejoin: 'round'
+    });
+    buildMiniTriangle(flow, 522, 106, 0);
     buildNodePol(flow, 0, 182, 240, 100, '03', 'You will know how your business\ngoing and how to optomize it');
+    flow.line(242, 230, 270, 230).stroke({
+        color: '#e0f3eb',
+        width: 1,
+        linecap: 'round',
+        linejoin: 'round'
+    });
+    buildMiniTriangle(flow, 252, 226, 1);
     buildNodePol(flow, 270, 182, 240, 100, '04', 'We compile an analysis report\nfor you');
+    flow.line(512, 230, 542, 230).stroke({
+        color: '#e0f3eb',
+        width: 1,
+        linecap: 'round',
+        linejoin: 'round'
+    });
+    buildMiniTriangle(flow, 522, 226, 1);
     buildNodePol(flow, 540, 55, 105, 228, '05', '');
     flow.text('We get the\nfull -\nprecise\ndata. And\nanalyze it').fill('#6b7c93').move(550, 120).font(fontPol);
     flow.viewbox({x: 0, y: 0, width: 650, height: 350});
