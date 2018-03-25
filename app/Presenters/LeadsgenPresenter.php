@@ -14,7 +14,8 @@ class LeadsgenPresenter extends Presenter
             return;
         }
         if (LaravelLocalization::hideDefaultLocaleInURL() === false) {
-            $item->url = locale() . '/' . preg_replace('%^/?' . locale() . '/%', '$1', $item->url);
+            $item->url = preg_replace('%^/?' . locale() . '/%', '$1', $item->url);
+            // $item->url = locale() . '/' . preg_replace('%^/?' . locale() . '/%', '$1', $item->url);
         }
     }
 
@@ -23,7 +24,7 @@ class LeadsgenPresenter extends Presenter
      */
     public function getOpenTagWrapper()
     {
-        return PHP_EOL . '<ul class="nav navbar-nav">' . PHP_EOL;
+        return PHP_EOL . '<ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">' . PHP_EOL;
     }
 
     /**
